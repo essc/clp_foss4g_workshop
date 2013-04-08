@@ -39,9 +39,11 @@ About the partnership
 How to Use 
 -----------
 
+
 .. image:: images/course_material_overview.png
    :align: center
    :width: 400 pt 
+
 
 * **1** -  This section gives you an overview of exercises.  You can proceed 
   to any topic by selecting any of the links in the table of contents.
