@@ -3,8 +3,7 @@ About this document
 =====================
 
 This document was designed as a supplementary material for the 
-
-
+"Free and Open Source Geospatial Workshop for Conservationists".
 
 Users of this material encouraged to use it as as a reference in 
 using the provided FOSS-Geo applications and 
@@ -25,20 +24,21 @@ environment.
 
 More information about ESSC: http://www.essc.org.ph
 
-
 About FFI
 -----------------------
+The **Fauna & Flora - Philippines** -
 
-
+More information about FFI-Philippines: http://www.fauna-flora.org/explore/philippines/
 
 About the partnership
 ------------------------
+.. overview
 
+.. objectives
 
 
 How to Use 
 -----------
-
 
 .. image:: images/course_material_overview.png
    :align: center
