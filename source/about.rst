@@ -26,7 +26,7 @@ More information about ESSC: http://www.essc.org.ph
 
 About FFI
 -----------------------
-The **Flora & Fauna - Philippines** -
+The **Fauna & Flora - Philippines** -
 
 More information about FFI-Philippines: http://www.fauna-flora.org/explore/philippines/
 
