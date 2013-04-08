@@ -89,14 +89,6 @@ pygments_style = 'sphinx'
 
 # TODO:check for duplicate entries
 rst_epilog = """
-.. |ftools_buffer| image:: images/ftools/buffer.png
-                   :width: 20 pt
-.. |ftools_clip| image:: images/ftools/clip.png
-                 :width: 20 pt
-.. |ftools_geoprocessing| image:: images/ftools/geoprocessing.png
-                          :width: 20 pt
-.. |ftools_intersect| image:: images/ftools/intersect.png
-                      :width: 20 pt
 .. |mActionAddBasicShape| image:: images/qgis_icons/mActionAddBasicShape.png
                           :width: 20 pt
 .. |mActionAddImage| image:: images/qgis_icons/mActionAddImage.png
@@ -379,25 +371,25 @@ htmlhelp_basename = 'sphinx_essc_geodoc'
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
-latex_paper_size = 'a4'
+## latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
 #latex_font_size = '10pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
-latex_documents = [
-  ('index', 'ESSCQuiapo.tex', u'Quiapo Church DMM - ESSC FOSS-Geo Materials 2013',
-   u'ESSC', 'manual', 'False'),
+## latex_documents = [
+##   ('index', 'ESSCQuiapo.tex', u'Quiapo Church DMM - ESSC FOSS-Geo Materials 2013',
+##   u'ESSC', 'manual', 'False'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = 'essclogotrace_thumbnail.jpg'
+## latex_logo = 'essclogotrace_thumbnail.jpg'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-latex_use_parts = False
+## latex_use_parts = False
 
 # Additional stuff for the LaTeX preamble.
 
@@ -408,21 +400,21 @@ latex_use_parts = False
 #latex_use_modindex = True
 
 #If true, add page references after internal references. This is very useful for printed copies of the manual. Default is False.
-latex_show_pageref = True
+## latex_show_pageref = True
 
 #Control whether to display URL addresses. This is very useful for printed copies of the manual. The setting can have the following values:  'no' – do not display URLs (default); 'footnote' – display URLs in footnotes; 'inline' – display URLs inline in parentheses
-latex_show_urls = True
+## latex_show_urls = True
 
-latex_elements = {
-     'classoptions': 
-     ',openany,oneside', 
-     'babel' : '\\usepackage[english]{babel}'
-    }
+## latex_elements = {
+##     'classoptions': 
+##     ',openany,oneside', 
+##     'babel' : '\\usepackage[english]{babel}'
+##    }
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+## intersphinx_mapping = {'http://docs.python.org/': None}
 
 
 #edit checks
-todo_include_todos = True
+## todo_include_todos = True
