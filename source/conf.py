@@ -381,7 +381,7 @@ htmlhelp_basename = 'sphinx_essc_geodoc'
 ## latex_documents = [
 ##   ('index', 'ESSCQuiapo.tex', u'Quiapo Church DMM - ESSC FOSS-Geo Materials 2013',
 ##   u'ESSC', 'manual', 'False'),
-]
+# ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
