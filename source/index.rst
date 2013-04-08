@@ -3,15 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-====================================================
-ESSC FOSS-Geo Training Course Materials
-====================================================
+=================================================================
+Free and Open Source Geospatial Workshop for Conservationists 
+=================================================================
 
-This material was developed for the Quiapo Church Disaster Mangement Ministry 
-staff and partners under the Quiapo Church and ESSC "Strengthening the Quiapo 
-Church Disaster Management Ministry" Project.
+This material was developed for the Conservation Leadership Program  
+under the FFI and ESSC "Free and Open Source Geospatial Workshop for Conservationists" 
+Project.
 
-This material is also available in `Portable Document Format (pdf) <ESSCQuiapo.pdf>`_
 
 Contents
 ---------

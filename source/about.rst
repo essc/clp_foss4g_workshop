@@ -3,9 +3,8 @@ About this document
 =====================
 
 This document was designed as a supplementary material for the 
-Quiapo Church Disaster Management Ministry staff and partners under 
-the Quiapo Church and ESSC **Strengthening the Quiapo 
-Church Disaster Management Ministry Project**.  
+
+
 
 Users of this material encouraged to use it as as a reference in 
 using the provided FOSS-Geo applications and 
@@ -27,33 +26,14 @@ environment.
 More information about ESSC: http://www.essc.org.ph
 
 
-About Quiapo Church 
+About FFI
 -----------------------
 
-**Quiapo Church**, after the experiences of Typhoons Ondoy, Pepeng, and Sendong, 
-realized that there is a lack of facility to gather speedy information at the 
-CBCP-NASSA level that will ensure an efficient disaster response. Moreover, 
-Quiapo Church also recognizes the need for a resource center for disaster 
-risk reduction with three components: scientific, information and technology, 
-and parish training and mobilization.
 
-Quiapo Church set up a disaster management office (Disaster Management Ministry 
-or DMM) to provide the systems and technology available to understand the 
-vulnerabilities in various dioceses in the Philippines and gather speedy information 
-during disasters.  
-
-More information about Quiapo Church: http://quiapochurch.com/
 
 About the partnership
 ------------------------
 
-This partnership between Quiapo Church and ESSC intends to pursue a 
-collaborative effort to enable a broader parish and diocese awareness, 
-understanding, and action on disaster risk reduction.  The goal of Quiapo 
-Church is to be at the forefront of disaster response, preparedness, and 
-risk reduction in the country. 
-
-More information about the partnership: http://essc.org.ph/content/view/736/1/
 
 
 How to Use 
