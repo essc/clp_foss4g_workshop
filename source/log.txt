@@ -1,15 +1,2 @@
-Apr 07 2010 - Initial dump of materials. 
-Apr 10 2011 - Add new exercises (new sample data, loading plugins, 
-              using delimited text and openlayers plugins).
-Apr 25 2011 - Add new exercises (georeferencing, terrain analysis).
-              Re-organized general flow.  Add glossary page.
-May 19 2011 - Add new exercises (Phototagging, WMS, GPS).
-Feb 21 2012 - Reorganzing materials for QGIS 1.7.4.
-Apr 24 2012 - New theme (nature).  Checking consistency with GUI conventions.
-Apr 26 2012 - Re-organized raster georeferencing and terrain analyis section.  
-Jul 24 2012 - Add raster contour section.
-Jul 25 2012 - Add Sextante section.
-Jul 26 2012 - Add Raster calculator section
-Feb 15 2013 - New sections for Quiapo DMM materials 
-             (QGIS V1.8, new screenshots, InaSAFE section).
+Apr 08 2013 - Initial dump of materials to github. 
 --
