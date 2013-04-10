@@ -217,10 +217,10 @@ html_theme = 'nature'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'ESSC'
+#html_title = 'ESSC'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = 'ESSC FOSS-Geo'
+#html_short_title = 'ESSC FOSS-Geo'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -272,7 +272,7 @@ html_use_opensearch = ''
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sphinx_essc_geodoc'
+#htmlhelp_basename = 'sphinx_essc_geodoc'
 
 # -- Options for LaTeX output --------------------------------------------------
 
@@ -286,7 +286,7 @@ latex_font_size = '10pt'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
    ('index', 'clp.tex', u'CLP-FFI-ESSC FOSS4G Workshop 2013',
-   u'ESSC', 'howto', 'False'),
+   u' ', 'manual', 'False'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
