@@ -20,5 +20,6 @@ Contents
 
    About this document <about.rst>
    Acknowledgment <references.rst>
+
    GNU Free Documentation License <gfdl.rst>
 
