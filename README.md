@@ -1,5 +1,5 @@
-clp_foss4g_workshop
-===================
+CLP-FFI-ESSC FOSS4G Workshop for Conservationists
+===============================================
 
 Free and Open Source Geospatial Workshop for Conservationists 
 
@@ -9,8 +9,7 @@ Style Guide
 
 Our documentation is generated from reStructured text
 sources using Sphinx. reSt is similar to wiki markup, and readable in
-plain ascii. As a quick check, the Trac system viewer will (partially)
-render reSt documents as HTML from the online SVN browser.
+plain ascii.
 
 The style generally follows the python documentation style guide: 
 http://docs.python.org/devguide/documenting.html
@@ -22,25 +21,26 @@ This section describes a collection of uniform styles throughout the manual.
 
 Directory structure
 ------------------------
+     
+    |-- compile.sh (sphinx builder script)
+    |-- Makefile
+    |-- source
+    |   |-- allrstfiles.rst (the rst files)
+    |   |-- essclogotrace_small.jpg (logo)
+    |   |-- essclogotrace_thumbnail.jpg
+    |   |-- conf.py  (sphinx configuration settings)
+    |   |-- log.txt (logs of documentation updates)
+    |   |-- fdl-1.3.txt (license text)
+    |   |-- images (screenshots and icons)  
+    |   |   |-- add_attributes.png
+    |   |   |-- qgis_icons
+    |   |   |  |-- action.png
+    |   |-- geodata (data directory)
+    |   |   |-- data.zip (all data in zip)
+    |   |   |-- metadata.txt (metadata of geodata files)
+    |   |-- installer (application installer)
+    |   |   |-- Qgis-1.7.3-1.dmg
 
- |-- compile.sh (sphinx builder script)
- |-- Makefile
- |-- source
- |   |-- allrstfiles.rst (the rst files)
- |   |-- essclogotrace_small.jpg (logo)
- |   |-- essclogotrace_thumbnail.jpg
- |   |-- conf.py  (sphinx configuration settings)
- |   |-- log.txt (logs of documentation updates)
- |   |-- fdl-1.3.txt (license text)
- |   |-- images (screenshots and icons)  
- |   |   |-- add_attributes.png
- |   |   |-- qgis_icons
- |   |   |  |-- action.png
- |   |-- geodata (data directory)
- |   |   |-- data.zip (all data in zip)
- |   |   |-- metadata.txt (metadata of geodata files)
- |   |-- installer (application installer)
- |   |   |-- Qgis-1.7.3-1.dmg
 
 GUI Conventions
 -----------------------
@@ -52,10 +52,11 @@ the manual.
 
 * Images
 
-.. |mActionAddRasterLayer| image:: images/qgis_icons/mActionAddRasterLayer.png
-   :align: center
-   :width: 20 px
-
+    .. |mActionAddRasterLayer| image:: images/qgis_icons/mActionAddRasterLayer.png
+                               :align: center
+                               :width: 20 px
+    
+    
 *  Menu Options: :menuselection:`Layer --> Add a Raster Layer` or 
    :menuselection:`Settings --> Toolbars --> Digitizing`
 *  Tool: |mActionAddRasterLayer| :guilabel:`Add a Raster Layer`
@@ -132,22 +133,30 @@ the figure caption.
 How to build the document (html and pdf)
 =============================================
 
-::
-  # Install python-sphinx
-  easy_install -U Sphinx
+    # Install python-sphinx
+    easy_install -U Sphinx
 
-  # Download the sphinx-dump
-  time ./compile.sh 
+    # Download the sphinx-dump
+    time ./compile.sh 
 
 
-Todo
-=========
+Compiled Documents
+=====================
 
-* Check GUI conventions consistency
-* Add index to sections
+The online compiled version is available at readthedocs:
+* RTD project dashboard - https://readthedocs.org/projects/clp_foss4g_workshop/
+* RTD compiled docs - https://clp_foss4g_workshop.readthedocs.org/en/latest/
+
+
+Contributing to this document
+=================================
+
+* Simply fork, edit your fork and submit a pull request to https://github.com/essc/clp_foss4g_workshop.
+* Add your name to the references.rst#contributors section.
 
 References
 ==============
- * GNOME Style Guide - https://developer.gnome.org/gdp-style-guide/stable/
- * Geoserver Style Guide - http://geoserver.org/display/GEOS/Documentation+Style+Guide
- * Documenting Python - http://docs.python.org/devguide/documenting.html 
+* GNOME Style Guide - https://developer.gnome.org/gdp-style-guide/stable/
+* Geoserver Style Guide - http://geoserver.org/display/GEOS/Documentation+Style+Guide
+* Documenting Python - http://docs.python.org/devguide/documenting.html 
+
