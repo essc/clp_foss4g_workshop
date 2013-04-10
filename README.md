@@ -22,7 +22,7 @@ This section describes a collection of uniform styles throughout the manual.
 Directory structure
 ------------------------
 ::
-
+ 
  |-- compile.sh (sphinx builder script)
  |-- Makefile
  |-- source
