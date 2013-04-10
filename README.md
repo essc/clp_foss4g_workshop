@@ -1,5 +1,5 @@
-clp_foss4g_workshop
-===================
+CLP-FFI-ESSC FOSS4G Workshop for Conservationists
+===============================================
 
 Free and Open Source Geospatial Workshop for Conservationists 
 
@@ -9,8 +9,7 @@ Style Guide
 
 Our documentation is generated from reStructured text
 sources using Sphinx. reSt is similar to wiki markup, and readable in
-plain ascii. As a quick check, the Trac system viewer will (partially)
-render reSt documents as HTML from the online SVN browser.
+plain ascii.
 
 The style generally follows the python documentation style guide: 
 http://docs.python.org/devguide/documenting.html
@@ -22,6 +21,7 @@ This section describes a collection of uniform styles throughout the manual.
 
 Directory structure
 ------------------------
+::
 
  |-- compile.sh (sphinx builder script)
  |-- Makefile
@@ -41,6 +41,7 @@ Directory structure
  |   |   |-- metadata.txt (metadata of geodata files)
  |   |-- installer (application installer)
  |   |   |-- Qgis-1.7.3-1.dmg
+
 
 GUI Conventions
 -----------------------
@@ -140,14 +141,16 @@ How to build the document (html and pdf)
   time ./compile.sh 
 
 
-Todo
-=========
+Compiled Documents
+=====================
 
-* Check GUI conventions consistency
-* Add index to sections
+* RTD project dashboard - https://readthedocs.org/projects/clp_foss4g_workshop/
+* RTD compiled docs - https://clp_foss4g_workshop.readthedocs.org/en/latest/
 
 References
 ==============
  * GNOME Style Guide - https://developer.gnome.org/gdp-style-guide/stable/
  * Geoserver Style Guide - http://geoserver.org/display/GEOS/Documentation+Style+Guide
  * Documenting Python - http://docs.python.org/devguide/documenting.html 
+
+
