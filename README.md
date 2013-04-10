@@ -55,7 +55,8 @@ the manual.
     .. |mActionAddRasterLayer| image:: images/qgis_icons/mActionAddRasterLayer.png
                                :align: center
                                :width: 20 px
-
+    
+    
 *  Menu Options: :menuselection:`Layer --> Add a Raster Layer` or 
    :menuselection:`Settings --> Toolbars --> Digitizing`
 *  Tool: |mActionAddRasterLayer| :guilabel:`Add a Raster Layer`
