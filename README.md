@@ -147,6 +147,13 @@ Compiled Documents
 * RTD project dashboard - https://readthedocs.org/projects/clp_foss4g_workshop/
 * RTD compiled docs - https://clp_foss4g_workshop.readthedocs.org/en/latest/
 
+
+Contributing to this document
+=================================
+
+* Simply fork, edit your fork and submit a pull request to https://github.com/essc/clp_foss4g_workshop.
+* Add your name to the references.rst#contributors section.
+
 References
 ==============
  * GNOME Style Guide - https://developer.gnome.org/gdp-style-guide/stable/
