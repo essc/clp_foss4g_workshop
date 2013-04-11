@@ -29,11 +29,13 @@ References
 
 * Natural Earth website: http://www.naturalearthdata.com/
 * OpenStreetMap.  website:  http://www.openstreetmap.org/
-* Quantum GIS Development Team, 2011. Quantum GIS Geographic Information System. 
-  Open Source Geospatial Foundation Project. http://qgis.osgeo.org
+* Quantum GIS Development Team, 2011. Quantum GIS Geographic Information 
+  System. Open Source Geospatial Foundation Project. 
+  http://qgis.osgeo.org
 * Quantum GIS Development Team, 2011. Quantum GIS Wroclaw 1.7 Geographic 
   Information System User Guide. Open Source Geospatial Foundation Project. 
-  Electronic document: http://download.osgeo.org/qgis/doc/manual/qgis-1.7.0_user_guide_en.pdf
+  Electronic document: 
+  http://download.osgeo.org/qgis/doc/manual/qgis-1.7.0_user_guide_en.pdf
 * Burrough, P .A. 1986. Principles of geographic information systems for lands 
   resource assessment. USA: Oxford University Press. 194pp. 
 * Sambale, Emmanuel. 2008.  EPM-GIS Exercises. Electronic document: 
