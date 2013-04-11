@@ -78,13 +78,13 @@ Adding layer may take some time.  The layer ``Block`` will appear in your :guila
    :width: 300 pt
 
 
-Save the new layer as a shapefile
+Save the new layer as a Shapefile
 -----------------------------------
 
 Although the data is loaded in QGIS, you need to convert the data into a vector layer. This is important in 
 order to further edit the geometry and attributes within QGIS.
 
-1. Convert the data to shapefile, select the ``Block`` layer. Right-click on the layer and 
+1. Convert the data to Shapefile, select the ``Block`` layer. Right-click on the layer and 
 select :guilabel:`Save as...`.  The :guilabel:`Save vector layer as...` will appear.
 
 2. Within the :guilabel:`Save vector layer as...` window, click :guilabel:`Browse` and create 
