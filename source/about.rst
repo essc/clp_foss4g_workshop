@@ -26,7 +26,9 @@ More information about ESSC: http://www.essc.org.ph
 
 About FFI
 -----------------------
-The **Fauna & Flora - Philippines** -
+The **Fauna & Flora International** is the world's longest-established international conservation body founded in 1903. FFI is supporting conservation initiatives and organizations through partnerships, technical support and direct funding.
+
+In the Philippines, FFI is working closely with local conservation organizations to develop sustainable livelihoods for communities and contribute in exploring strategies on how to improve forest governance in the country particularly in southern Sierra Madre and Palawan.
 
 More information about FFI-Philippines: 
 http://www.fauna-flora.org/explore/philippines/
