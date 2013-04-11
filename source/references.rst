@@ -5,14 +5,9 @@ Acknowledgments
 Contributors
 --------------
 
-* Ariel Amor
-* Dallay Annawi
-* Jose Andres Ignacio
-* Iris Legal
-* Sylvia Miclat
-* Izay Pantanilla
+
 * Emmanuel Sambale
-* Ricco Santos
+* Christian Supsup
 
 Support
 ------------------
