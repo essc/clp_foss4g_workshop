@@ -52,25 +52,25 @@ the manual.
 
 * Images
 
-    .. |mActionAddRasterLayer| image:: images/qgis_icons/mActionAddRasterLayer.png
+``    .. |mActionAddRasterLayer| image:: images/qgis_icons/mActionAddRasterLayer.png
                                :align: center
-                               :width: 20 px
+                               :width: 20 px``
     
     
-*  Menu Options: :menuselection:`Layer --> Add a Raster Layer` or 
-   :menuselection:`Settings --> Toolbars --> Digitizing`
-*  Tool: |mActionAddRasterLayer| :guilabel:`Add a Raster Layer`
-*  Button : :guilabel:`Save as Default`
-*  Dialog Box Title: :guilabel:`Layer Properties`
-*  Tab: |tab|
-*  Checkbox: |checkbox| Render
-*  Radio Button:  |radiobuttonon| Postgis SRID |radiobuttonoff| EPSG ID
-*  Select a Number: |selectnumber|
-*  Select a String: |selectstring|
-*  Browse for a File: |browsebutton|
-*  Select a Color: |selectcolor|
-*  Slider: |slider|
-*  Input Text: |inputtext|
+*  Menu Options: ``:menuselection:`Layer --> Add a Raster Layer` `` or 
+   ``:menuselection:`Settings --> Toolbars --> Digitizing` ``
+*  Tool: ``|mActionAddRasterLayer| :guilabel:`Add a Raster Layer` ``
+*  Button: ``:guilabel:`Save as Default` ``
+*  Dialog Box Title: ``:guilabel:`Layer Properties` ``
+*  Tab: ``|tab|``
+*  Checkbox: ``|checkbox| Render``
+*  Radio Button:  ``|radiobuttonon| Postgis SRID |radiobuttonoff| EPSG ID``
+*  Select a Number: ``|selectnumber|``
+*  Select a String: ``|selectstring|``
+*  Browse for a File: ``|browsebutton|``
+*  Select a Color: ``|selectcolor|``
+*  Slider: ``|slider|``
+*  Input Text: ``|inputtext|``
 
 Text or Keyboard Conventions
 -------------------------------
@@ -147,12 +147,11 @@ The online compiled version is available at readthedocs:
 * RTD project dashboard - https://readthedocs.org/projects/clp_foss4g_workshop/
 * RTD compiled docs - https://clp_foss4g_workshop.readthedocs.org/en/latest/
 
-
 Contributing to this document
 =================================
 
 * Simply fork, edit your fork and submit a pull request to https://github.com/essc/clp_foss4g_workshop.
-* Add your name to the references.rst#contributors section.
+* Add your name to the ``contributors.txt`` file.
 
 References
 ==============
