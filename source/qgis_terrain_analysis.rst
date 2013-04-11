@@ -37,7 +37,7 @@ and visualize terrain properties.
    `QGIS Raster Based Terrain Analysis Techniques <http://www.gistutor.com/quantum-gis/20-intermediate-quantum-gis-tutorials/48-quantum-gis-qgis-raster-based-terrain-analysis-techniques.html>`_  . 
 
 
-.. use the gdaldem tools plugin isntead of the terrain plugin
+.. use the gdaldem tools plugin instead of the terrain plugin
 
 Load plugin
 -----------
@@ -57,8 +57,9 @@ Open and load the DEM layer
 1. Open your previously created QGIS project/session or create a new 
 project.
 
-2. Add the DEM raster.  Select :menuselection:`Layer -->` |mActionAddRasterLayer| 
-:guilabel:`Add Raster Layer` and load the ``dem_30m.tif``.  Click :guilabel:`OK`.
+2. Add the DEM raster.  Select :menuselection:`Layer -->` 
+|mActionAddRasterLayer| :guilabel:`Add Raster Layer` and load the 
+``dem_30m.tif``. Click :guilabel:`OK`.
 
 .. image:: images/dem_raw.png
    :align: center
@@ -73,7 +74,8 @@ and white to the values found within the data.
 right-click and select :guilabel:`Properties`.  
 
 4. In the :guilabel:`Style` tab, change the :guilabel:`Current` value of 
-:guilabel:`Contrast Enhancement` from `No Stretch` to `Stretch And Clip to MinMax`.  
+:guilabel:`Contrast Enhancement` from `No Stretch` to 
+`Stretch And Clip to MinMax`.  
 This takes the minimum  and maximum value found within the data, and stretches 
 the black to white gradient between the two values.  
 
@@ -121,12 +123,12 @@ in the Legend View.
    :width: 300 pt
 
 
-3. Click the browse button (``...``) next to :guilabel:`Output Layer`, navigate to the 
-same folder as your DEM data and call the output ``slope.tif``.  Leave 
-:guilabel:`Output format` set to `GeoTIFF`.  Use a :guilabel:`Z Factor` of ``111120`` and check 
-:guilabel:`Add result to project`, click :guilabel:`OK`. 
+3. Click the browse button (``...``) next to :guilabel:`Output Layer`, navigate 
+to the same folder as your DEM data and call the output ``slope.tif``.  Leave 
+:guilabel:`Output format` set to `GeoTIFF`.  Use a :guilabel:`Z Factor` of 
+``111120`` and check :guilabel:`Add result to project`, click :guilabel:`OK`. 
 
-Navigate around the output slope map use the |mactionIdentify| 
+Navigate around the output slope map use the |mActionIdentify| 
 :guilabel:`Identify features` tool to explore the pixel values of light and 
 dark areas.  
 
@@ -242,7 +244,8 @@ in the Legend View.
 Keep :guilabel:`Input Layer` set to ``dem_30m.tif``.
 
 3. Click the browse button next to :guilabel:`Output Layer` and enter
-``ruggedness.tif`` for the output name.  Again keep the :guilabel:`Output format` set
+``ruggedness.tif`` for the output name.  Again keep the 
+:guilabel:`Output format` set
 to `GeoTIFF` . Use a :guilabel:`Z Factor` of ``111120`` and check
 :guilabel:`Add result to project`, click :guilabel:`OK`.
 
@@ -309,7 +312,8 @@ the user with pretty looking cartographic representation.
 Visualizing terrain profile
 --------------------------------
 
-Another useful plugin to visualize elevation is the :guilabel:`Terrain Profile` plugin.
+Another useful plugin to visualize elevation is the :guilabel:`Terrain Profile` 
+plugin.
 
 1. Use the :guilabel:`Terrain Profile` by activating the plugin in the 
 :guilabel:`Plugins --> Manage Plugins`.
@@ -318,20 +322,20 @@ Another useful plugin to visualize elevation is the :guilabel:`Terrain Profile` 
    :align: center
    :width: 300 pt
 
-2. To use the plugin, select the ``dem_30m.tif`` in the :guilabel:`Legend View` and,
-click the :guilabel:`Terrain Profile` icon.  A new window/dialog will appear 
-showing the plugin features.
+2. To use the plugin, select the ``dem_30m.tif`` in the :guilabel:`Legend View` 
+and, click the :guilabel:`Terrain Profile` icon.  A new window/dialog will 
+appear showing the plugin features.
 
 .. image:: images/terrain_profile_plugin_win.png
    :align: center
    :width: 300 pt
 
-3. Click on the :guilabel:`Map View`.  The cursor becomes a cross that you use to create 
-the profile line. 
+3. Click on the :guilabel:`Map View`.  The cursor becomes a cross that you use 
+to create the profile line. 
 
 4. Click at the start point, move to the end and click again.  
-Double-click to end the transect line.  The :guilabel:`Profile` tab shows the elevation 
-along the transect plot.
+Double-click to end the transect line.  The :guilabel:`Profile` tab shows the 
+elevation along the transect plot.
 
 .. image:: images/terrain_profile_plugin_profile_view.png
    :align: center
@@ -343,9 +347,5 @@ Explore the other tabs of the plugin.
 .. raw:: latex
    
    \pagebreak[4]
-
-
-
-
 
 ..  LocalWords:  insolation
