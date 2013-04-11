@@ -8,8 +8,8 @@ Free and Open Source Geospatial Workshop for Conservationists
 =============================================================
 
 This material was developed for the Conservation Leadership Program  
-under the FFI and ESSC "Free and Open Source Geospatial Workshop for Conservationists" 
-Project.
+under the FFI and ESSC "Free and Open Source Geospatial Workshop for 
+Conservationists" Project.
 
 
 Contents
