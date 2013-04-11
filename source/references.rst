@@ -5,20 +5,15 @@ Acknowledgments
 Contributors
 --------------
 
-* Ariel Amor
-* Dallay Annawi
-* Jose Andres Ignacio
-* Iris Legal
-* Sylvia Miclat
-* Izay Pantanilla
-* Emmanuel Sambale
-* Ricco Santos
+.. include:: contributors.txt
+   :literal:
 
 Support
 ------------------
 
 Supported in part by: 
 
+* Conservation Leadership Programme Alumni Grant Learning Exchange
 * EPam/CUD3 Project
 * Ateneo de Davao University - Tropical Institute for Climate 
   Studies (TropICS) 
@@ -27,6 +22,13 @@ Supported in part by:
 References
 --------------
 
+* Steven J. Phillips, Robert P. Anderson and Robert E. Schapire, 2006. 
+  Maximum entropy modeling of species geographic distributions.  
+  Ecological Modelling, Vol 190/3-4 pp 231-259.
+* Steven J. Phillips and Miroslav Dudik, 2008.  Modeling of species 
+  distributions with Maxent: new extensions and a comprehensive evaluation.  
+  Ecography, Vol 31, pp 161-175.
+* Environmental Science for Social Change, 2012-2013. ESSC FOSS-Geo Training Course Materials. 
 * Natural Earth website: http://www.naturalearthdata.com/
 * OpenStreetMap.  website:  http://www.openstreetmap.org/
 * Quantum GIS Development Team, 2011. Quantum GIS Geographic Information System. 
@@ -59,13 +61,6 @@ This document is version |version| as of |today|.  Major changes are:
 
 .. include:: log.txt
    :literal:
-
-* `Daily revisions <svn_log.txt>`_
-* `Compilation errors <sphinx_log.txt>`_
-
-.. |tropics_logo| image:: images/tropics_logo.png
-                  :width: 40 pt
-
 
 .. raw:: latex
    
