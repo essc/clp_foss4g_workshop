@@ -52,9 +52,6 @@ Specific objectives and expected outputs:
   specific geospatial needs of conservationists. 
 * Conduct of training workshop to CLP Alumni  and other intrested groups.
 * Post event skill sharing through the CLP Ning Social Media platform. 
-.. overview
-
-.. objectives
 
 
 How to Use 
