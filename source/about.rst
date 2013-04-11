@@ -28,7 +28,8 @@ About FFI
 -----------------------
 The **Fauna & Flora - Philippines** -
 
-More information about FFI-Philippines: http://www.fauna-flora.org/explore/philippines/
+More information about FFI-Philippines: 
+http://www.fauna-flora.org/explore/philippines/
 
 About the partnership
 ------------------------
