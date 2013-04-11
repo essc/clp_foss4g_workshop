@@ -1,0 +1,20 @@
+Calayan dataset
+--------------------------------------------
+
+Species occurence samples
+ * Gallirallus_calayanensis_raw.xls -   Calayan Rail (Gallirallus calayanensis) 2006 inventory by Isla Biodiversity.
+
+Environmental variables (Raster)
+ * bio1_210 - Annual mean temperature
+ * bio12_210 - Annual precipitation
+ * bio19_210 - Precipitation of Coldest Quarter
+ * elevation - Digital elevation model
+ * slope - gradient of a line describing steepness, incline, or grade of the surface derived from elevation
+
+Vector
+ * calayancoast - Calayan island coastline from Cynthia Layusa.
+ * admin_bnd - Calayan barangay boundaries from PhilGis.org
+ 
+Projection - Geographic projection, WGS84 datum.
+
+License - For exercises purposes only
