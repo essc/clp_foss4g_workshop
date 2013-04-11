@@ -60,13 +60,6 @@ This document is version |version| as of |today|.  Major changes are:
 .. include:: log.txt
    :literal:
 
-* `Daily revisions <svn_log.txt>`_
-* `Compilation errors <sphinx_log.txt>`_
-
-.. |tropics_logo| image:: images/tropics_logo.png
-                  :width: 40 pt
-
-
 .. raw:: latex
    
    \pagebreak[4]
