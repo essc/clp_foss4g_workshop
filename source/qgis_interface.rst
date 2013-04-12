@@ -4,7 +4,8 @@ The :index:`QGIS Interface`
 
 QGIS provides an easy to use :term:`Graphical user interface (GUI)` to explore, 
 create and edit geospatial data. Commands and functions are activated using a 
-combination of menu, toolbar and keyboard shortcut actions within the application.
+combination of menu, toolbar and keyboard shortcut actions within the 
+application.
 
 This exercise will explore the basic interface of QGIS. You will create your 
 first QGIS project, load various data layers, customize the appearance of your 
@@ -64,25 +65,26 @@ The kinds of information saved in a project file include:
    :align: center
    :width: 300 pt
 
-* In the :guilabel:`General` tab you can define the project title, selection and 
-  background color, layer units, precision, and the option to save relative paths 
-  to layers.
-* The :guilabel:`Coordinate Reference System (CRS)` tab enables you to choose the 
-  CRS for this project, and to enable on-the-fly re-projection of layers when 
-  displaying layers from a different CRS. 
-* The :guilabel:`Identifiable Layers` tab you set (or disable) which layers will 
-  respond to the :guilabel:`Identify` tool. 
+* In the :guilabel:`General` tab you can define the project title, selection 
+  and background color, layer units, precision, and the option to save 
+  relative paths to layers.
+* The :guilabel:`Coordinate Reference System (CRS)` tab enables you to choose 
+  the CRS for this project, and to enable on-the-fly re-projection of layers 
+  when displaying layers from a different CRS. 
+* The :guilabel:`Identifiable Layers` tab you set (or disable) which layers 
+  will respond to the :guilabel:`Identify` tool. 
 
-4. Select the :guilabel:`Coordinate Reference System (CRS)` tab. Click the small 
-:guilabel:`triangle` on the left side of the 
-:guilabel:`Geographic Coordinate System`. This shows another list of CRS. Choose 
-:guilabel:`WGS 84`. Click :guilabel:`Apply` then, :guilabel:`OK`.
+4. Select the :guilabel:`Coordinate Reference System (CRS)` tab. Click the 
+small :guilabel:`triangle` on the left side of the 
+:guilabel:`Geographic Coordinate System`. This shows another list of CRS. 
+Choose :guilabel:`WGS 84`. Click :guilabel:`Apply` then, :guilabel:`OK`.
 
 .. note::
-   There is no need to set the CRS of the project if the layers to be loaded are 
-   of the same projection because QGIS will draw the coordinates using the data source. 
-   However, the :guilabel:`On The Fly transformations` needs to be enabled and the 
-   projection to be followed selected if the layers are of different projections.
+   There is no need to set the CRS of the project if the layers to be loaded 
+   are of the same projection because QGIS will draw the coordinates using 
+   the data source. However, the :guilabel:`On The Fly transformations` needs 
+   to be enabled and the projection to be followed selected if the layers are 
+   of different projections.
 
 .. image:: images/set_crs.png
    :align: center
@@ -91,8 +93,9 @@ The kinds of information saved in a project file include:
 .. tip::
    Many GIS application opens any geospatial data (vector or raster) without 
    asking for the coordinate referencing systems. QGIS follows a similar 
-   behavior. However, it is good practice to select the correct CRS whenever you 
-   start a new project. This habit can help you with problems in the future. 
+   behavior. However, it is good practice to select the correct CRS whenever 
+   you start a new project. This habit can help you with problems in the 
+   future. 
 
 
 :index:`Opening Vector data`
@@ -104,8 +107,8 @@ The kinds of information saved in a project file include:
    :align: center
    :width: 300 pt
 
-In the :guilabel:`Source type`, choose :guilabel:`File`. Click :guilabel:`Browse` 
-and double-click to your extracted data directory.
+In the :guilabel:`Source type`, choose :guilabel:`File`. Click 
+:guilabel:`Browse` and double-click to your extracted data directory.
 
 Select multiple vector layers by holding the :kbd:`Ctrl` button of your 
 keyboard while selecting files. Select the following files::
@@ -127,18 +130,19 @@ be loaded within your :guilabel:`Map View` area.
    :align: center
    :width: 300 pt
 
-:term:`Vector` data are represented as either point, line or polygon. The type of 
-vector depends on what information you wish to convey.
+:term:`Vector` data are represented as either point, line or polygon. The type 
+of vector depends on what information you wish to convey.
 
-* Points - represented by a single X,Y coordinate. A point normally represents a 
-  geographic feature that is too small to be displayed as a line or area.  For 
-  example, oil wells and fire hydrants.
+* Points - represented by a single X,Y coordinate. A point normally represents 
+  a geographic feature that is too small to be displayed as a line or area. 
+  For example, oil wells and fire hydrants.
 * Lines - A set of ordered coordinates that represent the shape of geographic 
   features too narrow to be displayed as an area at the given scale or linear 
   features with no area (county boundary lines). For example, railways, roads, 
   rivers.
-* Polygons - A feature used to represent areas. A polygon is defined by the lines 
-  that make up its boundary and a point inside its boundary for identification. 
+* Polygons - A feature used to represent areas. A polygon is defined by the 
+  lines that make up its boundary and a point inside its boundary for 
+  identification. 
   Polygons have attributes that describe the geographic feature they represent. 
   For example, forest stands, lakes. 
 
@@ -172,8 +176,8 @@ Arrange the data according to this list from top to bottom::
    :width: 300 pt
 
 The :guilabel:`Layer Properties` dialog for a vector layer provides information 
-about the layer, symbology settings and labeling options. This dialog box allows 
-you to customize the overall look of your vector data layers.
+about the layer, symbology settings and labeling options. This dialog box 
+allows you to customize the overall look of your vector data layers.
 
 .. image:: images/vector_layer_properties.png
    :align: center
@@ -187,29 +191,31 @@ color.  In the :guilabel:`Legend type`, select :guilabel:`Single Symbol`.
    :align: center
    :width: 300 pt
 
-3. In the :guilabel:`Fill options`, click on the :guilabel:`Fill options color`.  
-Another window showing the :guilabel:`Select Color` will then appear. Set the Red,
-Green, Blue (R:G:B) values to `253:246:229` respectively and click :guilabel:`OK`.
+3. In the :guilabel:`Fill options`, click on the :guilabel:`Fill options color`. 
+Another window showing the :guilabel:`Select Color` will then appear. Set 
+the Red,Green, Blue (R:G:B) values to `253:246:229` respectively and click 
+:guilabel:`OK`.
 
 .. image:: images/select_color.png
    :align: center
    :width: 300 pt
 
 4. Select the :guilabel:`General` tab. This provides ways to change the display 
-name, set scale dependent rendering options, create a spatial index of the vector 
-file and view or change the projection of the specific vector layer.  Change 
-the :guilabel:`Display name` to ``Administrative boundaries``.
+name, set scale dependent rendering options, create a spatial index of the 
+vector file and view or change the projection of the specific vector layer.  
+Change the :guilabel:`Display name` to ``Administrative boundaries``.
 
 .. image:: images/general_tab.png
    :align: center
    :width: 300 pt
 
-5. Click :guilabel:`Create Spatial Index`. A spatial index will improve the speed 
-of both zooming and panning. Spatial index used by QGIS have a ``.qix`` extension.
+5. Click :guilabel:`Create Spatial Index`. A spatial index will improve the 
+speed of both zooming and panning. Spatial index used by QGIS have a ``.qix`` 
+extension.
 Click :guilabel:`Apply` --> :guilabel:`OK`.
 
-6. Repeat all the steps above to change layer properties of each vector.  Follow 
-the table below:
+6. Repeat all the steps above to change layer properties of each vector.  
+Follow the table below:
 
 +------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
 | Layer 	         |Display Name               | Legend Type  |Icon              |Outline Options (RGB)|Fill Options(RGB)|
@@ -225,7 +231,9 @@ the table below:
 
 7. Explore the other options of the vector properties. The 
 :guilabel:`Layer Properties` provides several options to customize the look and 
-feel of your layers. Use the other options until you're satisfied with the look.  
+feel of your layers. Use the other options until you're satisfied with the 
+look.  
+
 Try the following:
 
 * Legend types
@@ -236,15 +244,16 @@ Try the following:
 
 :index:`Navigating around your map`
 --------------------------------------
-Basic tools for navigating around the :guilabel:`Map View` involve the use of the 
-zoom and pan functions. Each tool is explained below:
+Basic tools for navigating around the :guilabel:`Map View` involve the use of 
+the zoom and pan functions. Each tool is explained below:
 
 * |mActionPan| :guilabel:`Pan` - Interactively move the center of the map
 * |mActionZoomIn| :guilabel:`Zoom In` - Zoom in
 * |mActionZoomOut| :guilabel:`Zoom Out` - Zoom out
 * |mActionZoomFullExtent| :guilabel:`Zoom Full` - Zooms to the full view of of 
   all the layers
-* |mActionZoomToLayer| :guilabel:`Zoom to Layer` - Zoom to the active or selected 
+* |mActionZoomToLayer| :guilabel:`Zoom to Layer` - Zoom to the active or 
+  selected 
   vector
 * |mActionZoomToSelected| :guilabel:`Zoom to Selection` - Zoom to the selected 
   object within a vector layer
@@ -254,19 +263,21 @@ zoom and pan functions. Each tool is explained below:
 
 **Zooming and panning with the mouse wheel.** You can also press the mouse wheel 
 to pan inside of the main window and you can roll the mouse wheel to zoom in and 
-out on the map. For zooming, place the mouse cursor inside the map area and roll 
-it forward (away from you) to zoom in and backwards (towards you) to zoom out. 
-The mouse cursor position will be the center of the zoomed area of interest.
+out on the map. For zooming, place the mouse cursor inside the map area and 
+roll it forward (away from you) to zoom in and backwards (towards you) to 
+zoom out. The mouse cursor position will be the center of the zoomed area of 
+interest.
 
-**Zooming and panning with the keyboard.** Place the mouse cursor inside the map 
-area and click on the right arrow key to pan east, left arrow key to pan west, up 
-arrow key to pan north and down arrow key to pan south. The :kbd:`PgUp` and 
-:kbd:`PgDown` keys on your keyboard will cause the map display to zoom in or out.
+**Zooming and panning with the keyboard.** Place the mouse cursor inside the 
+map area and click on the right arrow key to pan east, left arrow key to pan 
+west, up arrow key to pan north and down arrow key to pan south. The 
+:kbd:`PgUp` and :kbd:`PgDown` keys on your keyboard will cause the map display 
+to zoom in or out.
 
 .. tip::
-   While you can do most navigation using the mouse, using the arrow keys on the 
-   keyboard for map navigation is very useful in many cases especially during 
-   digitizing.
+   While you can do most navigation using the mouse, using the arrow keys on 
+   the keyboard for map navigation is very useful in many cases especially 
+   during digitizing.
 
 Use the navigation tools to move in and around your map.
 
@@ -286,15 +297,16 @@ Other tips
 Overview` 
   
 
-The map overview panel provides a full extent view of layers added to it. Within 
-this panel is a red box showing the current :guilabel:`Map View` extent. This 
-allows you to quickly determine which area of the map you are currently viewing.
+The map overview panel provides a full extent view of layers added to it. 
+Within this panel is a red box showing the current :guilabel:`Map View` 
+extent. This allows you to quickly determine which area of the map you are 
+currently viewing.
 
 To activate the :guilabel:`Map Overview`, in the Menu, select 
 :menuselection:`View -->` :guilabel:`Panels -->` 
 :guilabel:`Overview`. A new 
-panel will be added below the :guilabel:`Map Legend` (no map is displayed at the 
-moment).
+panel will be added below the :guilabel:`Map Legend` (no map is displayed at 
+the moment).
 
 .. image:: images/panels_overview.png
    :align: center
@@ -304,8 +316,8 @@ We will add the ``Ecclesiastical boundaries`` layer in the overview map. Select
 the ``Ecclesiastical boundaries`` layer, then right-click and select 
 :guilabel:`Show in Overview`.
 
-The ``Ecclesiastical boundaries`` layer should appear in the :guilabel:`Overview` 
-panel.
+The ``Ecclesiastical boundaries`` layer should appear in the 
+:guilabel:`Overview` panel.
 
 .. image:: images/overview_panel.png
    :align: center
@@ -316,8 +328,8 @@ rectangle in the overview that shows your current extent, the main
 :guilabel:`Map View` will update accordingly.
 
 .. warning::
-   Do not add too many layers into the :guilabel:`Overview` panel, this can slow 
-   down rendering of the overview map.
+   Do not add too many layers into the :guilabel:`Overview` panel, this can 
+   slow down rendering of the overview map.
 
 2. :index:`Line and Area 
 Measurements`  
@@ -327,16 +339,16 @@ To interactively measure length and area, use the:
 * |mActionMeasure| :guilabel:`Measure Line`
 * |mActionMeasureArea| :guilabel:`Measure Area` 
 
-The tool then allows you to click points on the map. Each segment-length as well 
-as the total shows up in the measure-window. To stop measuring click your right 
-mouse button. Areas can also be measured. The accumulated area-size will be 
-visible in the measure window.
+The tool then allows you to click points on the map. Each segment-length as 
+well as the total shows up in the measure-window. To stop measuring click 
+your right mouse button. Areas can also be measured. The accumulated 
+area-size will be visible in the measure window.
 
 .. warning::
    Length and area results inherit the default projection and ellipsoid units! 
-   If you are using the Decimal Degrees (which is the case in our current project)
-   as the layer units, the length and area results will be in decimal degrees as 
-   well.
+   If you are using the Decimal Degrees (which is the case in our current 
+   project) as the layer units, the length and area results will be in decimal 
+   degrees as well.
 
 3. :index:`Using the 
 Labeling Tool`  
