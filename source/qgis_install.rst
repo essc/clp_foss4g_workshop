@@ -133,8 +133,8 @@ GNU/Linux Ubuntu
    Command line instructions are outlined from hereon. It is assumed you know 
    basic command line interface (CLI) and you have administrative privilege to 
    install applications in your Ubuntu Linux machine. Depending on your Ubuntu 
-   version, installation may vary. The instructions below are for Ubuntu Karmic 
-   Koala version.
+   version, installation may vary. The instructions below are for Ubuntu Precise  
+   12.04 version.
 
 1. Update your Ubuntu machine. Open :guilabel:`Terminal` and update all 
 security updates::
@@ -147,16 +147,16 @@ your repository list::
 
       nano /etc/apt/sources.list
 
-3. Add the UbuntuGIS repository (replace the `karmic` to your distribution 
+3. Add the UbuntuGIS repository (replace the `precise` to your distribution 
 version)::
 
-      deb http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu karmic main 
-      deb-src http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu karmic main 
+      deb     http://qgis.org/debian precise main
+      deb-src http://qgis.org/debian precise main
 
-4. Add PPA key to your system so Ubuntu can verify the packages from the 
-PPA::
+4. To add the the qgis.org repository public key to your apt keyring, type::
 
-      sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 314DF160
+      gpg --keyserver keyserver.ubuntu.com --recv 997D3880
+      gpg --export --armor 997D3880 | sudo apt-key add -
 
 This will now pull down the PPA's key and add it to your system.
 
@@ -164,7 +164,7 @@ This will now pull down the PPA's key and add it to your system.
 QGIS::
       
       sudo apt-get update
-      sudo apt-get install qgis qgis-common python-qgis
+      sudo apt-get install qgis qgis-common python-qgis qgis-plugin-grass
 
 6. Start QGIS by hitting :guilabel:`Applications -->` :guilabel:`Science -->` 
 :guilabel:`Quantum GIS` 
