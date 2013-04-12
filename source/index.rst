@@ -1,7 +1,4 @@
-.. sphinx_essc_geo documentation master file, created by
-   sphinx-quickstart on Tue May 18 09:01:35 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. draft (mark as complete when complete)
 
 =============================================================
 Free and Open Source Geospatial Workshop for Conservationists
