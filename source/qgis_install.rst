@@ -1,16 +1,16 @@
-.. draft (mark as complete when complete)
+.. for proofreading (mark as complete when complete)
 
 ==========================================================
-QGIS Installation for MS Windows, Mac OSX and Ubuntu Linux
+:index:`Installing Quantum GIS (QGIS)`
 ==========================================================
 
-.. Note: make sure to include installer directory.
-
-This guide walks through the installation of QGIS depending on your operating system. 
+This guide walks through the installation of QGIS depending on your operating 
+system. 
 
 .. note::
-   The current version of Quantum GIS available is QGIS 1.8.0 'Lisboa'. You can download the 
-   installers from the QGIS `download page <http://hub.qgis.org/projects/quantum-gis/wiki/Download>`_.
+   The current version of Quantum GIS available is QGIS 1.8.0 'Lisboa'. 
+   Download the installers from the QGIS 
+   `download page <http://hub.qgis.org/projects/quantum-gis/wiki/Download>`_.
 
 .. image:: images/win.png
    :height: 30 pt
@@ -20,14 +20,13 @@ MS Windows
 .. note::
    The screen-shots provided is the install process under Windows XP. It is 
    assumed that you have administrative privilege in your system. The process 
-   is similar to later versions of Windows. However, there maybe occasions that 
-   you will be prompted to provide administrative account details.  To run the 
-   installer as administrator, `right-click` the installer and choose 
+   is similar to later versions of Windows. However, there maybe occasions 
+   that you will be prompted to provide administrative account details.  To 
+   run the installer as administrator, `right-click` the installer and choose 
    `Run as administrator`. 
 
-1. Download the QGIS installer from the QGIS download page link given above.
-
-* QGIS 1.8.0 Standalone Installer - :file:`QGIS-OSGeo4W-1.8.0-2-Setup.exe`
+1. Download the QGIS installer from the QGIS download page link given 
+above.
 
 2. Double-click the downloaded installer file.  
 Click :guilabel:`Next`.
@@ -44,18 +43,16 @@ Click :guilabel:`Next`.
    :width: 300 pt
 
 4. You can choose where to install QGIS in your system by selecting the 
-appropriate directory using the :guilabel:`Browse` button. We accept the 
-default for now by hitting :guilabel:`Next`. 
+appropriate directory using the :guilabel:`Browse` button. Accept the 
+default by hitting :guilabel:`Next`. 
 
 .. image:: images/qgis_install_3.png
    :align: center
    :width: 300 pt
 
 5. Aside from the main QGIS application, you have an option to download sample 
-datasets provided by the QGIS developers. These data will be downloaded during 
-the install process. Some of the data are several hundreds of Megabytes, we 
-will not use them for now. Un-mark any of the optional sample datasets and 
-click :guilabel:`Install`. 
+datasets, we will not use this data. Un-mark any of the optional sample 
+datasets and click :guilabel:`Install`. 
 
 .. image:: images/qgis_install_4.png
    :align: center
@@ -91,18 +88,17 @@ process.
 
 Mac OSX
 --------
-1. Download the frameworks and 
-installer from the QGIS download page link given above:
+1. Download the frameworks and installer from 
+`KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_.
 
-* GSL Framework - :file:`GSL_Framework-1.15-2.dmg`
-* GDAL Complete Framework - :file:`GDAL_Complete-1.9.dmg`
-* QGIS 1.8.0 'Lisboa' installer - :file:`QGIS-1.8.0-2.dmg`
+* GSL Framework
+* GDAL Complete Framework
+* QGIS 1.8.0 'Lisboa' installer
 
 .. note::
-   The frameworks and installer above are for Mac OS X Lion (10.7) and 
-   Snow Leopard (10.6).  For other OSX versions, visit 
    `KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_.  
-   To get version information about your Mac, click :guilabel:`Apple Icon -->` 
+   provides download for various Mac OS X versions. To get version 
+   information about your Mac, click :guilabel:`Apple Icon -->` 
    :guilabel:`About This Mac`.
 
 2. Install all the required frameworks by double-clicking the 
@@ -133,25 +129,28 @@ GNU/Linux Ubuntu
    Command line instructions are outlined from hereon. It is assumed you know 
    basic command line interface (CLI) and you have administrative privilege to 
    install applications in your Ubuntu Linux machine. Depending on your Ubuntu 
-   version, installation may vary. The instructions below are for Ubuntu Precise  
-   12.04 version.
+   version, installation may vary. The instructions below are for Ubuntu 
+   Precise 12.04 version.
 
-1. Update your Ubuntu machine. Open :guilabel:`Terminal` and update all 
+1. Update your Ubuntu. Open :guilabel:`Terminal` and update all 
 security updates::
 
       sudo apt-get update
       sudo apt-get upgrade
 
-2. Install QGIS using UbuntuGIS repository.  Open :guilabel:`Terminal` and edit 
-your repository list::
+2. Install QGIS using the qgis.org repository.  Open :guilabel:`Terminal` 
+and edit your repository list::
 
       nano /etc/apt/sources.list
+
 
 3. Add the UbuntuGIS repository (replace the `precise` to your distribution 
 version)::
 
       deb     http://qgis.org/debian precise main
       deb-src http://qgis.org/debian precise main
+
+Save and close nano by typing :kbd:`Ctrl + x + s`
 
 4. To add the the qgis.org repository public key to your apt keyring, type::
 
@@ -160,8 +159,8 @@ version)::
 
 This will now pull down the PPA's key and add it to your system.
 
-5. Install 
-QGIS::
+5. Install QGIS and the optional packages for Python and GRASS 
+plugin::
       
       sudo apt-get update
       sudo apt-get install qgis qgis-common python-qgis qgis-plugin-grass
@@ -178,8 +177,6 @@ typing::
 
       sudo apt-get remove qgis
  
-
-
 .. raw:: latex
    
    \pagebreak[4]
