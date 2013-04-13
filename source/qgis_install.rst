@@ -152,7 +152,8 @@ version)::
 
 Save and close nano by typing :kbd:`Ctrl + x + s`
 
-4. To add the the qgis.org repository public key to your apt keyring, type::
+4. To add the the qgis.org repository public key to your apt keyring, 
+type::
 
       gpg --keyserver keyserver.ubuntu.com --recv 997D3880
       gpg --export --armor 997D3880 | sudo apt-key add -
