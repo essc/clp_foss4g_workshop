@@ -1,7 +1,4 @@
-.. WCSP2012 Species Distribution Modelling Workshop documentation master file, created by
-   sphinx-quickstart on Mon Apr  2 11:35:11 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. draft (mark as complete when complete)
 
 
 =====================================
