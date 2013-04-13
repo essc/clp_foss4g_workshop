@@ -72,16 +72,12 @@ process.
    :width: 300 pt
 
 7. You can now start QGIS by hitting :guilabel:`Start -->` 
-:guilabel:`All Programs -->` :guilabel:`Quantum GIS -->` 
-:guilabel:`Quantum GIS`. 
+:guilabel:`Programs -->` :guilabel:`Quantum GIS Lisboa -->` 
+:guilabel:`Quantum GIS Desktop (1.8.0)`. 
 
 .. image:: images/start_qgis.png
    :align: center
    :width: 300 pt
-
-8. To uninstall QGIS, simply choose :guilabel:`Start -->` 
-:guilabel:`All Programs` --> :guilabel:`Quantum GIS -->` 
-:guilabel:`Uninstall Quantum GIS`. 
 
 .. image:: images/osx.png
    :height: 30 pt
@@ -96,12 +92,12 @@ Mac OSX
 * QGIS 1.8.0 'Lisboa' installer
 
 .. note::
-   `KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_.  
+   `KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_ 
    provides download for various Mac OS X versions. To get version 
    information about your Mac, click :guilabel:`Apple Icon -->` 
    :guilabel:`About This Mac`.
 
-2. Install all the required frameworks by double-clicking the 
+2. Install all the required frameworks by double-clicking the downloaded
 ``.dmg`` files.
 
 3. To install QGIS, double-click the downloaded "dmg".  A new finder window 
