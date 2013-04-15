@@ -77,7 +77,7 @@ Click :guilabel:`Close` to close the :guilabel:`Random Points` window.
    :align: center
    :width: 300 pt
 
-Explore the other tools available in the :menuslection:`Research Tools`.
+Explore the other tools available in the :menuselection:`Research Tools`.
 
 +---------------------+-----------------+--------------------------------------+
 | **Icon**            | **Tool**        | **Purpose**                          |
@@ -90,7 +90,7 @@ Explore the other tools available in the :menuslection:`Research Tools`.
 +---------------------+-----------------+--------------------------------------+
 | |regular_points|    | Regular points  | Generate a regular grid of points    |
 |                     |                 | over a specified region and export   |
-|                     |                 | them as a point shapefile.           |
+|                     |                 | them as a point Shapefile.           |
 +---------------------+-----------------+--------------------------------------+
 | |vector_grid|       | Vector grid     | Generate a line or polygon grid      |
 |                     |                 | based on user specified grid spacing.|
