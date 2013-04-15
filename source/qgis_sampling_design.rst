@@ -16,7 +16,8 @@ will conduct the sampling, we will create a new point layer of 100 random
 points within the boundary of the polygon.
 
 2. In the menu select 
-:menuselection:`Vector --> Research Tools --> Sampling Points`.
+:menuselection:`Vector --> Research Tools -->` 
+|random_points| :guilabel:`Random Points`.
 
 .. image:: images/random_points_1.png
    :align: center
@@ -52,7 +53,8 @@ The same tool can also create a stratified sample of points based on the input
 boundary layer. 
 
 1. In the menu select
-:menuselection:`Vector --> Research Tools --> Sampling Points`.
+:menuselection:`Vector --> Research Tools -->` 
+|random_points| :guilabel:`Random Points`.
 
 2. Under the :guilabel:`Stratified Sampling Design`, type ``50`` in the
 :guilabel:`Use this number of points`. Click :guilabel:`OK`.
@@ -74,6 +76,34 @@ Click :guilabel:`Close` to close the :guilabel:`Random Points` window.
 .. image:: images/50_stratrandom_pts.png
    :align: center
    :width: 300 pt
+
+Explore the other tools available in the :menuslection:`Research Tools`.
+
++---------------------+-----------------+--------------------------------------+
+| **Icon**            | **Tool**        | **Purpose**                          |
++=====================+=================+======================================+
+| |random_selection|  | Random selection| Randomly select n number of          |
+|                     |                 | features, or n percentage of features|
++---------------------+-----------------+--------------------------------------+
+| |sub_selection|     | Random selection| Randomly select features within      |
+|                     | within subsets  | subsets based on a unique ID field.  |
++---------------------+-----------------+--------------------------------------+
+| |regular_points|    | Regular points  | Generate a regular grid of points    |
+|                     |                 | over a specified region and export   |
+|                     |                 | them as a point shapefile.           |
++---------------------+-----------------+--------------------------------------+
+| |vector_grid|       | Vector grid     | Generate a line or polygon grid      |
+|                     |                 | based on user specified grid spacing.|
++---------------------+-----------------+--------------------------------------+
+| |select_location|   | Select by       | Select features based on their       |
+|                     | location        | location relative to another layer   |
+|                     |                 | to form a new selection, or add or   |
+|                     |                 | subtract from the current selection. |
++---------------------+-----------------+--------------------------------------+
+| |layer_extent|      | Polygon from    | Create a single rectangular          |
+|                     | layer extent    | polygon layer from the extent of an  |
+|                     |                 | input raster or vector layer.        |
++---------------------+-----------------+--------------------------------------+
 
 .. raw:: latex
    
