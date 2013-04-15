@@ -121,7 +121,7 @@ your :guilabel:`Dock`
 GNU/Linux Ubuntu
 -----------------
 
-.. warning::
+.. note::
    Command line instructions are outlined from hereon. It is assumed you know 
    basic command line interface (CLI) and you have administrative privilege to 
    install applications in your Ubuntu Linux machine. Depending on your Ubuntu 
@@ -131,6 +131,8 @@ GNU/Linux Ubuntu
 1. Update your Ubuntu. Open :guilabel:`Terminal` and update all 
 security updates::
 
+.. highlight:: python
+   :linenos:
       sudo apt-get update
       sudo apt-get upgrade
 
