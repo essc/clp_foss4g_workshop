@@ -131,7 +131,6 @@ GNU/Linux Ubuntu
 1. Update your Ubuntu. Open :guilabel:`Terminal` and update all 
 security updates::
 
-      .. highlight:: sh
       sudo apt-get update
       sudo apt-get upgrade
 
