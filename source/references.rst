@@ -1,6 +1,5 @@
 .. draft (mark as complete when complete)
 
-
 ==================
 Acknowledgments
 ==================

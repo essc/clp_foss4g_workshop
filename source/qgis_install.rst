@@ -1,4 +1,4 @@
-.. for proofreading (mark as complete when complete)
+.. for proofreading (mark as complete when complete).
 
 ==========================================================
 :index:`Installing Quantum GIS (QGIS)`
@@ -71,9 +71,10 @@ process.
    :align: center
    :width: 300 pt
 
-7. You can now start QGIS by hitting :guilabel:`Start -->` 
-:guilabel:`Programs -->` :guilabel:`Quantum GIS Lisboa -->` 
-:guilabel:`Quantum GIS Desktop (1.8.0)`. 
+7. You can now start QGIS by hitting :menuselection:`Start -->` 
+:menuselection:`Programs -->` 
+:menuselection:`Quantum GIS Lisboa -->` 
+:menuselection:`Quantum GIS Desktop (1.8.0)`. 
 
 .. image:: images/start_qgis.png
    :align: center
@@ -94,7 +95,7 @@ Mac OSX
 .. note::
    `KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_ 
    provides download for various Mac OS X versions. To get version 
-   information about your Mac, click :guilabel:`Apple Icon -->` 
+   information about your Mac, click :menuselection:`Apple Icon -->` 
    :guilabel:`About This Mac`.
 
 2. Install all the required frameworks by double-clicking the downloaded
@@ -121,7 +122,7 @@ your :guilabel:`Dock`
 GNU/Linux Ubuntu
 -----------------
 
-.. warning::
+.. note::
    Command line instructions are outlined from hereon. It is assumed you know 
    basic command line interface (CLI) and you have administrative privilege to 
    install applications in your Ubuntu Linux machine. Depending on your Ubuntu 
@@ -162,8 +163,9 @@ plugin::
       sudo apt-get update
       sudo apt-get install qgis qgis-common python-qgis qgis-plugin-grass
 
-6. Start QGIS by hitting :guilabel:`Applications -->` :guilabel:`Science -->` 
-:guilabel:`Quantum GIS` 
+6. Start QGIS by hitting :menuselection:`Applications -->` 
+:menuselection:`Science -->` 
+:menuselection:`Quantum GIS` 
 
 .. image:: images/qgis_ubuntu_start.png
    :align: center
