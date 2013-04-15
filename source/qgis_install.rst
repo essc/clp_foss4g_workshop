@@ -72,7 +72,8 @@ process.
    :width: 300 pt
 
 7. You can now start QGIS by hitting :menuselection:`Start -->` 
-:menuselection:`Programs -->` :guilabel:`Quantum GIS Lisboa -->` 
+:menuselection:`Programs -->` 
+:menuselection:`Quantum GIS Lisboa -->` 
 :menuselection:`Quantum GIS Desktop (1.8.0)`. 
 
 .. image:: images/start_qgis.png
