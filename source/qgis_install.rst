@@ -1,4 +1,4 @@
-.. for proofreading (mark as complete when complete)
+.. for proofreading (mark as complete when complete).
 
 ==========================================================
 :index:`Installing Quantum GIS (QGIS)`
@@ -71,9 +71,9 @@ process.
    :align: center
    :width: 300 pt
 
-7. You can now start QGIS by hitting :guilabel:`Start -->` 
-:guilabel:`Programs -->` :guilabel:`Quantum GIS Lisboa -->` 
-:guilabel:`Quantum GIS Desktop (1.8.0)`. 
+7. You can now start QGIS by hitting :menuselection:`Start -->` 
+:menuselection:`Programs -->` :guilabel:`Quantum GIS Lisboa -->` 
+:menuselection:`Quantum GIS Desktop (1.8.0)`. 
 
 .. image:: images/start_qgis.png
    :align: center
@@ -162,8 +162,9 @@ plugin::
       sudo apt-get update
       sudo apt-get install qgis qgis-common python-qgis qgis-plugin-grass
 
-6. Start QGIS by hitting :guilabel:`Applications -->` :guilabel:`Science -->` 
-:guilabel:`Quantum GIS` 
+6. Start QGIS by hitting :menuselection:`Applications -->` 
+:menuselection:`Science -->` 
+:menuselection:`Quantum GIS` 
 
 .. image:: images/qgis_ubuntu_start.png
    :align: center
