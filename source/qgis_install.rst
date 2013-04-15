@@ -95,7 +95,7 @@ Mac OSX
 .. note::
    `KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_ 
    provides download for various Mac OS X versions. To get version 
-   information about your Mac, click :guilabel:`Apple Icon -->` 
+   information about your Mac, click :menuselection:`Apple Icon -->` 
    :guilabel:`About This Mac`.
 
 2. Install all the required frameworks by double-clicking the downloaded
