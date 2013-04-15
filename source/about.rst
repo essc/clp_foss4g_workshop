@@ -113,7 +113,7 @@ version published by the Free Software Foundation; with no Invariant Sections,
 no Front-Cover Texts, and no Back-Cover Texts.
 
 A copy of the license is included in the section entitled 
-`Document License <gfdl.rst>`_.
+`Document License <gfdl.html>`_.
 
 .. raw:: latex
    
