@@ -18,6 +18,8 @@ Contents
 
    About this document <about.rst>
    Installing QGIS <qgis_install.rst>  
+   Acknowledgment <references.rst>
+   GNU Free Documentation License <gfdl.rst>
 ..   maxent_install.rst
 ..   qgis_interface.rst
 ..   qgis_custom_symbols.rst
@@ -32,6 +34,4 @@ Contents
 ..   maxent.rst
 ..   maxent_qgis.rst
 ..   qgis_sextante.rst
-   Acknowledgment <references.rst>
-   GNU Free Documentation License <gfdl.rst>
-
+..   qgis_wms.rst
