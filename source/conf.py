@@ -196,9 +196,102 @@ rst_epilog = """
 .. |adddelimitedtext| image:: images/qgis_icons/adddelimitedtext.png
                       :width: 20 pt
 .. |mActionGPSTools| image:: images/qgis_icons/mActionGPSTools.png
-                         :width: 20pt
+                     :width: 20pt
 .. |mActionAddBingLayer| image:: images/qgis_icons/mActionAddBingLayer.png
                          :width: 20pt
+.. |vector_grid| image:: images/qgis_icons/ftools/vector_grid.png
+                 :width: 20pt
+.. |unique| image:: images/qgis_icons/ftools/unique.png
+            :width: 20pt
+.. |union| image:: images/qgis_icons/ftools/union.png
+           :width: 20pt
+.. |to_lines| image:: images/qgis_icons/ftools/to_lines.png
+              :width: 20pt
+.. |sym_difference| image:: images/qgis_icons/ftools/sym_difference.png
+                    :width: 20pt
+.. |sum_points| image:: images/qgis_icons/ftools/sum_points.png
+                :width: 20pt
+.. |sum_lines| image:: images/qgis_icons/ftools/sum_lines.png
+               :width: 20pt
+.. |sub_selection| image:: images/qgis_icons/ftools/sub_selection.png
+                   :width: 20pt
+.. |split_layer| image:: images/qgis_icons/ftools/split_layer.png
+                 :width: 20pt
+.. |single_to_multi| image:: images/qgis_icons/ftools/single_to_multi.png
+                     :width: 20pt
+.. |simplify| image:: images/qgis_icons/ftools/simplify.png
+              :width: 20pt
+.. |select_location| image:: images/qgis_icons/ftools/select_location.png
+                     :width: 20pt
+.. |sampling| image:: images/qgis_icons/ftools/sampling.png
+              :width: 20pt
+.. |regular_points| image:: images/qgis_icons/ftools/regular_points.png
+                    :width: 20pt
+.. |random_selection| image:: images/qgis_icons/ftools/random_selection.png
+                      :width: 20pt
+.. |random_points| image:: images/qgis_icons/ftools/random_points.png
+                   :width: 20pt
+.. |neighbour| image:: images/qgis_icons/ftools/neighbour.png
+               :width: 20pt
+.. |multi_to_single| image:: images/qgis_icons/ftools/multi_to_single.png
+                     :width: 20pt
+.. |merge_shapes| image:: images/qgis_icons/ftools/merge_shapes.png
+                  :width: 20pt
+.. |mean| image:: images/qgis_icons/ftools/mean.png
+          :width: 20pt
+.. |matrix| image:: images/qgis_icons/ftools/matrix.png
+            :width: 20pt
+.. |management| image:: images/qgis_icons/ftools/management.png
+                :width: 20pt
+.. |layer_extent| image:: images/qgis_icons/ftools/layer_extent.png
+                  :width: 20pt
+.. |join_location| image:: images/qgis_icons/ftools/join_location.png
+                   :width: 20pt
+.. |join_attributes| image:: images/qgis_icons/ftools/join_attributes.png
+                     :width: 20pt
+.. |intersection| image:: images/qgis_icons/ftools/intersections.png
+                  :width: 20pt
+.. |intersect| image:: images/qgis_icons/ftools/intersect.png
+               :width: 20pt
+.. |help| image:: images/qgis_icons/ftools/help.png
+          :width: 20pt
+.. |geoprocessing| image:: images/qgis_icons/ftools/geoprocessing.png
+                   :width: 20pt
+.. |geometry| image:: images/qgis_icons/ftools/geometry.png
+              :width: 20pt
+.. |ftoolslogo2| image:: images/qgis_icons/ftools/ftoolslogo2.png
+                 :width: 20pt
+.. |ftools_logo| image:: images/qgis_icons/ftools/ftools_logo.png
+                 :width: 20pt
+.. |extract_nodes| image:: images/qgis_icons/ftools/extract_nodes.png
+                   :width: 20pt
+.. |export_projection| image:: images/qgis_icons/ftools/export_projection.png
+                       :width: 20pt
+.. |export_geometry| image:: images/qgis_icons/ftools/export_geometry.png
+                     :width: 20pt
+.. |dissolve| image:: images/qgis_icons/ftools/dissolve.png
+              :width: 20pt
+.. |difference| image:: images/qgis_icons/ftools/difference.png
+                :width: 20pt
+.. |delaunay| image:: images/qgis_icons/ftools/delaunay.png
+              :width: 20pt
+.. |define_projection| image:: images/qgis_icons/ftools/define_projection.png
+                       :width: 20pt
+.. |convex_hull| image:: images/qgis_icons/ftools/convex_hull.png
+                 :width: 20pt
+.. |clip| image:: images/qgis_icons/ftools/clip.png
+          :width: 20pt
+.. |check_geometry| image:: images/qgis_icons/ftools/check_geometry.png
+                    :width: 20pt
+.. |centroids| image:: images/qgis_icons/ftools/centroids.png
+               :width: 20pt
+.. |buffer| image:: images/qgis_icons/ftools/buffer.png
+            :width: 20pt
+.. |basic_statistics| image:: images/qgis_icons/ftools/basic_statistics.png
+                      :width: 20pt
+.. |analysis| image:: images/qgis_icons/ftools/analysis.png
+              :width: 20pt
+
 """
 
 # -- Options for HTML output ---------------------------------------------------
