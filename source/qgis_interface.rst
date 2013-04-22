@@ -169,6 +169,46 @@ Arrange the data according to this list from top to bottom::
     Mapping standards suggest that points layers should be on top followed by 
     lines and finally polygons.
 
+
+:index:`Navigating around your map`
+--------------------------------------
+Basic tools for navigating around the :guilabel:`Map View` involve the use of 
+the zoom and pan functions. Each tool is explained below:
+
+* |mActionPan| :guilabel:`Pan` - Interactively move the center of the map
+* |mActionZoomIn| :guilabel:`Zoom In` - Zoom in
+* |mActionZoomOut| :guilabel:`Zoom Out` - Zoom out
+* |mActionZoomFullExtent| :guilabel:`Zoom Full` - Zooms to the full view of of 
+  all the layers
+* |mActionZoomToLayer| :guilabel:`Zoom to Layer` - Zoom to the active or 
+  selected 
+  vector
+* |mActionZoomToSelected| :guilabel:`Zoom to Selection` - Zoom to the selected 
+  object within a vector layer
+* |mActionZoomLast| :guilabel:`Zoom Last` and :guilabel:`Zoom Next` - Goes back 
+  and forth to the previous zoom
+* |mActionDraw| :guilabel:`Refresh` - Redraw all data layers
+
+**Zooming and panning with the mouse wheel.** You can also press the mouse wheel 
+to pan inside of the main window and you can roll the mouse wheel to zoom in and 
+out on the map. For zooming, place the mouse cursor inside the map area and 
+roll it forward (away from you) to zoom in and backwards (towards you) to 
+zoom out. The mouse cursor position will be the center of the zoomed area of 
+interest.
+
+**Zooming and panning with the keyboard.** Place the mouse cursor inside the 
+map area and click on the right arrow key to pan east, left arrow key to pan 
+west, up arrow key to pan north and down arrow key to pan south. The 
+:kbd:`PgUp` and :kbd:`PgDown` keys on your keyboard will cause the map display 
+to zoom in or out.
+
+.. tip::
+   While you can do most navigation using the mouse, using the arrow keys on 
+   the keyboard for map navigation is very useful in many cases especially 
+   during digitizing.
+
+Use the navigation tools to move in and around your map.
+
 :index:`Changing the look of your data layer`
 -----------------------------------------------
 
@@ -249,44 +289,6 @@ Try the following:
 * Different markers for points
 * Transparency 
 
-:index:`Navigating around your map`
---------------------------------------
-Basic tools for navigating around the :guilabel:`Map View` involve the use of 
-the zoom and pan functions. Each tool is explained below:
-
-* |mActionPan| :guilabel:`Pan` - Interactively move the center of the map
-* |mActionZoomIn| :guilabel:`Zoom In` - Zoom in
-* |mActionZoomOut| :guilabel:`Zoom Out` - Zoom out
-* |mActionZoomFullExtent| :guilabel:`Zoom Full` - Zooms to the full view of of 
-  all the layers
-* |mActionZoomToLayer| :guilabel:`Zoom to Layer` - Zoom to the active or 
-  selected 
-  vector
-* |mActionZoomToSelected| :guilabel:`Zoom to Selection` - Zoom to the selected 
-  object within a vector layer
-* |mActionZoomLast| :guilabel:`Zoom Last` and :guilabel:`Zoom Next` - Goes back 
-  and forth to the previous zoom
-* |mActionDraw| :guilabel:`Refresh` - Redraw all data layers
-
-**Zooming and panning with the mouse wheel.** You can also press the mouse wheel 
-to pan inside of the main window and you can roll the mouse wheel to zoom in and 
-out on the map. For zooming, place the mouse cursor inside the map area and 
-roll it forward (away from you) to zoom in and backwards (towards you) to 
-zoom out. The mouse cursor position will be the center of the zoomed area of 
-interest.
-
-**Zooming and panning with the keyboard.** Place the mouse cursor inside the 
-map area and click on the right arrow key to pan east, left arrow key to pan 
-west, up arrow key to pan north and down arrow key to pan south. The 
-:kbd:`PgUp` and :kbd:`PgDown` keys on your keyboard will cause the map display 
-to zoom in or out.
-
-.. tip::
-   While you can do most navigation using the mouse, using the arrow keys on 
-   the keyboard for map navigation is very useful in many cases especially 
-   during digitizing.
-
-Use the navigation tools to move in and around your map.
 
 Saving your first project
 --------------------------
