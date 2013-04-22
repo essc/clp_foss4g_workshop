@@ -1,20 +1,21 @@
-Calayan dataset
---------------------------------------------
+Cebu Dataset
+------------------------------------------
+Raster:
 
-Species occurence samples
- * Gallirallus_calayanensis_raw.xls -   Calayan Rail (Gallirallus calayanensis) 2006 inventory by Isla Biodiversity.
+*altitude - from worldclim
+*asci layers - final data for maxent
+*slope - derived from 1km alt
+*vegetation - from alos palsar 2010
+*worldclim - bio1-19 data from worldclim
 
-Environmental variables (Raster)
- * bio1_210 - Annual mean temperature
- * bio12_210 - Annual precipitation
- * bio19_210 - Precipitation of Coldest Quarter
- * elevation - Digital elevation model
- * slope - gradient of a line describing steepness, incline, or grade of the surface derived from elevation
+Vector:
 
-Vector
- * calayancoast - Calayan island coastline from Cynthia Layusa.
- * admin_bnd - Calayan barangay boundaries from PhilGis.org
+*black shama occurrence records - from FFI survey
+*iba
+*municipal boundary
+*river 
+*road
+*soil - from dswm
+
+Projection: geographic, WGS84 datum
  
-Projection - Geographic projection, WGS84 datum.
-
-License - For exercises purposes only
