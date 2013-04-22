@@ -1,4 +1,5 @@
 .. draft (mark as complete when complete)
+.. merge to the qgis_interface.rst
 
 ==================================
 Using :index:`Custom Symbology`

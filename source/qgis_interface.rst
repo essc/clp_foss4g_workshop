@@ -1,4 +1,5 @@
 .. draft (mark as complete when complete)
+.. todo: add new screenshots
 
 ==============================
 The :index:`QGIS Interface`
@@ -23,7 +24,7 @@ We will use the provided Quiapo dataset.
 
 * **1. Map Legend/Layers** - where you add layers and interact with them, such 
   as grouping them, setting symbology, and such.
-* **2. Map View** - the main map area where the layers show up and all your 
+* **2. Map View/Canvass** - the main map area where the layers show up and all your 
   visualization is done.
 * **3. Tool Bar** - button bars. Like most modern windows applications you can 
   drag your button bars around and move them between layers. Hover over each 
@@ -39,9 +40,10 @@ We will use the provided Quiapo dataset.
 :index:`Creating a new project`
 ----------------------------------
 
-1. Launch QGIS by clicking :guilabel:`Start -->` :guilabel:`All Programs -->` 
-:guilabel:`Quantum GIS -->` 
-:guilabel:`Quantum GIS` .
+1. Launch QGIS in Windows by clicking :menuselection:`Start -->` 
+:menuselection:`All Programs -->` 
+:menuselection:`Quantum GIS -->` 
+:menuselection:`Quantum GIS` .
 
 2. Create a new project. :menuselection:`File -->` |mActionFileNew| 
 :guilabel:`New Project`.
@@ -169,6 +171,9 @@ Arrange the data according to this list from top to bottom::
 
 :index:`Changing the look of your data layer`
 -----------------------------------------------
+
+.. change this using the new symbology
+
 1. Changing vector layer properties like color and symbolization. Select the 
 ``admin_bnd`` layer and right-click on the layer and select 
 :guilabel:`Properties` from the pop-up menu.
