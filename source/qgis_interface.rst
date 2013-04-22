@@ -284,7 +284,7 @@ Change the :guilabel:`Display name` to ``Waterways``.
 5. Click :guilabel:`Create Spatial Index`. A spatial index will improve the 
 speed of both zooming and panning. Spatial index used by QGIS have a ``.qix`` 
 extension.
-Click :menuselection:`Apply` --> :guilabel:`OK`.
+Click :menuselection:`Apply -->` :guilabel:`OK`.
 
 6. Repeat all the steps above to change layer properties of each 
 vector layer.
