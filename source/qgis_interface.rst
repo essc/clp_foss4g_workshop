@@ -171,7 +171,7 @@ Arrange the data according to this list from top to bottom::
 Basic tools for navigating around the :guilabel:`Map View` involve the use of 
 the zoom and pan functions. Each tool is explained below:
 
-+-------------------------+-------------------------------*-------------------------------+
++-------------------------+-------------------------------+-------------------------------+
 | **Icon**                | **Tool**                      | **Purpose**                   |
 +=========================+===============================+===============================+
 | |mActionPan|            | :guilabel:`Pan`               | Interactively move the center |
@@ -191,7 +191,7 @@ the zoom and pan functions. Each tool is explained below:
 |                         |                               | object within a vector layer  |
 +-------------------------+-------------------------------+-------------------------------+
 | |mActionZoomLast|       | :guilabel:`Zoom Last`         | Goes back and forth           |
-                            :guilabel:`Zoom Next`         | to the previous zoom          |
+|                         | :guilabel:`Zoom Next`         | to the previous zoom          |
 +-------------------------+-------------------------------+-------------------------------+
 | |mActionDraw|           | :guilabel:`Refresh`           | Redraw all data layers        |
 +-------------------------+-------------------------------+-------------------------------+
