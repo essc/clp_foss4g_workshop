@@ -293,6 +293,18 @@ Try the following:
 * Transparency 
 
 
+Saving your first project
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+1. In the :menuselection:`File` menu, select |mActionFileSave| 
+:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
+
+     myfirstqgisproject.qgs
+
+2. Click :guilabel:`Save`. 
+You have saved your first QGIS project.
+
+
 Using custom styles
 ,,,,,,,,,,,,,,,,,,,,,,
 
@@ -368,23 +380,46 @@ This opens new window for the :guilabel:`Rule properties`.
 5. Create custom styles for the other layers 
 in your project.
 
+:index:`Using the Labeling Tool`  
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-Saving your first project
---------------------------
+The Labeling tool provides smart labeling for vector point, line and polygon 
+layers and only requires a few parameters.
 
-1. In the :menuselection:`File` menu, select |mActionFileSave| 
-:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
+Select the ``Roads`` layer. Open the labeling plug-in, in the Menu, select 
+:menuselection:`Layer -->` 
+|mActionLabeling| :guilabel:`Labeling`.
 
-     myfirstqgisproject.qgs
+.. image:: images/smart_label_plugin.png
+   :align: center
+   :width: 300 pt
 
-2. Click :guilabel:`Save`. 
-You have saved your first QGIS project.
+A new window will appear for the :guilabel:`Layer labeling settings`. Mark the 
+following options shown in the screenshots below:
+
+.. image:: images/smart_label_properties.png
+   :align: center
+   :width: 300 pt
+
+
+.. image:: images/smart_label_properties1.png
+   :align: center
+   :width: 300 pt
+
+
+Select :guilabel:`OK`. The label for ``Roads`` should be placed above the road 
+line. As you pan around the map, you'll find that labels are placed nicely.
+
+.. image:: images/smart_label_roads.png
+   :align: center
+   :width: 300 pt
+
 
 Other tips
 -----------
 
-1. :index:`Map 
-Overview` 
+:index:`Map Overview` 
+,,,,,,,,,,,,,,,,,,,,,,,,,,
   
 The map overview panel provides a full extent view of layers added to it. 
 Within this panel is a red box showing the current :guilabel:`Map View` 
@@ -420,8 +455,8 @@ rectangle in the overview that shows your current extent, the main
    Do not add too many layers into the :guilabel:`Overview` panel, this can 
    slow down rendering of the overview map.
 
-2. :index:`Line and Area 
-Measurements`  
+:index:`Line and Area Measurements`  
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 To interactively measure length and area, use the:
 
@@ -439,42 +474,8 @@ area-size will be visible in the measure window.
    project) as the layer units, the length and area results will be in decimal 
    degrees as well.
 
-3. :index:`Using the 
-Labeling Tool`  
-
-The Labeling tool provides smart labeling for vector point, line and polygon 
-layers and only requires a few parameters.
-
-Select the ``Roads`` layer. Open the labeling plug-in, in the Menu, select 
-:menuselection:`Layer -->` 
-|mActionLabeling| :guilabel:`Labeling`.
-
-.. image:: images/smart_label_plugin.png
-   :align: center
-   :width: 300 pt
-
-A new window will appear for the :guilabel:`Layer labeling settings`. Mark the 
-following options shown in the screenshots below:
-
-.. image:: images/smart_label_properties.png
-   :align: center
-   :width: 300 pt
-
-
-.. image:: images/smart_label_properties1.png
-   :align: center
-   :width: 300 pt
-
-
-Select :guilabel:`OK`. The label for ``Roads`` should be placed above the road 
-line. As you pan around the map, you'll find that labels are placed nicely.
-
-.. image:: images/smart_label_roads.png
-   :align: center
-   :width: 300 pt
-
-4. Importing 
-Image  
+Importing Image  
+,,,,,,,,,,,,,,,,,,,,,,,,
  
 In the Menu, select :menuselection:`File -->` 
 |mActionSaveMapAsImage| :guilabel:`Save as image`.
@@ -486,7 +487,10 @@ have you first map image which you can add in any document or report.
    :align: center
    :width: 300 pt
 
-5. Save your project. To save your project, select 
+Save your project. 
+,,,,,,,,,,,,,,,,,,,,,,,
+
+To save your project, select 
 :menuselection:`File -->` 
 :guilabel:`Save Project`.
 
