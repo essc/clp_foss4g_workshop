@@ -42,6 +42,9 @@ should be in a single line)::
 .. warning::
     External WMS is not always available, hence, reliability is not guaranteed.
 
+.. is there a WMS that shows ecology based data? Another WMS we can use is the 
+   OpenWeatherMaps http://wms.openweathermap.org/service
+
 3. Click :guilabel:`OK`. A new WMS service is now 
 available.
 
