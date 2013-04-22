@@ -5,14 +5,14 @@ About this document
 =====================
 
 This document was designed as a supplementary material for the 
-"Free and Open Source Geospatial Workshop for Conservationists".
+"Free and Open Source Geospatial Workshop for Conservationists"
 supported by the **Conservation Ledership Programme** 
 Learning Exchange Program.
 
 About the CLP Learning Exchange Program
 -----------------------------------------
 
-The general aim of this project is to build the capacity of CLP Alumni in 
+The aim of this project is to build the capacity of CLP Alumni in 
 using Free and Open-Source Software for Geospatial (FOSS4G) technologies and 
 other related technologies and maximize the application in biodiversity 
 monitoring, management and conservation. 
