@@ -51,28 +51,42 @@ browse and edit the attribute table within this window.
 A full explanation of the tools within the :guilabel:`Attribute table` window 
 is presented below:
 
-* |mActionUnselectAttributes| :guilabel:`Unselect All` - Remove selection from 
-  previous selected records
-* |mActionSelectedToTop| :guilabel:`Move Selection to Top` - Move the selected 
-  records to the top of the table
-* |mActionInvertSelection| :guilabel:`Invert Selection` - Invert selection
-* |mActionCopySelected| :guilabel:`Copy Selected Rows` - Copy selected rows to 
-  clipboard
-* |mActionZoomToSelected| :guilabel:`Zoom Map to Selected Rows` - Zoom map to 
-  selected rows
-* |mActionToggleEditing| :guilabel:`Toggle Editing Mode` - Toggle editing mode 
-  to edit single values of attribute table and to enable functionalities 
-  described below.
-* |mActionDeleteSelected| :guilabel:`Delete Selected Features` - Delete 
-  selected features
-* |mActionNewAttribute| :guilabel:`New Column` - This adds a new column in the 
-  attribute table.  You will be asked to provide attribute details in a new 
-  window (name, field type, etc.).
-* |mActionDeleteAttribute| :guilabel:`Delete Column` - Delete column (only for 
-  PostGIS layers yet)
-* |mActionCalculateField| :guilabel:`Open Field Calculator` - Open field 
-  calculator to update attribute data based on arithmetic, logical and other 
-  calculations
++-----------------------------+---------------------------------------+-------------------------------+
+| **Icon**                    | **Tool**                              | **Purpose**                   |
++=============================+=======================================+===============================+
+| |mActionUnselectAttributes| | :guilabel:`Unselect All`              | Remove selection from         |
+|                             |                                       | previous selected records     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionSelectedToTop|      | :guilabel:`Move Selection to Top`     | Move the selected records     |
+|                             |                                       | to the top of the table       |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionInvertSelection|    | :guilabel:`Invert Selection`          |  Invert selection             |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionCopySelected|       | :guilabel:`Copy Selected Rows`        | Copy selected rows to         |
+|                             |                                       | clipboard                     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionZoomToSelected|     | :guilabel:`Zoom Map to Selected Rows` | Zoom map to selected rows     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionToggleEditing|      | :guilabel:`Toggle Editing Mode`       | Toggle editing mode to edit   |
+|                             |                                       | single values of attribute    |
+|                             |                                       | table and to enable           |
+|                             |                                       | functionalities described     |
+|                             |                                       | below.                        |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionDeleteSelected|     | :guilabel:`Delete Selected Features`  | Delete selected features      |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionNewAttribute|       | :guilabel:`New Column`                | Adds a new column in the      |
+|                             |                                       | attribute table.  You will be |
+|                             |                                       | asked to provide attribute    |
+|                             |                                       | details in a new window       |
+|                             |                                       | (name, field type, etc.).     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionDeleteAttribute|    | :guilabel:`Delete Column`             | Delete column                 |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionCalculateField|     | :guilabel:`Open Field Calculator`     | Open field calculator to      |
+|                             |                                       | update attribute data based on| 
+|                             |                                       | arithmetic, logical and others| 
++-----------------------------+---------------------------------------+-------------------------------+
 
 Explore the different tools to understand how each one works.
 
