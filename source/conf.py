@@ -199,6 +199,8 @@ rst_epilog = """
                      :width: 20pt
 .. |mActionAddBingLayer| image:: images/qgis_icons/mActionAddBingLayer.png
                          :width: 20pt
+.. |mActionLabeling| image:: images/qgis_icons/mActionLabeling.png
+                     :width: 20pt
 .. |vector_grid| image:: images/qgis_icons/ftools/vector_grid.png
                  :width: 20pt
 .. |unique| image:: images/qgis_icons/ftools/unique.png
