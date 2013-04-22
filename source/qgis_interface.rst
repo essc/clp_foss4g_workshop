@@ -46,20 +46,6 @@ map using various data symbology and colors.
 2. Create a new project. :menuselection:`File -->` |mActionFileNew| 
 :guilabel:`New Project`.
 
-A QGIS session is considered a Project. QGIS works on one project at a time. 
-Settings are considered as being per-project or as a default for new projects.  
-The kinds of information saved in a project file include:
-
-* Layers added;
-* Layer properties, including symbolization;
-* Projection for the map view and;
-* Last viewed extent.
-
-.. warning:: 
-   The project file is saved in XML format (with a ``.qgs`` file extension), 
-   it is possible to edit the file outside QGIS if you **know what you are 
-   doing**.
-
 3. Open the project properties. In the Menu, select 
 :menuselection:`Settings -->` :guilabel:`Project Properties`.
 
@@ -166,6 +152,31 @@ Arrange the data according to this list from top to bottom::
     lines and finally polygons.
 
 
+Saving your project
+----------------------------
+
+1. In the :menuselection:`File` menu, select |mActionFileSave| 
+:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
+
+     myfirstqgisproject.qgs
+
+2. Click :guilabel:`Save`. 
+You have saved your first QGIS project.
+
+A QGIS session is considered a Project. QGIS works on one project at a time. 
+Settings are considered as being per-project or as a default for new projects.  
+The kinds of information saved in a project file include:
+
+* Layers added;
+* Layer properties, including symbolization;
+* Projection for the map view and;
+* Last viewed extent.
+
+.. warning:: 
+   The project file is saved in XML format (with a ``.qgs`` file extension), 
+   it is possible to edit the file outside QGIS if you **know what you are 
+   doing**.
+
 :index:`Navigating around your map`
 --------------------------------------
 Basic tools for navigating around the :guilabel:`Map View` involve the use of 
@@ -218,8 +229,6 @@ Use the navigation tools to move in and around your map.
 
 :index:`Changing the look of your layers`
 -----------------------------------------------
-
-.. change this using the new symbology
 
 1. Changing vector layer properties like color and symbolization. Select the 
 ``waterways`` layer and right-click on the layer and select 
@@ -275,9 +284,10 @@ Change the :guilabel:`Display name` to ``Waterways``.
 5. Click :guilabel:`Create Spatial Index`. A spatial index will improve the 
 speed of both zooming and panning. Spatial index used by QGIS have a ``.qix`` 
 extension.
-Click :guilabel:`Apply` --> :guilabel:`OK`.
+Click :menuselection:`Apply` --> :guilabel:`OK`.
 
-6. Repeat all the steps above to change layer properties of each vector layer.
+6. Repeat all the steps above to change layer properties of each 
+vector layer.
 
 7. Explore the other options of the vector properties. The 
 :guilabel:`Layer Properties` provides several options to customize the look and 
@@ -293,18 +303,6 @@ Try the following:
 * Transparency 
 
 
-Saving your first project
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-1. In the :menuselection:`File` menu, select |mActionFileSave| 
-:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
-
-     myfirstqgisproject.qgs
-
-2. Click :guilabel:`Save`. 
-You have saved your first QGIS project.
-
-
 Using custom styles
 ,,,,,,,,,,,,,,,,,,,,,,
 
@@ -312,13 +310,10 @@ QGIS provides many features for styling and improving the look of your maps.
 The custom symbologies and scale-dependent rendering are possible for any 
 vector type.  
 
-Many of these customizations are available using the :guilabel:`New Symbology` 
-feature in the layer :guilabel:`Properties`  window.  
-
 .. note::
    There are three types of symbols: marker symbols (for points), line symbols 
-   (for lines) and fill and outline symbols (for polygons) in 
-   :guilabel:`New Symbology`. Symbols can consist of one or more symbol layers. 
+   (for lines) and fill and outline symbols (for polygons).  
+   Symbols can consist of one or more symbol layers. 
    It is possible to define the color of a symbol and this color is then 
    defined for all symbol layers. Some layers may have the color locked - 
    for those the color can not be altered. This is useful when you define the 
@@ -487,12 +482,12 @@ have you first map image which you can add in any document or report.
    :align: center
    :width: 300 pt
 
-Save your project. 
+Save your project
 ,,,,,,,,,,,,,,,,,,,,,,,
 
 To save your project, select 
 :menuselection:`File -->` 
-:guilabel:`Save Project`.
+|mActionFileSave| :guilabel:`Save Project`.
 
 .. tip::
    It is good practice to save your project after every major editing activity. 
