@@ -201,7 +201,7 @@ the zoom and pan functions. Each tool is explained below:
 | |mActionZoomToSelected| | :guilabel:`Zoom to Selection` | Zoom to the selected          |
 |                         |                               | object within a vector layer  |
 +-------------------------+-------------------------------+-------------------------------+
-| |mActionZoomLast|       | :guilabel:`Zoom Last`         | Goes back and forth           |
+| |mActionZoomLast|       | :guilabel:`Zoom Last` and     | Goes back and forth           |
 |                         | :guilabel:`Zoom Next`         | to the previous zoom          |
 +-------------------------+-------------------------------+-------------------------------+
 | |mActionDraw|           | :guilabel:`Refresh`           | Redraw all data layers        |
