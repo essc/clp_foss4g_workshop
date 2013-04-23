@@ -24,5 +24,8 @@ Species occurence samples
 * black_shama.csv - Black Shama (Copsychus cebuensis) occurrence records from 
   FFI field surveys
 
+* population.txt - Municipal population based on the 
+  National Statistics Office Census of 2010
+
 Projection - Geographic projection, WGS84 datum (EPSG:4326). 
 License - See individual metadata text file of each data.
