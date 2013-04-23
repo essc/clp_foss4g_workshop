@@ -1,5 +1,4 @@
-.. draft (mark as complete when complete)
-.. add the data
+.. for proofreading (mark as complete when complete)
 
 
 =====================================
@@ -8,7 +7,7 @@ Sample Datasets
 
 The following sample datasets will be used for the exercises. 
 Extract the zip file to your ``data`` directory.  Each layer is accompanied by
-metadata text information (``.txt`` extnsion).
+metadata text information (``.txt`` extension).
 
 Cebu
 ----------------
