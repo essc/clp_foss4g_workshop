@@ -1,0 +1,38 @@
+===============================================
+Title		DEM of Cebu
+
+Abstract	Digital Elevation Model of Cebu resample to 1 km pixel resolution
+		
+Keywords	Cebu, DEM, elevation
+
+Identifier	
+
+Series		
+
+Publisher	
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	
+		
+Extents      	 xMin,yMin 123.2964,9.41213 : xMax,yMax 124.5689,11.5821 
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 GeoTiff
+
+URI	 	
+
+Scale		 
+
+Data Layers	 
+
+Changelog	
+
+Distribution	
+================================================

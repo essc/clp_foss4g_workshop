@@ -3,7 +3,7 @@ Cebu
 
 Rasters
 
-* dem.tif - digital elevation model
+* dem_1km.tif - digital elevation model
 * xxx.tif - vegetation (MODIS Vegetation Continuous Fields)
 * bio8.asc - Mean Temperature of Wettest Quarter, Degrees Celsius
 * bio9.asc - Mean Temperature of Driest Quarter, Degrees Celsius
@@ -11,14 +11,14 @@ Rasters
 * bio17.asc - Precipitation of Coldest Quarter, mm
 
 Vectors
-* iba - Important Bird Areas from Philippine Biodiversity Conservation 
+* iba.shp - Important Bird Areas from Philippine Biodiversity Conservation 
   Priority-setting Program
-* admin_bnd - municipal administrative boundaries 
+* admin_bnd.shp - municipal administrative boundaries 
 * waterways.shp - waterways from OpenStreetMap
 * roads.shp - roads from OpenStreetMap
 * places.shp - place points from OpenstreetMap
 * pois.shp - points of interest from OpenStreetMap
-* soil - soil class from the Harmonized World Soil Database
+* soil.shp - soil class from the Harmonized World Soil Database
 
 Species occurence samples
 * black_shama.csv - Black Shama (Copsychus cebuensis) occurrence records from 

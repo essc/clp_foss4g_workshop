@@ -1,5 +1,5 @@
 ===============================================
-Title		Placenames in Cebu.
+Title		Placenames in Cebu
 
 Abstract	Placenames in Cebu. 
                 Digitized through OpenStreetMap.org
@@ -37,5 +37,4 @@ Data Layers
 Changelog	Extracted on 2013-04-17
 
 Distribution 
-
 ================================================
