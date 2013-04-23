@@ -105,6 +105,7 @@ keyboard while selecting files. Select the following files::
       waterways.shp
       pois.shp
       roads.shp
+      admin_bnd.shp
 
 .. image:: images/add_vector_layer_select.png
    :align: center
@@ -146,6 +147,7 @@ Arrange the data according to this list from top to bottom::
       roads.shp
       buildings.shp
       waterways.shp 
+      admin_bnd.shp
 
 .. tip::
     Mapping standards suggest that points layers should be on top followed by 

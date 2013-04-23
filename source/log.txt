@@ -1,4 +1,5 @@
 Apr 08 2013 - Initial dump of materials to github. 
 Apr 11 2013 - Initial materials import from ESSC training materials.
-Aprl 15 2013 - New section on sampling design. 
---
+Apr 15 2013 - New section on sampling design. 
+Apr 23 2013 - Sample data (Cebu) created.
+---
