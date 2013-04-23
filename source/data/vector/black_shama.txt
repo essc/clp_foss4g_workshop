@@ -1,0 +1,39 @@
+===============================================
+Title		Black Shama (Copsychus cebuensis) occurrence records
+
+Abstract	Black Shama (Copsychus cebuensis) occurrence records from
+                Fauna & Flora International field surveys using GPS.
+		
+Keywords	Black Shamma, species occurrence, survey
+
+Identifier	
+
+Series		
+
+Publisher	Fauna & Flora International
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	 
+		
+Extents      	 xMin,yMin 123.451,9.71006 : xMax,yMax 123.825,10.4387
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 Comma Separated File (CSV)
+
+URI	 	 http://www.fauna-flora.org/explore/philippines/
+
+Scale		 
+
+Data Layers	 
+
+Changelog	
+
+Distribution	For exercise use only.
+================================================
