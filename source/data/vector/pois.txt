@@ -1,0 +1,40 @@
+===============================================
+Title		Points of interest in Cebu
+
+Abstract	Points of interest in Cebu. 
+                Digitized through OpenStreetMap.org
+
+Keywords	Cebu, POI
+
+Identifier	
+
+Series		
+
+Publisher	OpenStreetMap.org
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	Open Data Commons Open Database License (ODbL)
+		
+Extents      	xMin,yMin 123.296,9.41213 : xMax,yMax 124.569,11.5821
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 ESRI Shapefile
+
+URI	 	 http://www.openstreetmap.org/
+
+Scale		 
+
+Data Layers	 
+
+Changelog	Extracted on 2013-04-17
+
+
+Distribution	
+================================================

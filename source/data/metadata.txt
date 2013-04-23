@@ -1,21 +1,28 @@
-Cebu Dataset
+Cebu
 ------------------------------------------
-Raster:
 
-*altitude - from worldclim
-*asci layers - final data for maxent
-*slope - derived from 1km alt
-*vegetation - from alos palsar 2010
-*worldclim - bio1-19 data from worldclim
+Rasters
 
-Vector:
+* dem_1km.tif - digital elevation model
+* xxx.tif - vegetation (MODIS Vegetation Continuous Fields)
+* bio8.asc - Mean Temperature of Wettest Quarter, Degrees Celsius
+* bio9.asc - Mean Temperature of Driest Quarter, Degrees Celsius
+* bio16.asc - Precipitation of Wettest Quarter, mm
+* bio17.asc - Precipitation of Coldest Quarter, mm
 
-*black shama occurrence records - from FFI survey
-*iba
-*municipal boundary
-*river 
-*road
-*soil - from dswm
+Vectors
+* iba.shp - Important Bird Areas from Philippine Biodiversity Conservation 
+  Priority-setting Program
+* admin_bnd.shp - municipal administrative boundaries 
+* waterways.shp - waterways from OpenStreetMap
+* roads.shp - roads from OpenStreetMap
+* places.shp - place points from OpenstreetMap
+* pois.shp - points of interest from OpenStreetMap
+* soil.shp - soil class from the Harmonized World Soil Database
 
-Projection: geographic, WGS84 datum
- 
+Species occurence samples
+* black_shama.csv - Black Shama (Copsychus cebuensis) occurrence records from 
+  FFI field surveys
+
+Projection - Geographic projection, WGS84 datum (EPSG:4326). 
+License - See individual metadata text file of each data.

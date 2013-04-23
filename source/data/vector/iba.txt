@@ -1,0 +1,42 @@
+===============================================
+Title		Important Bird Areas in Cebu
+
+Abstract	Important Bird Areas in Cebu from the 
+                Philippine Biodiversity Conservation
+                Priority-setting Program
+		
+Keywords	IBA, Cebu, PBCPP, conservation areas
+
+Identifier	
+
+Series		
+
+Publisher	Protected Areas and Wildlife Bureau (DENR-PAWB)
+                Foundation for the Philippine Environment (FPE) 
+                Conservation International (CI-Philippines)
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	 
+		
+Extents      	 xMin,yMin 123.338,9.65949 : xMax,yMax 124.043,10.7123
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 ESRI Shapefile
+
+URI	 	 http://www.essc.org.ph
+
+Scale		 
+
+Data Layers	 
+
+Changelog	
+
+Distribution	
+================================================

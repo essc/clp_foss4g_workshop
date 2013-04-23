@@ -1,0 +1,39 @@
+===============================================
+Title		Municipal Administrative Boundaries in Cebu
+
+Abstract	Municipal administrative boundaries of Cebu including cities 
+                and other municipalities.
+		
+Keywords	Cebu, administrative boundaries
+
+Identifier	
+
+Series		
+
+Publisher	PhilGIS.org
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	 Free for non-commercial use.
+		
+Extents      	 xMin,yMin 123.296,9.41213 : xMax,yMax 124.569,11.5821
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 ESRI Shapefile
+
+URI	 	 http://philgis.org/
+
+Scale		 
+
+Data Layers	 
+
+Changelog	
+
+Distribution	
+================================================
