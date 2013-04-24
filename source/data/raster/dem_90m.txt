@@ -1,0 +1,42 @@
+===============================================
+Title		DEM of Cebu
+
+Abstract	Digital Elevation Model of Cebu at 90 meter pixel resolution.
+                Source is SRTM Data V4.1 clipped to Cebu.
+		
+Keywords	Cebu, DEM, elevation
+
+Identifier	
+
+Series		
+
+Publisher	Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled  
+                seamless SRTM data V4, International  Centre for Tropical  Agriculture (CIAT), 
+                available  from http://srtm.csi.cgiar.org.
+
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	 Free for non-commercial use
+		
+Extents      	 xMin,yMin 123.2964,9.41213 : xMax,yMax 124.5689,11.5821 
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 GeoTiff
+
+URI	 	 http://srtm.csi.cgiar.org.
+
+Scale		 
+
+Data Layers	 
+
+Changelog	
+
+Distribution	
+================================================
