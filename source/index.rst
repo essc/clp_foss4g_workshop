@@ -22,6 +22,8 @@ Contents
    Viewing and Editing Data Attributes <qgis_attributes.rst>
    Using GPS data <qgis_gps.rst>
    Using External Map Services <qgis_wms.rst>
+   qgis_raster.rst
+   qgis_raster_resample.rst
    Acknowledgment <references.rst>
    GNU Free Documentation License <gfdl.rst>
 
