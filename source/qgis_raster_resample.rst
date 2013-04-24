@@ -91,7 +91,7 @@ A new window will appear for the
    :align: center
    :width: 300 pt 
 
-2. In the :guilabel:`Input file`, select ``dem_1km.tif` in the 
+2. In the :guilabel:`Input file`, select ``dem_1km.tif`` in the 
 drop-down box.
 
 2. In the :guilabel:`Output file`, click :guilabel:`Select` and create 
