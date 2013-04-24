@@ -297,8 +297,12 @@ rst_epilog = """
                       :width: 20pt
 .. |gdal_dem| image:: images/qgis_icons/gdal_dem.png
               :width: 20pt
-
-
+.. |gdaledit| image:: images/qgis_icons/gdaledit.png
+                    :width: 20 pt
+.. |gdaltranslate| image:: images/qgis_icons/gdaltranslate.png
+                    :width: 20 pt
+.. |gdalwarp| image:: images/qgis_icons/gdalwarp.png
+                    :width: 20 pt
 """
 
 # -- Options for HTML output ---------------------------------------------------
