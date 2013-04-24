@@ -293,6 +293,11 @@ rst_epilog = """
                       :width: 20pt
 .. |analysis| image:: images/qgis_icons/ftools/analysis.png
               :width: 20pt
+.. |gdal_contour| image:: images/qgis_icons/contour.png
+                      :width: 20pt
+.. |gdal_dem| image:: images/qgis_icons/gdal_dem.png
+              :width: 20pt
+
 
 """
 
