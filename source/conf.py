@@ -199,6 +199,8 @@ rst_epilog = """
                      :width: 20pt
 .. |mActionAddBingLayer| image:: images/qgis_icons/mActionAddBingLayer.png
                          :width: 20pt
+.. |mActionLabeling| image:: images/qgis_icons/mActionLabeling.png
+                     :width: 20pt
 .. |vector_grid| image:: images/qgis_icons/ftools/vector_grid.png
                  :width: 20pt
 .. |unique| image:: images/qgis_icons/ftools/unique.png
@@ -291,7 +293,16 @@ rst_epilog = """
                       :width: 20pt
 .. |analysis| image:: images/qgis_icons/ftools/analysis.png
               :width: 20pt
-
+.. |gdal_contour| image:: images/qgis_icons/contour.png
+                      :width: 20pt
+.. |gdal_dem| image:: images/qgis_icons/gdal_dem.png
+              :width: 20pt
+.. |gdaledit| image:: images/qgis_icons/gdaledit.png
+                    :width: 20 pt
+.. |gdaltranslate| image:: images/qgis_icons/gdaltranslate.png
+                    :width: 20 pt
+.. |gdalwarp| image:: images/qgis_icons/gdalwarp.png
+                    :width: 20 pt
 """
 
 # -- Options for HTML output ---------------------------------------------------

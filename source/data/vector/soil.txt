@@ -1,0 +1,38 @@
+===============================================
+Title		Soil classes in Cebu
+
+Abstract	Soil classes from the Harmonized World Soil Database v1.1
+		
+Keywords	CEBU, FAO, soil
+
+Identifier	
+
+Series		
+
+Publisher	Food and Agriculture Organization of the United Nations 
+
+Originator	
+
+Email		
+
+Publication Date 
+
+License	    	 
+		
+Extents      	 xMin,yMin 123.296,9.41213 : xMax,yMax 124.569,11.5821
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 ESRI Shapefile
+
+URI	 	 http://www.fao.org/nr/land/soils/harmonized-world-soil-database/en/
+
+Scale		 
+
+Data Layers	 
+
+Changelog	
+
+Distribution	
+================================================

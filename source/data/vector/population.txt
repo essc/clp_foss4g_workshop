@@ -1,0 +1,60 @@
+Municipality	Population (2010)
+
+Alcantara       13556
+Alcoy           14757
+Alegria         22072
+Aloguinsan      27650
+Argao           69503
+Asturias        44732
+Badian          37669
+Balamban        71237
+Bantayan        74785
+Barili          65524
+Bogo City       69911
+Boljoon         15027
+Borbon          31589
+Carcar          107323
+Carmen          44648
+Catmon          28320
+Cebu City       866171
+Compostela      42574
+Consolacion     106649
+Cordoba         50353
+Daanbantayan    74897 
+Dalaguete       63239
+Danao City      119252
+Dumanjug        46754
+Ginatilan       15327
+Lapu-Lapu City  350467
+Liloan          100500 
+Madridejos      34905 
+Malabuyoc       18426
+Mandaue City    331320
+Medellin        50047
+Minglanilla     113178 
+Moalboal        27676
+Naga City       101571
+Oslob           26116
+Pilar           11564 
+Pinamungahan    57997
+Poro            23498
+Ronda           18582
+Samboan         18613
+San Fernando    60970
+San Francisco   47357
+San Remigio     51394
+Santa Fe        27270
+Santander       16105
+Sibonga         43641
+Sogod           30626
+Tabogon         33024
+Tabuelan        22292
+Talisay City    200772
+Toledo City     157078
+Tuburan         58914 
+Tudela          9859
+
+
+Source: National Statistics Office 
+        2010 Census of Population and Housing 
+        http://www.census.gov.ph/sites/default/files/attachments/hsd/pressrelease/Central%20Visayas.pdf

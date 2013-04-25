@@ -1,8 +1,9 @@
-.. draft (mark as complete when complete)
+.. proofread (mark as complete when complete)
+.. todo add screenshots
 
-==========================
-Managing Data Attributes
-==========================
+==================================================
+Viewing and Editing Data Attributes
+==================================================
 
 :term:`Attribute` s for vector data are stored in a table.  (In a 
 :term:`Shapefile` vector format, this is contained in a separate file with 
@@ -14,13 +15,13 @@ in the table by selecting features on the map, and find features on the map by
 selecting features in the table. Each field in the attribute table contains 
 contains a specific type of data such texts, numbers or date.
 
-:index:`Viewing Data Attributes`
------------------------------------
+:index:`Viewing vector layer attributes`
+--------------------------------------------
 
 In QGIS you can easily view data attributes by either selecting the feature 
 within the layer of interest or opening the full table.
 
-1. To display the attribute table , select the ``Administrative boundaries`` 
+1. To display the attribute table , select the ``admin_bnd`` 
 layer in :guilabel:`Map Legend` panel.  In the Menu, select 
 :menuselection:`View -->` |mActionIdentify| :guilabel:`Identify Features`. 
 Or just click the |mActionIdentify| :guilabel:`Identify Features` in the 
@@ -51,32 +52,44 @@ browse and edit the attribute table within this window.
 A full explanation of the tools within the :guilabel:`Attribute table` window 
 is presented below:
 
-* |mActionUnselectAttributes| :guilabel:`Unselect All` - Remove selection from 
-  previous selected records
-* |mActionSelectedToTop| :guilabel:`Move Selection to Top` - Move the selected 
-  records to the top of the table
-* |mActionInvertSelection| :guilabel:`Invert Selection` - Invert selection
-* |mActionCopySelected| :guilabel:`Copy Selected Rows` - Copy selected rows to 
-  clipboard
-* |mActionZoomToSelected| :guilabel:`Zoom Map to Selected Rows` - Zoom map to 
-  selected rows
-* |mActionToggleEditing| :guilabel:`Toggle Editing Mode` - Toggle editing mode 
-  to edit single values of attribute table and to enable functionalities 
-  described below.
-* |mActionDeleteSelected| :guilabel:`Delete Selected Features` - Delete 
-  selected features
-* |mActionNewAttribute| :guilabel:`New Column` - This adds a new column in the 
-  attribute table.  You will be asked to provide attribute details in a new 
-  window (name, field type, etc.).
-* |mActionDeleteAttribute| :guilabel:`Delete Column` - Delete column (only for 
-  PostGIS layers yet)
-* |mActionCalculateField| :guilabel:`Open Field Calculator` - Open field 
-  calculator to update attribute data based on arithmetic, logical and other 
-  calculations
++-----------------------------+---------------------------------------+-------------------------------+
+| **Icon**                    | **Tool**                              | **Purpose**                   |
++=============================+=======================================+===============================+
+| |mActionUnselectAttributes| | :guilabel:`Unselect All`              | Remove selection from         |
+|                             |                                       | previous selected records     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionSelectedToTop|      | :guilabel:`Move Selection to Top`     | Move the selected records     |
+|                             |                                       | to the top of the table       |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionInvertSelection|    | :guilabel:`Invert Selection`          |  Invert selection             |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionCopySelected|       | :guilabel:`Copy Selected Rows`        | Copy selected rows to         |
+|                             |                                       | clipboard                     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionZoomToSelected|     | :guilabel:`Zoom Map to Selected Rows` | Zoom map to selected rows     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionToggleEditing|      | :guilabel:`Toggle Editing Mode`       | Toggle editing mode to edit   |
+|                             |                                       | single values of attribute    |
+|                             |                                       | table and to enable           |
+|                             |                                       | functionalities described     |
+|                             |                                       | below.                        |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionDeleteSelected|     | :guilabel:`Delete Selected Features`  | Delete selected features      |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionNewAttribute|       | :guilabel:`New Column`                | Adds a new column in the      |
+|                             |                                       | attribute table.  You will be |
+|                             |                                       | asked to provide attribute    |
+|                             |                                       | details in a new window       |
+|                             |                                       | (name, field type, etc.).     |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionDeleteAttribute|    | :guilabel:`Delete Column`             | Delete column                 |
++-----------------------------+---------------------------------------+-------------------------------+
+| |mActionCalculateField|     | :guilabel:`Open Field Calculator`     | Open field calculator to      |
+|                             |                                       | update attribute data based on| 
+|                             |                                       | arithmetic, logical and others| 
++-----------------------------+---------------------------------------+-------------------------------+
 
 Explore the different tools to understand how each one works.
-
-.. make this tip more affirmative in tone
 
 .. tip::
    :term:`Shapefile` store attribute data in a separate file with a ``dbf`` 
@@ -87,13 +100,13 @@ Explore the different tools to understand how each one works.
    outside QGIS.
 
 
-Creating and editing attributes
---------------------------------
+:index:`Creating and editing attributes`
+----------------------------------------------
 
-We will update the ``Administrative boundaries`` layer by adding population 
-for each barangay for the census year 2010.
+We will update the ``admin_bnd`` layer by adding population 
+for each polygon for the census year 2010.
 
-1. Open the attribute table by selecting the ``Administrative boundaries`` 
+1. Open the attribute table by selecting the ``admin_bnd`` 
 layer in the :guilabel:`Map Legend`. Right-click the layer and select 
 :guilabel:`Open Attribute Table`.
 
@@ -101,21 +114,41 @@ layer in the :guilabel:`Map Legend`. Right-click the layer and select
    :align: center
    :width: 300 pt
 
-.. more instructions on creating attribute column via table
+2. To enable editing the attribute table, click 
+the |mActionToggleEditing| :guilabel:`Toggle editing mode` within the 
+:guilabel:`Attribute table` window.
 
-2. Scroll to the right most end of the table.  We will add the population data 
-in the ``pop_2010`` column. To enable editing in the attribute table, click 
-the |mActionToggleEditing| :guilabel:`Toggle editing mode`.  The barangay 
-number are in the ``barangay`` column.  Start adding the population of each 
-barangay following the table below:  
+3. Create a new attribute column by clicking the |mActionNewAttribute|
+:guilabel:`New Column`.  A new dialog will appear.
+
+.. image:: images/add_column.png
+   :align: center
+   :width: 300 pt
+
+4. In the :guilabel:`Name`, type ``pop_2010``.
+In the :guilabel:`Type`, select :guilabel:`Whole number (integer)`.
+In the :guilabel:`Width`, type ``10``.
+
+.. image:: images/add_column_pop_2010.png
+   :align: center
+   :width: 300 pt
+
+Click :guilabel:`OK` to add a new column in the attribute table.
+
+.. image:: images/add_column_result.png
+   :align: center
+   :width: 300 pt
+
+2. We will add the population data in the ``pop_2010`` column.  
+Start adding the population of each municipality following the table 
+below:  
 
 .. raw:: latex
 
    \pagebreak[4]
 
-.. include:: brgy_population.txt
+.. include:: data/vector/population.txt
    :literal:
-
 
 .. image:: images/open_table_for_editing.png
    :align: center
@@ -133,7 +166,7 @@ attribute queries.  It follows the standard
 used by other applications for managing databases.   We will subset our data to 
 display only the barangays within a specific district.
 
-1. Select ``Administrative boundaries``.  
+1. Select ``admin_bnd``.  
 Right-click and select ``Query...``
 
 .. image:: images/layer_query.png
@@ -146,11 +179,11 @@ A new window :guilabel:`Query Builder` will appear.
    :align: center
    :width: 300 pt
 
-2. In the :guilabel:`Query Builder`, double-click ``mun_distri`` in the 
+2. In the :guilabel:`Query Builder`, double-click ``NAME_2`` in the 
 :guilabel:`Field` section, then, click the ``=`` in the :guilabel:`Operators` 
 section, then click 
 the :guilabel:`Sample` in the :guilabel:`Values` section and finally, 
-double-click ``Quiapo``.  
+double-click ``Cebu City``.  
 
 .. image:: images/query_window_sql.png
    :align: center
@@ -160,10 +193,10 @@ double-click ``Quiapo``.
 The result will be displayed in the :guilabel:`SQL where clause` text box 
 as, ::
 
-      "mun_distri" = 'Quiapo'
+      "NAME_2" = 'Cebu City'
 
-This SQL simply means that within the ``mun_distri`` attribute column, we 
-will select and display only the district polygons of ``Quiapo``.
+This SQL simply means that within the ``NAME_2`` attribute column, we 
+will select and display only the polygon of ``Cebu City``.
 
 3. Click :guilabel:`Test`.  If there are no errors in your SQL, click 
 :guilabel:`OK`.  The ``Administrative boundaries`` should show the subset of 
@@ -175,8 +208,6 @@ features in your :guilabel:`Map View`.
 
 4. Style your queried layer showing different colors base on the population for 
 the year 2010. 
-
-
 
 .. raw:: latex
    

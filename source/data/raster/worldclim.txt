@@ -1,0 +1,44 @@
+===============================================
+Title		WorldClim Data for Cebu
+
+Abstract	WorldClim Data for Cebu
+                Original data from WorldClim was clipped 
+                to within Cebu bounds
+                and converted from GeiTiff to
+                ESRI ASCII Grid 
+		
+Keywords	Cebu, WorldClim, temperature, precipitation, climate
+
+Identifier	
+
+Series		
+
+Publisher	http://www.worldclim.org/
+
+Originator	Robert J. Hijmans, Susan Cameron, and Juan Parra, 
+                at the Museum of Vertebrate Zoology, 
+                University of California, Berkeley.
+
+Email		
+
+Publication Date 
+
+License	    	 
+		
+Extents      	 xMin,yMin 123.2964,9.4154 : xMax,yMax 124.5714, 11.5821 
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 ESRI ASCII Grid
+
+URI	 	 http://www.worldclim.org/
+
+Scale		 
+
+Data Layers	bio8, bio9,bio16, bio17 
+
+Changelog	
+
+Distribution	
+================================================

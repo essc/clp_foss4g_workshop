@@ -1,4 +1,5 @@
 .. draft (mark as complete when complete)
+.. todo: add new screenshots
 
 ==============================
 The :index:`QGIS Interface`
@@ -13,8 +14,6 @@ This exercise will explore the basic interface of QGIS. You will create your
 first QGIS project, load various data layers, customize the appearance of your 
 map using various data symbology and colors.
 
-We will use the provided Quiapo dataset.
-
 **Interface Overview**
 
 .. image:: images/qgis_interface_overview.png
@@ -23,8 +22,8 @@ We will use the provided Quiapo dataset.
 
 * **1. Map Legend/Layers** - where you add layers and interact with them, such 
   as grouping them, setting symbology, and such.
-* **2. Map View** - the main map area where the layers show up and all your 
-  visualization is done.
+* **2. Map View/Canvass** - the main map area where the layers show up and all
+  your visualization is done.
 * **3. Tool Bar** - button bars. Like most modern windows applications you can 
   drag your button bars around and move them between layers. Hover over each 
   button and you will get a short description of what it is for.
@@ -39,26 +38,13 @@ We will use the provided Quiapo dataset.
 :index:`Creating a new project`
 ----------------------------------
 
-1. Launch QGIS by clicking :guilabel:`Start -->` :guilabel:`All Programs -->` 
-:guilabel:`Quantum GIS -->` 
-:guilabel:`Quantum GIS` .
+1. Launch QGIS in Windows by clicking :menuselection:`Start -->` 
+:menuselection:`All Programs -->` 
+:menuselection:`Quantum GIS -->` 
+:menuselection:`Quantum GIS`.
 
 2. Create a new project. :menuselection:`File -->` |mActionFileNew| 
 :guilabel:`New Project`.
-
-A QGIS session is considered a Project. QGIS works on one project at a time. 
-Settings are considered as being per-project or as a default for new projects.  
-The kinds of information saved in a project file include:
-
-* Layers added;
-* Layer properties, including symbolization;
-* Projection for the map view and;
-* Last viewed extent.
-
-.. warning:: 
-   The project file is saved in XML format (with a ``.qgs`` file extension), 
-   it is possible to edit the file outside QGIS if you **know what you are 
-   doing**.
 
 3. Open the project properties. In the Menu, select 
 :menuselection:`Settings -->` :guilabel:`Project Properties`.
@@ -71,7 +57,7 @@ The kinds of information saved in a project file include:
   and background color, layer units, precision, and the option to save 
   relative paths to layers.
 * The :guilabel:`Coordinate Reference System (CRS)` tab enables you to choose 
-  the CRS for this project, and to enable on-the-fly re-projection of layers 
+  the CRS for this project, and to enable on-the-fly re-projection of layers
   when displaying layers from a different CRS. 
 * The :guilabel:`Identifiable Layers` tab you set (or disable) which layers 
   will respond to the :guilabel:`Identify` tool. 
@@ -110,16 +96,16 @@ Choose :guilabel:`WGS 84`. Click :guilabel:`Apply` then, :guilabel:`OK`.
    :width: 300 pt
 
 In the :guilabel:`Source type`, choose :guilabel:`File`. Click 
-:guilabel:`Browse` and double-click to your extracted data directory.
+:guilabel:`Browse` and select your :file:`data` directory.
 
 Select multiple vector layers by holding the :kbd:`Ctrl` button of your 
 keyboard while selecting files. Select the following files::
 
-      admin_bnd.shp
       buildings.shp
-      ecclesiastical_bnd.shp
+      waterways.shp
       pois.shp
       roads.shp
+      admin_bnd.shp
 
 .. image:: images/add_vector_layer_select.png
    :align: center
@@ -160,112 +146,72 @@ Arrange the data according to this list from top to bottom::
       pois.shp
       roads.shp
       buildings.shp
-      ecclesiastical_bnd.shp
+      waterways.shp 
       admin_bnd.shp
 
 .. tip::
     Mapping standards suggest that points layers should be on top followed by 
     lines and finally polygons.
 
-:index:`Changing the look of your data layer`
------------------------------------------------
-1. Changing vector layer properties like color and symbolization. Select the 
-``admin_bnd`` layer and right-click on the layer and select 
-:guilabel:`Properties` from the pop-up menu.
 
-.. image:: images/select_vector_properties.png
-   :align: center
-   :width: 300 pt
+Saving your project
+----------------------------
 
-The :guilabel:`Layer Properties` dialog for a vector layer provides information 
-about the layer, symbology settings and labeling options. This dialog box 
-allows you to customize the overall look of your vector data layers.
+1. In the :menuselection:`File` menu, select |mActionFileSave| 
+:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
 
-.. image:: images/vector_layer_properties.png
-   :align: center
-   :width: 300 pt
+     myfirstqgisproject.qgs
 
-2. Select the :guilabel:`Style` tab. This provides you several ways to control 
-how vector features are displayed.  For this layer, we will change the fill 
-color.  In the :guilabel:`Legend type`, select :guilabel:`Single Symbol`.
+2. Click :guilabel:`Save`. 
+You have saved your first QGIS project.
 
-.. image:: images/select_symbol_color.png
-   :align: center
-   :width: 300 pt
+A QGIS session is considered a Project. QGIS works on one project at a time. 
+Settings are considered as being per-project or as a default for new projects.  
+The kinds of information saved in a project file include:
 
-3. In the :guilabel:`Fill options`, click on the :guilabel:`Fill options color`. 
-Another window showing the :guilabel:`Select Color` will then appear. Set 
-the Red,Green, Blue (R:G:B) values to `253:246:229` respectively and click 
-:guilabel:`OK`.
+* Layers added;
+* Layer properties, including symbolization;
+* Projection for the map view and;
+* Last viewed extent.
 
-.. image:: images/select_color.png
-   :align: center
-   :width: 300 pt
-
-4. Select the :guilabel:`General` tab. This provides ways to change the display 
-name, set scale dependent rendering options, create a spatial index of the 
-vector file and view or change the projection of the specific vector layer.  
-Change the :guilabel:`Display name` to ``Administrative boundaries``.
-
-.. image:: images/general_tab.png
-   :align: center
-   :width: 300 pt
-
-5. Click :guilabel:`Create Spatial Index`. A spatial index will improve the 
-speed of both zooming and panning. Spatial index used by QGIS have a ``.qix`` 
-extension.
-Click :guilabel:`Apply` --> :guilabel:`OK`.
-
-6. Repeat all the steps above to change layer properties of each vector.  
-Follow the table below:
-
-+------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
-| Layer 	         |Display Name               | Legend Type  |Icon              |Outline Options (RGB)|Fill Options(RGB)|
-+========================+===========================+==============+==================+=====================+=================+
-| pois                   | POIs                      | Single Symbol|small black circle|n/a                  |n/a              |
-+------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
-| roads                  | Roads                     | Single Symbol|n/a               |150:150:150          |None             |
-+------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
-| buildings              | Buildings                 | Single Symbol|n/a               |111:111:111          |215:194:209      |
-+------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
-| ecclesiastical_bnd     | Ecclesiastical boundaries | Single Symbol|n/a               |50:50:50             |None             |
-+------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
-
-7. Explore the other options of the vector properties. The 
-:guilabel:`Layer Properties` provides several options to customize the look and 
-feel of your layers. Use the other options until you're satisfied with the 
-look.  
-
-Try the following:
-
-* Legend types
-* Outline/Line options
-* Fill options
-* Different markers for points
-* Transparency 
+.. warning:: 
+   The project file is saved in XML format (with a ``.qgs`` file extension), 
+   it is possible to edit the file outside QGIS if you **know what you are 
+   doing**.
 
 :index:`Navigating around your map`
 --------------------------------------
 Basic tools for navigating around the :guilabel:`Map View` involve the use of 
 the zoom and pan functions. Each tool is explained below:
 
-* |mActionPan| :guilabel:`Pan` - Interactively move the center of the map
-* |mActionZoomIn| :guilabel:`Zoom In` - Zoom in
-* |mActionZoomOut| :guilabel:`Zoom Out` - Zoom out
-* |mActionZoomFullExtent| :guilabel:`Zoom Full` - Zooms to the full view of of 
-  all the layers
-* |mActionZoomToLayer| :guilabel:`Zoom to Layer` - Zoom to the active or 
-  selected 
-  vector
-* |mActionZoomToSelected| :guilabel:`Zoom to Selection` - Zoom to the selected 
-  object within a vector layer
-* |mActionZoomLast| :guilabel:`Zoom Last` and :guilabel:`Zoom Next` - Goes back 
-  and forth to the previous zoom
-* |mActionDraw| :guilabel:`Refresh` - Redraw all data layers
++-------------------------+-------------------------------+-------------------------------+
+| **Icon**                | **Tool**                      | **Purpose**                   |
++=========================+===============================+===============================+
+| |mActionPan|            | :guilabel:`Pan`               | Interactively move the center |
+|                         |                               | of the map                    |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionZoomIn|         | :guilabel:`Zoom In`           | Zoom in                       |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionZoomOut|        | :guilabel:`Zoom Out`          | Zoom out                      |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionZoomFullExtent| | :guilabel:`Zoom Full`         | Zooms to the full view of     |
+|                         |                               | all the layers                |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionZoomToLayer|    | :guilabel:`Zoom to Layer`     | Zoom to the active or         |
+|                         |                               | selected vector               |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionZoomToSelected| | :guilabel:`Zoom to Selection` | Zoom to the selected          |
+|                         |                               | object within a vector layer  |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionZoomLast|       | :guilabel:`Zoom Last` and     | Goes back and forth           |
+|                         | :guilabel:`Zoom Next`         | to the previous zoom          |
++-------------------------+-------------------------------+-------------------------------+
+| |mActionDraw|           | :guilabel:`Refresh`           | Redraw all data layers        |
++-------------------------+-------------------------------+-------------------------------+
 
-**Zooming and panning with the mouse wheel.** You can also press the mouse wheel 
-to pan inside of the main window and you can roll the mouse wheel to zoom in and 
-out on the map. For zooming, place the mouse cursor inside the map area and 
+**Zooming and panning with the mouse wheel.** Press the mouse wheel 
+to pan inside of the main window and you can roll the mouse wheel to zoom in 
+and out. For zooming, place the mouse cursor inside the map area and 
 roll it forward (away from you) to zoom in and backwards (towards you) to 
 zoom out. The mouse cursor position will be the center of the zoomed area of 
 interest.
@@ -283,87 +229,163 @@ to zoom in or out.
 
 Use the navigation tools to move in and around your map.
 
-Saving your first project
---------------------------
-1. In the :menuselection:`File` menu, select |mActionFileSave| 
-:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
+:index:`Changing the look of your layers`
+-----------------------------------------------
 
-     myfirstqgisproject.qgs
+1. Changing vector layer properties like color and symbolization. Select the 
+``waterways`` layer and right-click on the layer and select 
+:guilabel:`Properties` from the pop-up menu.
 
-2. Click :guilabel:`Save`. 
-You have saved your first QGIS project.
-
-Other tips
------------
-1. :index:`Map 
-Overview` 
-  
-
-The map overview panel provides a full extent view of layers added to it. 
-Within this panel is a red box showing the current :guilabel:`Map View` 
-extent. This allows you to quickly determine which area of the map you are 
-currently viewing.
-
-To activate the :guilabel:`Map Overview`, in the Menu, select 
-:menuselection:`View -->` :guilabel:`Panels -->` 
-:guilabel:`Overview`. A new 
-panel will be added below the :guilabel:`Map Legend` (no map is displayed at 
-the moment).
-
-.. image:: images/panels_overview.png
+.. image:: images/select_vector_properties.png
    :align: center
    :width: 300 pt
 
-We will add the ``Ecclesiastical boundaries`` layer in the overview map. Select 
-the ``Ecclesiastical boundaries`` layer, then right-click and select 
-:guilabel:`Show in Overview`.
+The :guilabel:`Layer Properties` dialog for a vector layer provides information 
+about the layer, such as style settings and labeling options and other. 
 
-The ``Ecclesiastical boundaries`` layer should appear in the 
-:guilabel:`Overview` panel.
-
-.. image:: images/overview_panel.png
+.. image:: images/vector_layer_properties.png
    :align: center
    :width: 300 pt
 
-You can also add more layers or remove them. If you click and drag the red 
-rectangle in the overview that shows your current extent, the main 
-:guilabel:`Map View` will update accordingly.
+2. Select the :guilabel:`Style` tab. The :guilabel:`Style` tab provides you 
+several ways to control how vector features are displayed.  For this layer, we 
+will change the line color. 
+In the Legend type drop-down, select :guilabel:`Single Symbol`.
 
-.. warning::
-   Do not add too many layers into the :guilabel:`Overview` panel, this can 
-   slow down rendering of the overview map.
+.. image:: images/select_symbol_color.png
+   :align: center
+   :width: 300 pt
 
-2. :index:`Line and Area 
-Measurements`  
+3. To access the the :guilabel:`Symbol Properties` dialog, click the 
+|mActionOptions| :guilabel:`Change`.
 
-To interactively measure length and area, use the:
+.. image:: images/layer_symbol_properties.png
+   :align: center
+   :width: 300 pt
 
-* |mActionMeasure| :guilabel:`Measure Line`
-* |mActionMeasureArea| :guilabel:`Measure Area` 
+In the :guilabel:`Symbol Properties` dialog, 
+click the :guilabel:`Change` button next to :guilabel:`Color`.
+ 
+Another window showing the :guilabel:`Select Color` will then appear. 
+Choose the color ``Blue`` or set the Red,Green, Blue (R:G:B) values to 
+`0:0:255` respectively and click :guilabel:`OK`.
 
-The tool then allows you to click points on the map. Each segment-length as 
-well as the total shows up in the measure-window. To stop measuring click 
-your right mouse button. Areas can also be measured. The accumulated 
-area-size will be visible in the measure window.
+.. image:: images/select_color.png
+   :align: center
+   :width: 300 pt
 
-.. warning::
-   Length and area results inherit the default projection and ellipsoid units! 
-   If you are using the Decimal Degrees (which is the case in our current 
-   project) as the layer units, the length and area results will be in decimal 
-   degrees as well.
+4. Select the :guilabel:`General` tab. This provides ways to change the display 
+name, set scale dependent rendering options, create a spatial index of the 
+vector file and view or change the projection of the specific vector layer.  
+Change the :guilabel:`Display name` to ``Waterways``.
 
-3. :index:`Using the 
-Labeling Tool`  
+.. image:: images/general_tab.png
+   :align: center
+   :width: 300 pt
 
+5. Click :guilabel:`Create Spatial Index`. A spatial index will improve the 
+speed of both zooming and panning. Spatial index used by QGIS have a ``.qix`` 
+extension.
+Click :menuselection:`Apply -->` :guilabel:`OK`.
+
+6. Repeat all the steps above to change layer properties of each 
+vector layer.
+
+7. Explore the other options of the vector properties. The 
+:guilabel:`Layer Properties` provides several options to customize the look and 
+feel of your layers. Use the other options until you're satisfied with the 
+look.  
+
+Try the following:
+
+* Legend types
+* Outline/Line options
+* Fill options
+* Different markers for points
+* Transparency 
+
+
+Using custom styles
+,,,,,,,,,,,,,,,,,,,,,,
+
+QGIS provides many features for styling and improving the look of your maps.  
+The custom symbologies and scale-dependent rendering are possible for any 
+vector type.  
+
+.. note::
+   There are three types of symbols: marker symbols (for points), line symbols 
+   (for lines) and fill and outline symbols (for polygons).  
+   Symbols can consist of one or more symbol layers. 
+   It is possible to define the color of a symbol and this color is then 
+   defined for all symbol layers. Some layers may have the color locked - 
+   for those the color can not be altered. This is useful when you define the 
+   color of a multilayer symbol. Similarly, it is possible to define the 
+   width for line symbols, as well as size and rotation for marker symbols. 
+   
+   More information is available in the QGIS User Guide.
+
+For this exercise, we will use several pre-defined styles available in the 
+``data/styles`` directory.
+
+1. Select the ``roads`` layer and right-click 
+:guilabel:`Properties`.
+
+.. image:: images/vector_properties.png
+   :align: center
+   :width: 300 pt
+
+
+2. Within the :guilabel:`Style` tab of the ``roads`` layer, click 
+:guilabel:`Load Style ...`.   Open your ``~/data/styles`` directory and select 
+``roads.qml``.  Click :guilabel:`Open`.
+
+.. image:: images/select_custom_style.png
+   :align: center
+   :width: 300 pt
+
+3. The ``road`` layer is now using a rule-based style according to different 
+road types.  This custom style also uses the scale-dependent rendering.  
+Click :guilabel:`OK`.
+
+.. image:: images/roads_style.png
+   :align: center
+   :width: 300 pt
+
+.. tip:: 
+   Scale dependent rendering allows you to set what features can be viewed at 
+   certain scale.  This allows you to minimize "map clutter".  For example, 
+   in the ``roads`` layer, we set the scale for minor roads 
+   (``tertiary, road, small road``) 
+   to appear only on larger scales over the other road types.
+
+4. Zoom in and out of the :guilabel:`Map view` to see the scale-dependent 
+rendering in action.
+
+.. image:: images/roads_style_view.png
+   :align: center
+   :width: 300 pt
+
+
+5. You can further customize the styles according to your preference by 
+selecting any of the road style definition then, click :guilabel:`Edit`.  
+This opens new window for the :guilabel:`Rule properties`.
+
+.. image:: images/rule_properties.png
+   :align: center
+   :width: 300 pt
+
+5. Create custom styles for the other layers 
+in your project.
+
+:index:`Using the Labeling Tool`  
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 The Labeling tool provides smart labeling for vector point, line and polygon 
 layers and only requires a few parameters.
 
-Select the ``Roads`` layer.
-
-Open the labeling plug-in, in the Menu, select 
+Select the ``Roads`` layer. Open the labeling plug-in, in the Menu, select 
 :menuselection:`Layer -->` 
-:guilabel:`Labeling`.
+|mActionLabeling| :guilabel:`Labeling`.
 
 .. image:: images/smart_label_plugin.png
    :align: center
@@ -389,12 +411,71 @@ line. As you pan around the map, you'll find that labels are placed nicely.
    :align: center
    :width: 300 pt
 
-4. Importing 
-Image  
- 
 
-To import the :guilabel:`Map View` into an image, in the Menu, select 
-:menuselection:`File -->` :guilabel:`Save as image`.
+Other tips
+-----------
+
+:index:`Map Overview` 
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+  
+The map overview panel provides a full extent view of layers added to it. 
+Within this panel is a red box showing the current :guilabel:`Map View` 
+extent. This allows you to quickly determine which area of the map you are 
+currently viewing.
+
+To activate the :guilabel:`Map Overview`, in the Menu, select 
+:menuselection:`View -->` 
+:menuselection:`Panels -->` 
+:menuselection:`Overview`. 
+A new panel will be added below the :guilabel:`Map Legend` 
+(no map is displayed at the moment).
+
+.. image:: images/panels_overview.png
+   :align: center
+   :width: 300 pt
+
+Select any layer, then right-click and select 
+:guilabel:`Show in Overview`.
+
+The selected layer should appear in the 
+:guilabel:`Overview` panel.
+
+.. image:: images/overview_panel.png
+   :align: center
+   :width: 300 pt
+
+You can also add more layers or remove them. If you click and drag the red 
+rectangle in the overview that shows your current extent, the main 
+:guilabel:`Map View` will update accordingly.
+
+.. warning::
+   Do not add too many layers into the :guilabel:`Overview` panel, this can 
+   slow down rendering of the overview map.
+
+:index:`Line and Area Measurements`  
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+To interactively measure length and area, use the:
+
+* |mActionMeasure| :guilabel:`Measure Line`
+* |mActionMeasureArea| :guilabel:`Measure Area` 
+
+The tool then allows you to click points on the map. Each segment-length as 
+well as the total shows up in the measure-window. To stop measuring click 
+your right mouse button. Areas can also be measured. The accumulated 
+area-size will be visible in the measure window.
+
+.. warning::
+   Length and area results inherit the default projection and ellipsoid units! 
+   If you are using the Decimal Degrees (which is the case in our current 
+   project) as the layer units, the length and area results will be in decimal 
+   degrees as well.
+
+Importing Image  
+,,,,,,,,,,,,,,,,,,,,,,,,
+ 
+In the Menu, select :menuselection:`File -->` 
+|mActionSaveMapAsImage| :guilabel:`Save as image`.
 
 Select your preferred filename and image type. Click :guilabel:`Save`. You now 
 have you first map image which you can add in any document or report.
@@ -403,16 +484,17 @@ have you first map image which you can add in any document or report.
    :align: center
    :width: 300 pt
 
-5. Save your project. To save your project, select 
+Save your project
+,,,,,,,,,,,,,,,,,,,,,,,
+
+To save your project, select 
 :menuselection:`File -->` 
-:guilabel:`Save Project`.
+|mActionFileSave| :guilabel:`Save Project`.
 
 .. tip::
    It is good practice to save your project after every major editing activity. 
    Make sure you save your project frequently. Or better, practice the keyboard 
    shortcut to save projects: :kbd:`Ctrl + S`.
-
-
 
 .. raw:: latex
    
