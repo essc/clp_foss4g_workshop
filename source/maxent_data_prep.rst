@@ -143,7 +143,7 @@ Load your sample csv layer
 2. In the `Create a Layer from a Delimited Text file` window, click the 
    `Browse...` to find delimited text file to be used.  Select the 
    ``Gallirallus_calayanensis.csv`` file. In the `Selected delimiters`, add a 
-   checkmark to the `Comma`.  
+   check-mark to the `Comma`.  
 
 3. The Latitude and Longitude coordinates in this table will be used to create 
    a new layer of point features that indicate the location of each record. 

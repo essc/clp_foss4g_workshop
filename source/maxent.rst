@@ -4,7 +4,7 @@
 Using MaxEnt 
 =======================
 
-`MaxEnt <http://www.cs.princeton.edu/~schapire/maxent>`_ is a java program for 
+`MaxEnt <http://www.cs.princeton.edu/~schapire/maxent>`_ is a Java program for 
 maximum entropy  modelling of species geographic distributions, written by 
 Steven Phillips, Miro Dudik and Rob Schapire, with support from AT&T 
 Labs-Research, Princeton University, and the Center for Biodiversity and 
