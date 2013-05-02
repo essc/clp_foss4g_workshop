@@ -10,7 +10,7 @@ Steven Phillips, Miro Dudik and Rob Schapire, with support from AT&T
 Labs-Research, Princeton University, and the Center for Biodiversity and 
 Conservation, American Museum of Natural History.  
 
-MaxEnt Interface
+A. MaxEnt Interface
 -----------------------
 
 To run MaxEnt, simply click the file ``maxent.bat``. 
