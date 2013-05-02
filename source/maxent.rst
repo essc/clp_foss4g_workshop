@@ -68,7 +68,7 @@ D. Defining output directory
 
 E. Configuring Maxent features and settings
 -------------------------------------------
-Once the species occurrences and environmental covariates are loaded, it is important to know what appropriate Maxent parameters and features are needed to your sample. For instance, *Copsychus cebuensis* has only 12 points of observation. Therefore, we need to find what specific feature of Maxent is best for this type sample in order to have an accurate prediction.
+Once the species occurrences and environmental covariates are loaded, it is important to know what appropriate Maxent parameters and features are needed to your sample. For instance, *Copsychus cebuensis* has only 12 points of observation. Therefore, we need to find what specific feature of Maxent is best for this type of sample in order to have an accurate prediction.
 
 1. In Maxent window, click `Help` option to view all the information about the features and settings.
 
