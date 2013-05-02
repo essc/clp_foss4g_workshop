@@ -17,7 +17,7 @@ Load you model output
    `Add Raster Layer`.
 
 2. Click `Browse` and double-click to your `geodata` directory. Select 
-   ``Gallirallus_calayanensis.asc``.  Click `OK`.
+   ``Copsychus_cebuensis.asc``.  Click `OK`.
 
 .. image:: images/raster_output.png
    :align: center
