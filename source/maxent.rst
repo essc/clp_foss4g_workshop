@@ -89,8 +89,7 @@ Once the species occurrences and environmental covariates are loaded, it is impo
    :width: 300 pt
 
 .. Note::
-   * For further analysis, you can enable the Maxent to do replicates under `Basic`
-   tab of the settings.
+   * For further analysis, you can enable the Maxent to do replicates under `Basic` tab of the settings.
    * Threshold rule can be applied also if you want to produce a thresholded binary map.
 
 6. Finally, close the `Settings` window and click `Run`.
