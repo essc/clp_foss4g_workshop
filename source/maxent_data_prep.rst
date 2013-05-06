@@ -92,7 +92,7 @@ Environmental Covariates
 A. Loading raster environmental layers
 ---------------------------------------
 
-1.  Use the elevation data for this exercise. To load the elevation, go to `Layer` `>` `Add Raster Layer`. Find ``dem_90m`` in file directory and load it by clicking `Ok`. The image will appear in grey color, but this can be fixed by adjusting the stretch of the contrast enhancement or color map on raster propertie s (see steps 6 & 7 above).
+1.  Use the elevation data for this exercise. To load the elevation, go to `Layer` `>` `Add Raster Layer`. Find ``dem_90m`` in file directory and load it by clicking `OK`. The image will appear in grey color, but this can be fixed by adjusting the stretch of the contrast enhancement or color map on raster properties s (see steps 6 & 7 above).
 
 .. image:: images/
    :align: center
@@ -125,7 +125,7 @@ Y 9.4121300000000456,	Y 11.5820600000000091
    :align: center
    :width: 300 pt
 
-3. Check option `Load into the canvas when finished` to allow you to view the output of clipping in QGIS and click `Ok`.
+3. Check option `Load into the canvas when finished` to allow you to view the output of clipping in QGIS and click `OK`.
 
 C. Resampling raster layer
 --------------------------
