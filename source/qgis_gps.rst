@@ -1,4 +1,4 @@
-.. proofread (mark as complete when complete)
+.. proof-read (mark as complete when complete)
 
 
 ================

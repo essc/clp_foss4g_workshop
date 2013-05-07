@@ -21,20 +21,22 @@ Contents
    The QGIS Interface <qgis_interface.rst>
    Viewing and Editing Data Attributes <qgis_attributes.rst>
    Using GPS data <qgis_gps.rst>
+   qgis_plugins.rst
    Using External Map Services <qgis_wms.rst>
+   qgis_digitizing.rst
    qgis_raster.rst
    qgis_raster_resample.rst
+   maxent_install.rst
+   maxent_data_prep.rst
+   maxent.rst
+   maxent_qgis.rst
+   qgis_map_composer.rst
    Acknowledgment <references.rst>
    GNU Free Documentation License <gfdl.rst>
 
-..   maxent_install.rst
-..   qgis_plugins.rst
+
+
 ..   qgis_text_to_shapefile.rst
-..   qgis_digitizing.rst
-..   qgis_map_composer.rst
 ..   qgis_terrain_analysis.rst
-..   maxent_data_prep.rst
-..   maxent.rst
-..   maxent_qgis.rst
 ..   qgis_sextante.rst
 

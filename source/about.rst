@@ -6,7 +6,7 @@ About this document
 
 This document was designed as a supplementary material for the 
 "Free and Open Source Geospatial Workshop for Conservationists"
-supported by the **Conservation Ledership Programme** 
+supported by the **Conservation Leadership Programme** 
 Learning Exchange Program.
 
 About the CLP Learning Exchange Program
