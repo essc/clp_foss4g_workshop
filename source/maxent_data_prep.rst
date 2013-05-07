@@ -46,8 +46,9 @@ For multiple species, do the similar steps above and simply add other species af
    :align: center
    :width: 300 pt
 
-..Note::
-If data are recorded in GPS modem, it can be downloaded to QGIS using GPSBabel plugin and covert it directly to CSV format. 
+.. Note::
+   If data are recorded in GPS modem, it can be downloaded to QGIS using GPSBabel plugin
+   and covert it directly to CSV format. 
 
 B. Checking and filtering occurrences
 -------------------------------------
@@ -64,8 +65,10 @@ To ensure if the CSV file is working, it needs to be checked in QGIS.  The recor
 
 3. On the same window, choose `Selected delimiters` and check the `Comma` option.  While in XY fields, select `long` as X and `lat` as Y. Click `Ok` and this should show the points on QGIS map view.
 
-..Note::
-The filtration of occurrences can be done depending on the layers resolution. In this case, 1 km resolution will be used. If you need a finer resolution for future studies, refer to image resampling section.
+.. Note::
+  The filtration of occurrences can be done depending on the layers resolution. In this
+  case, 1 km resolution will be used. If you need a finer resolution for future studies,
+  refer to image resampling section.
 	
 4. After importing the CSV to QGIS, load a raster layer using `GdalTools`. If the plugin is not enabled, go to plugin managers and enable it. The elevation raster will be used as reference for filtration.
 
@@ -98,8 +101,10 @@ A. Loading raster environmental layers
    :align: center
    :width: 300 pt
 
-..Note::
-After loading the environmental layers to QGIS, always check the data information (i.e.metadata) because it will help you to understand how the data can be transformed to your desired format.
+.. Note::
+  After loading the environmental layers to QGIS, always check the data information
+  (i.e.metadata) because it will help you to understand how the data can be transformed to
+  your desired format.
 
 2. To check the metadata, select ``dem_90m`` layer and right click to it. Go to `Properties` and find  `Metadata` tab on layer properties window.
 
