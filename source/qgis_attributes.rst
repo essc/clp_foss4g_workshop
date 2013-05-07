@@ -106,7 +106,7 @@ Explore the different tools to understand how each one works.
 We will update the ``admin_bnd`` layer by adding population 
 for each polygon for the census year 2010.
 
-1. Open the attribute table by selecting the ``admin_bnd`` 
+1. Open the attribute table by selecting the ``Administrative boundaries`` 
 layer in the :guilabel:`Map Legend`. Right-click the layer and select 
 :guilabel:`Open Attribute Table`.
 
@@ -166,7 +166,7 @@ attribute queries.  It follows the standard
 used by other applications for managing databases.   We will subset our data to 
 display only the barangays within a specific district.
 
-1. Select ``admin_bnd``.  
+1. Select ``Administrative boundaries``.  
 Right-click and select ``Query...``
 
 .. image:: images/layer_query.png
@@ -206,8 +206,8 @@ features in your :guilabel:`Map View`.
    :align: center
    :width: 300 pt
 
-4. Style your queried layer showing different colors base on the population for 
-the year 2010. 
+4. Remove the query and style your layer showing different colors base 
+on the population. 
 
 .. raw:: latex
    
