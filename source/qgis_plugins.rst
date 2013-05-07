@@ -1,8 +1,8 @@
 .. draft (mark as complete when complete)
 
-===============
-QGIS Plugins
-===============
+=======================
+:index:`QGIS Plugins`
+=======================
 
 QGIS was designed with a flexible and extensible plug-in architecture. This 
 allows new features/functions to be easily developed and added to the 
@@ -43,45 +43,35 @@ user-contributed repositories, including the central QGIS Contributed
 Repository and other external repositories by clicking the 
 :guilabel:`Add…` button and providing the repository details. 
 
-.. verify if this repor is still working
-
-3. Click the :guilabel:`Add…` button. In the :guilabel:`Name` field, type 
-``QGIS Contributed Repository`` and type ``http://pyqis.org/repo/contributed`` 
-in the :guilabel:`URL` field. Click :guilabel:`OK` to access the repository.
-
-4. Go back to the list of plugins by clicking the 
+3. Go back to the list of plugins by clicking the 
 :guilabel:`Plugins` tab.
 
 **Plugins tab** - this tab list all available plugins.  Each plugin can be 
 either: 
-
 * **not installed** - the plugin is available in the repository, but is not 
-installed yet. 
- 
+  installed yet. 
 * **new** - the plugin is newly available in the repository. 
-
 * **installed** - the plugin is already installed. If it is also available 
-in any repository the :guilabel:`Reinstall plugin` button will be enabled.  
-
+  in any repository the :guilabel:`Reinstall plugin` button will be enabled.  
 * **upgradeable** - the plugin is installed, but there is an updated version 
-available. In this case, the :guilabel:`Upgrade plugin` button will be enabled.
-
+  available. In this case, the :guilabel:`Upgrade plugin` button will be enabled.
 * **invalid** - the plugin is installed, but is unavailable or broken. The 
-reason will be explained in the plugin description field.  
+  reason will be explained in the plugin description field.  
 
-5. Find and select the :guilabel:`Openlayers Plugin` in the list.  Click 
+4. Find and select the :guilabel:`Openlayers Plugin` in the list.  Click 
 :guilabel:`Install plugin` button.
 
 .. image:: images/plugin_listtab.png
    :align: center
    :width: 300 pt
 
-6. Do this for the following plugins 
+5. Do this for the following plugins 
 as well::
 
       fTools
-      Shaded Relief
-      
+      GDALTools
+      SEXTANTE
+
 7. Once installed, close the 
 :guilabel:`Python Plugin Installer` window.
 
@@ -109,15 +99,16 @@ If not yet enabled, select the following plugins in your list::
       Openlayers Plugin
       Add Delimited Text Layer
       fTools
+      SEXTANTE
 
-3. You maybe prompted to restart QGIS, close then open 
+3. You maybe asked to restart QGIS, close then open 
 QGIS.
 
 .. warning::
    In some cases, 3rd party plug-ins (external plug-ins developed by other 
    users) can be unstable and can cause your QGIS instance to crash. These 
    plug-ins were designed for specific usage of the authors and may not work 
-   as expected in your own system. Use experimental plug-ins at your own risk!
+   as expectedGda in your own system. Use experimental plug-ins at your own risk!
 
 .. raw:: latex
    
