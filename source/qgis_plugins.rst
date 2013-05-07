@@ -33,7 +33,7 @@ Add new plugins using Python Plugin Installer
 2. Click the :guilabel:`Repositories` 
 tab.
 
-.. image:: images/plugin_repotab.png
+.. image:: images/plugin_repo_tab.png
    :align: center
    :width: 300 pt
 
@@ -48,6 +48,7 @@ Repository and other external repositories by clicking the
 
 **Plugins tab** - this tab list all available plugins.  Each plugin can be 
 either: 
+
 * **not installed** - the plugin is available in the repository, but is not 
   installed yet. 
 * **new** - the plugin is newly available in the repository. 
