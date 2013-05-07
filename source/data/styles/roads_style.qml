@@ -1,15 +1,15 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.0-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
-  <renderer-v2 symbollevels="1" type="RuleRenderer" firstrule="1">
+  <renderer-v2 symbollevels="1" type="RuleRenderer">
     <rules>
-      <rule scalemaxdenom="0" description="" filter="type IN ( 'motorway') " symbol="0" scalemindenom="0" label="motorway"/>
-      <rule scalemaxdenom="0" description="" filter="type IN('trunk', 'motorway_link', 'trunk_link')" symbol="1" scalemindenom="0" label="trunk"/>
-      <rule scalemaxdenom="3000000" description="" filter="type IN ('primary','primary_link')" symbol="2" scalemindenom="1" label="primary"/>
-      <rule scalemaxdenom="500000" description="" filter="type IN ('secondary','secondary_link')" symbol="3" scalemindenom="1" label="secondary"/>
-      <rule scalemaxdenom="200000" description="" filter="type IN ( 'tertiary' , 'unclassified', 'tertiary_link', 'unclassified_link' )" symbol="4" scalemindenom="1" label="tertiary"/>
-      <rule scalemaxdenom="80000" description="" filter="type IN ( 'residential' , 'road' , 'tertiary_link' , 'living_street' , 'track' ) " symbol="5" scalemindenom="1" label="road"/>
-      <rule scalemaxdenom="15000" description="" filter="type IN ( 'footway' , 'footpath' , 'cycleway' , 'cycleway; unclas' , 'pedestrian' , 'bridleway' , 'service' )" symbol="6" scalemindenom="1" label="small road"/>
+      <rule filter="type IN ( 'motorway') " symbol="0" label="motorway"/>
+      <rule filter="type IN('trunk', 'motorway_link', 'trunk_link')" symbol="1" label="trunk"/>
+      <rule scalemaxdenom="3000000" filter="type IN ('primary','primary_link')" symbol="2" scalemindenom="1" label="primary"/>
+      <rule scalemaxdenom="500000" filter="type IN ('secondary','secondary_link')" symbol="3" scalemindenom="1" label="secondary"/>
+      <rule scalemaxdenom="200000" filter="type IN ( 'tertiary' , 'unclassified', 'tertiary_link', 'unclassified_link' )" symbol="4" scalemindenom="1" label="tertiary"/>
+      <rule scalemaxdenom="80000" filter="type IN ( 'residential' , 'road' , 'tertiary_link' , 'living_street' , 'track' ) " symbol="5" scalemindenom="1" label="road"/>
+      <rule scalemaxdenom="15000" filter="type IN ( 'footway' , 'footpath' , 'cycleway' , 'cycleway; unclas' , 'pedestrian' , 'bridleway' , 'service' )" symbol="6" scalemindenom="1" label="small road"/>
     </rules>
     <symbols>
       <symbol outputUnit="MM" alpha="1" type="line" name="0">
@@ -144,7 +144,7 @@
           <prop k="width" v="0.6"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="0.8901960784313725" type="line" name="6">
+      <symbol outputUnit="MM" alpha="0.890196" type="line" name="6">
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="255,255,255,255"/>
@@ -164,18 +164,6 @@
           <prop k="penstyle" v="dot"/>
           <prop k="use_custom_dash" v="0"/>
           <prop k="width" v="0.6"/>
-        </layer>
-      </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="default">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
-          <prop k="color" v="68,151,78,255"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.26"/>
         </layer>
       </symbol>
     </symbols>
@@ -205,7 +193,7 @@
     <property key="labeling/decimals" value="0"/>
     <property key="labeling/dist" value="0"/>
     <property key="labeling/distInMapUnits" value="false"/>
-    <property key="labeling/enabled" value="true"/>
+    <property key="labeling/enabled" value="false"/>
     <property key="labeling/fieldName" value="name"/>
     <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
     <property key="labeling/fontItalic" value="false"/>
@@ -230,6 +218,7 @@
     <property key="labeling/textColorB" value="0"/>
     <property key="labeling/textColorG" value="0"/>
     <property key="labeling/textColorR" value="0"/>
+    <property key="labeling/wrapChar" value=""/>
   </customproperties>
   <displayfield>name</displayfield>
   <label>0</label>
@@ -290,6 +279,7 @@
     <edittype type="0" name="stataust_1"/>
     <edittype type="0" name="stataustri"/>
     <edittype type="0" name="target"/>
+    <edittype type="0" name="tunnel"/>
     <edittype type="0" name="type"/>
     <edittype type="0" name="umfang"/>
   </edittypes>

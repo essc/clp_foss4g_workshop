@@ -96,14 +96,13 @@ Choose :guilabel:`WGS 84`. Click :guilabel:`Apply` then, :guilabel:`OK`.
    :width: 300 pt
 
 In the :guilabel:`Source type`, choose :guilabel:`File`. Click 
-:guilabel:`Browse` and select your :file:`data` directory.
+:guilabel:`Browse` and select your :file:`data/vector` directory.
 
 Select multiple vector layers by holding the :kbd:`Ctrl` button of your 
 keyboard while selecting files. Select the following files::
 
-      buildings.shp
       waterways.shp
-      pois.shp
+      poi.shp
       roads.shp
       admin_bnd.shp
 
@@ -143,9 +142,8 @@ of vector depends on what information you wish to convey.
 
 Arrange the data according to this list from top to bottom::
 
-      pois.shp
+      poi.shp
       roads.shp
-      buildings.shp
       waterways.shp 
       admin_bnd.shp
 
@@ -158,7 +156,7 @@ Saving your project
 ----------------------------
 
 1. In the :menuselection:`File` menu, select |mActionFileSave| 
-:guilabel:`Save Project`. In the :guilabel:`Filename` field, type::
+:guilabel:`Save Project`. In the :guilabel:`Name` field, type::
 
      myfirstqgisproject.qgs
 
@@ -330,14 +328,9 @@ For this exercise, we will use several pre-defined styles available in the
 1. Select the ``roads`` layer and right-click 
 :guilabel:`Properties`.
 
-.. image:: images/vector_properties.png
-   :align: center
-   :width: 300 pt
-
-
 2. Within the :guilabel:`Style` tab of the ``roads`` layer, click 
 :guilabel:`Load Style ...`.   Open your ``~/data/styles`` directory and select 
-``roads.qml``.  Click :guilabel:`Open`.
+``roads_style.qml``.  Click :guilabel:`Open`.
 
 .. image:: images/select_custom_style.png
    :align: center
@@ -383,7 +376,7 @@ in your project.
 The Labeling tool provides smart labeling for vector point, line and polygon 
 layers and only requires a few parameters.
 
-Select the ``Roads`` layer. Open the labeling plug-in, in the Menu, select 
+Select the ``Roads`` layer. In the Menu, select 
 :menuselection:`Layer -->` 
 |mActionLabeling| :guilabel:`Labeling`.
 
