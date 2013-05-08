@@ -1,8 +1,8 @@
 .. draft (mark as complete when complete)
 
-=========================
-Digitizing Vector Layers
-=========================
+===================================
+:index:`Digitizing Vector` Layers
+===================================
 
 QGIS provides easy-to-use yet very powerful digitizing tools. 
 :index:`Digitizing` or digitization is a process of encoding map coordinates 
@@ -257,37 +257,44 @@ it. Red boxes appear at each vertex of this feature. Functionalities are:
   :guilabel:`Delete` key and vertices will be deleted. 
 
 The rest of the basic editing tools are explained below:
-
-* |mActionToggleEditing| :guilabel:`Toggle editing` - Enable editing of the 
-  selected vector layer.
-
-* |mActionFileSave| :guilabel:`Save Edits` - save your editing session in the 
-  currently selected layer.  This is different from Saving your project.
-
-* |mActionAddFeaturePoint| :guilabel:`Add Feature - Point` - add point 
-  features.
-
-* |mActionAddFeatureLine| :guilabel:`Add Feature - Line` - add line features.
-
-* |mActionAddFeaturePolygon| :guilabel:`Add Feature - Polygon` - add polygon 
-  features.
-
-* |mActionMoveFeature| :guilabel:`Move Feature` - move location of a selected 
-  feature.
-
-* |mActionNodeTool| :guilabel:`Node Tool` - activate Node tool functions.
-
-* |mActionDeleteSelected| :guilabel:`Delete Selected` - delete selected one or 
-  more features.
-
-* |mActionEditCut| :guilabel:`Cut Features` - delete a selected feature(s) from 
-  the existing layer and place it on a "spatial clipboard".
-
-* |mActionEditCopy| :guilabel:`Copy Features` - place selected feature(s) into 
-  the "spatial clipboard".
-
-* |mActionEditPaste| :guilabel:`Paste Features` - paste feature(s) from the 
-  "spatial clipboard" to the currently selected and editable layer.
++----------------------------+---------------------------------+-------------------------------+
+| **Icon**                   | **Tool**                        | **Purpose**                   |
++============================+=================================+===============================+
+| |mActionToggleEditing|     | :guilabel:`Toggle editing`      | Enable editing of the         |
+|                            |                                 | selected vector layer.        |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionFileSave|          | :guilabel:`Save Edits`          | Save your editing session in  |
+|                            |                                 | the currently selected layer. |
+|                            |                                 | This is different from saving |
+|                            |                                 | your project.                 |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionAddFeaturePoint|   | :guilabel:`Add Feature-Point`   | Add point  features.          |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionAddFeatureLine|    | :guilabel:`Add Feature-Line`    | Add line features.            |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionAddFeaturePolygon| | :guilabel:`Add Feature-Polygon` | Add polygon features.         | 
++----------------------------+---------------------------------+-------------------------------+
+| |mActionMoveFeature|       | :guilabel:`Move Feature`        | Move location of a selected   |
+|                            |                                 | feature.                      |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionNodeTool|          | :guilabel:`Node Tool`           | Activate Node tool functions. |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionDeleteSelected|    | :guilabel:`Delete Selected`     | Delete selected one or        |
+|                            |                                 | more features.                |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionEditCut|           | :guilabel:`Cut Features`        | Delete a selected feature(s)  |
+|                            |                                 | from the existing layer and   |
+|                            |                                 | place it on a                 |
+|                            |                                 | "spatial clipboard".          |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionEditCopy|          | :guilabel:`Copy Features`       | Place selected feature(s)     |
+|                            |                                 | into the "spatial clipboard". |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionEditPaste|         | :guilabel:`Paste Features`      | Paste feature(s) from the     | 
+|                            |                                 | "spatial clipboard" to the    |
+|                            |                                 | currently selected and        |
+|                            |                                 | editable layer.               |
++----------------------------+--  -----------------------------+-------------------------------+
 
 Full description of the editing tools and other advanced features available in 
 the QGIS User's Manual.
