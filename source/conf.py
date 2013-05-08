@@ -303,6 +303,8 @@ rst_epilog = """
                     :width: 20 pt
 .. |gdalwarp| image:: images/qgis_icons/gdalwarp.png
                     :width: 20 pt
+.. |mActionSelect| image:: images/qgis_icons/mActionSelect.png
+                    :width: 20 pt
 """
 
 # -- Options for HTML output ---------------------------------------------------

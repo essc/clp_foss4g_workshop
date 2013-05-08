@@ -155,7 +155,7 @@ number of pixel rows and columns, coordinate reference system (``EPSG:4326`` or
 4. If any layer is different, perform the resampling and format translation outline in the 
 previous section.
 
-5.  Once all the layers are in in uniform format, size and data type, make sure all layers
+5.  Once all the layers are in a uniform format, size and data type, make sure all layers
 are in one directory.
 
 
