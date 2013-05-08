@@ -50,7 +50,8 @@ resampling option.  In order to add the pixel resolution settings we will
 edit the syntax shown at the bottom of the window.  Click the 
 |gdaledit| :guilabel:`Edit` button.  
 
-4.  Add the text ``-tr 0.00833333 0.00833333`` right after the ``GTiff`` command.
+4.  Add the text ``-tr 0.00833333 0.00833333`` right after the ``GTiff`` 
+command.
 
 .. image:: images/gdalwarp_edit_syntax.png
    :align: center
@@ -103,8 +104,8 @@ a new layer as ``slope.tif``.
 drop-down list.
 
 5. Since we are using geographic coordinate system, we use a scale value of
-163``111120``. Type this value in the :guilabel:`Scale` field.  We leave the
-164other values to the default settings.
+``111120``. Type this value in the :guilabel:`Scale` field.  We leave the
+other values to the default settings.
 
 6. Put a check-mark in the 
 :guilabel:`Load into canvas when finished`.  
@@ -116,14 +117,14 @@ drop-down list.
 7. Finally, click the :guilabel:`OK` to 
 begin the process.
 
+8.  Perform contrast enhancement 
+similar to the previous section.
+
 .. image:: images/slope.png
    :align: center
    :width: 300 pt 
 
-8.  Perform contrast enhancement 
-similar to the previous section.
-
-9.  Save you QGIS 
+9.  Save your QGIS 
 project.
 
 .. note::
@@ -149,8 +150,8 @@ select :menuselection:`Raster --> Conversion -->`
 ``dem_1km.tif`` as the :guilabel:`Input Layer`.
 
 3. In the :guilabel:`Output file`, use the 
-:guilabel:`File name `
-``dem_1km.asc`` and select ```Arc/Info ASCII Grid (*.asc *.ASC)``
+:guilabel:`File name`
+``dem_1km.asc`` and select ``Arc/Info ASCII Grid (*.asc *.ASC)``
 as the :guilabel:`Files of type`.
 
 
@@ -164,8 +165,8 @@ as the :guilabel:`Files of type`.
    :width: 300 pt
 
 3. Again, we will edit the syntax shown at the bottom of the window.  Click 
-the |gdaledit| `Edit` button. Add the ``-ot Int32`` right after the `
-`AAIGrid`` command.
+the |gdaledit| `Edit` button. Add the ``-ot Int32`` right after the 
+``AAIGrid`` command.
 
 .. image:: images/gdaltranslate_edit_syntax.png
    :align: center
@@ -185,7 +186,8 @@ where you saved your ``data`` directory)::
 4.  Repeat the above steps to convert the ``slope.tif``
 to ``slope.asc``
 
-5.  Save you QGIS project.
+5.  Save your QGIS 
+project.
 
 .. raw:: latex
    
