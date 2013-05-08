@@ -20,9 +20,10 @@ Contents
    Installing QGIS <qgis_install.rst>  
    The QGIS Interface <qgis_interface.rst>
    Viewing and Editing Data Attributes <qgis_attributes.rst>
-   Using GPS data <qgis_gps.rst>
    qgis_plugins.rst
    Using External Map Services <qgis_wms.rst>
+   qgis_sampling_design.rst
+   Using GPS data <qgis_gps.rst>
    qgis_digitizing.rst
    qgis_raster.rst
    qgis_raster_resample.rst
