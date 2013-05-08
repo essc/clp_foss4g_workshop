@@ -227,7 +227,7 @@ The rest of the basic editing tools are explained below:
 |                            |                                 | "spatial clipboard" to the    |
 |                            |                                 | currently selected and        |
 |                            |                                 | editable layer.               |
-+----------------------------+--  -----------------------------+-------------------------------+
++----------------------------+---------------------------------+-------------------------------+
 
 Full description of the editing tools and other advanced features available in 
 the QGIS User's Manual.
