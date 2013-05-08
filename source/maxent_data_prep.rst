@@ -31,7 +31,7 @@ geographic coordinates in decimal degrees.
 2. Format the occurrence record as shown below. Spreadsheet heading 
 should be labeled as "species", "longitude" and "latitude".  
 
-.. image:: images/
+.. image:: images/species_spreadsheet.png
    :align: center
    :width: 300 pt
 
@@ -41,7 +41,7 @@ as the file type. Name the CSV file as ``Copsychus_cebuensis.csv``
 and save it to your ``samples`` directory. The field delimiter should be comma 
 (``,``).
 
-.. image:: images/
+.. image:: images/save_as_csv.png
    :align: center
    :width: 300 pt
 
@@ -54,7 +54,7 @@ For multiple species, do the similar steps above and simply add other species
 after the first occurrence record.
 
 .. Note::
-   If data are recorded in GPS modem, it can be downloaded to QGIS using 
+   If data are recorded using a GPS device, it can be downloaded to QGIS using
    GPSBabel plugin and covert it directly to CSV format. 
 
 Checking and filtering occurrences
@@ -75,14 +75,21 @@ and check :guilabel:`Add delimited text layer`.
 :guilabel:`Browse` and select ``Copsychus_cebuensis.csv`` in the file directory 
 where the csv is saved.
 
-.. image:: images/
-   :align: center
-   :width: 300 pt
-
 3. On the same window, choose :guilabel:`Selected delimiters` and check the 
 :guilabel:`Comma` option.  In the 
 :guilabel:`XY` fields, select ``longitude`` as X and ``latitude`` as Y. 
-Click `OK` and this should show the points in your :guilabel:`Map View`.
+
+.. image:: images/delimitedtext_window.png
+   :align: center
+   :width: 300 pt
+
+4. Click :guilabel:`OK`  Select ``WGS-84`` for the CRS and click 
+:guilabel:`OK`, this should show the points in your :
+guilabel:`Map View`.
+
+.. image:: images/csv_map.png
+   :align: center
+   :width: 300 pt
 
 .. Note::
    The filtration of occurrences can be done depending on the resolution of your
@@ -90,22 +97,31 @@ Click `OK` and this should show the points in your :guilabel:`Map View`.
    If you need a finer resolution for future studies, refer to image resampling 
    section.
 	
-4. After importing the CSV to QGIS, load the ``dem_1km.asc`` raster you created 
+5. After importing the CSV to QGIS, load the ``dem_1km.asc`` raster you created 
 previously. The elevation raster will be used as reference for filtration.
 
-5. Use the navigation tool to move around the map and find the clustered occurrences.
+6. Use the navigation tool to move around the map and find the clustered occurrences.
 A clustered occurrence is defined as occurrence points that are within a single raster
 pixel.
 
-6. Once clustered occurrences are found, select species occurrence layer. 
+.. image:: images/csv_dem.png
+   :align: center
+   :width: 300 pt
+
+7. Once clustered occurrences are found, select the species occurrence layer. 
 Use the selection tool to select the identified clustered occurrences. 
 Go to :menuselection:`View --> Select -->` 
 |mActionSelect| :guilabel:`Select single feature`.
 
-7. After selecting all the clustered occurrences, right click to occurrence layer. 
+8. After selecting all the clustered occurrences, right click to occurrence layer. 
 Select :guilabel:`Properties` and  open |mActionUnselectAttributes| `Attribute Table`. 
 Remember the selected occurrences and remove it in the ``CSV`` file by using either a
 text editor or a spreadsheet application.
+
+.. image:: images/occurrence_selected.png
+   :align: center
+   :width: 300 pt
+
 
 Environmental Covariates
 ------------------------------
@@ -131,7 +147,7 @@ Inspecting the raster environmental layers for data consistency
       bio17.asc 
       landcover_1km.asc
 
-.. image:: images/
+.. image:: images/environmental_layers.png
    :align: center
    :width: 300 pt
 
@@ -144,7 +160,7 @@ Inspecting the raster environmental layers for data consistency
 :guilabel:`Properties` and select :guilabel:`Metadata` tab on the 
 :guilabel:`Layer Properties` window.
 
-.. image:: images/
+.. image:: images/raster_metadata.png
    :align: center
    :width: 300 pt
 
