@@ -4,12 +4,12 @@
 Preparing data for MaxEnt 
 ===========================
 
-There are two types of datasets required in Maxent; the species occurrence 
+There are two types of datasets required in MaxEnt; the species occurrence 
 records and environmental covariates. Occurrence records are geographic 
 points (i.e. coordinates) of species observation while environmental 
 covariates are set of data that contains continuous or categorical values 
 such as temperature, precipitation and land cover (*for details see* 
-Pearson, 2007). To perform the modeling in Maxent, species occurrence 
+Pearson, 2007). To perform the modeling in MaxEnt, species occurrence 
 should be in comma separated values (CSV) and covariates should be 
 in raster Arc/Info ASCII Grid format.
 
@@ -92,17 +92,17 @@ guilabel:`Map View`.
    :width: 300 pt
 
 .. Note::
-   The filtration of occurrences can be done depending on the resolution of your
-   covariate raster layers. In this case, 1km resolution will be used. 
+   The filtration of occurrences can be done depending on the resolution of 
+   your covariate raster layers. In this case, 1km resolution will be used. 
    If you need a finer resolution for future studies, refer to image resampling 
    section.
 	
 5. After importing the CSV to QGIS, load the ``dem_1km.asc`` raster you created 
 previously. The elevation raster will be used as reference for filtration.
 
-6. Use the navigation tool to move around the map and find the clustered occurrences.
-A clustered occurrence is defined as occurrence points that are within a single raster
-pixel.
+6. Use the navigation tool to move around the map and find the clustered 
+occurrences. A clustered occurrence is defined as occurrence points that 
+are within a single raster pixel.
 
 .. image:: images/csv_dem.png
    :align: center
@@ -113,10 +113,12 @@ Use the selection tool to select the identified clustered occurrences.
 Go to :menuselection:`View --> Select -->` 
 |mActionSelect| :guilabel:`Select single feature`.
 
-8. After selecting all the clustered occurrences, right click to occurrence layer. 
-Select :guilabel:`Properties` and  open |mActionUnselectAttributes| `Attribute Table`. 
-Remember the selected occurrences and remove it in the ``CSV`` file by using either a
-text editor or a spreadsheet application.
+8. After selecting all the clustered occurrences, right click to occurrence 
+layer. Select :guilabel:`Properties` and  open |mActionUnselectAttributes| 
+:guilabel:`Attribute Table`. 
+ 
+Remember the selected occurrences and remove it in the ``CSV`` file by 
+using either a text editor or a spreadsheet application.
 
 .. image:: images/occurrence_selected.png
    :align: center
@@ -156,24 +158,24 @@ Inspecting the raster environmental layers for data consistency
   information (i.e. metadata) because it will help you to understand how 
   the data can be transformed to your desired format.
 
-2. To check the metadata, select ``dem_1km.asc`` layer and right-click and select 
-:guilabel:`Properties` and select :guilabel:`Metadata` tab on the 
+2. To check the metadata, select ``dem_1km.asc`` layer and right-click and 
+select :guilabel:`Properties` and select 
+:guilabel:`Metadata` tab on the 
 :guilabel:`Layer Properties` window.
 
 .. image:: images/raster_metadata.png
    :align: center
    :width: 300 pt
 
-3. Make sure all the raster layers have the same spatial extent, size (``1 km``)
-number of pixel rows and columns, coordinate reference system (``EPSG:4326`` or 
-``WGS-84`` and, data type (``Int32``).
+3. Make sure all the raster layers have the same spatial extent, size 
+(``1 km``) number of pixel rows and columns, coordinate reference system 
+(``EPSG:4326`` or ``WGS-84`` and, data type (``Int32``).
 
-4. If any layer is different, perform the resampling and format translation outline in the 
-previous section.
+4. If any layer is different, perform the resampling and format translation 
+outlined in the previous section.
 
-5.  Once all the layers are in a uniform format, size and data type, make sure all layers
-are in one directory.
-
+5.  Once all the layers are in a uniform format, size and data type, make sure 
+all layers are in one directory.
 
 .. raw:: latex
    

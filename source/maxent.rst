@@ -39,7 +39,7 @@ panel.
 2. A new window will appear, open your ``samples`` directory and select the 
 ``Copsychus_cebuensis.csv ``.  Click ``Open``.
 
-.. image:: images/
+.. image:: images/load_samples.png
    :align: center
    :width: 300 pt
 
@@ -56,13 +56,16 @@ Loading environmental covariates
    :width: 300 pt
 
 The main MaxEnt window will display the number environmental layers available 
-in the directory.
+in the directory. 
+
+3. Define the data type for the environmental layers.  All the layers are 
+``Continuous`` except for ``landcover_1km`` which is a ``Categorical`` data.
 
 Defining output directory
 ----------------------------
 
 1. To select the output directory, click the `Browse` button in the 
-`Output directory` section.  Select the ``geodata`` directory and click `Open`.
+`Output directory` section.  Select the ``output`` directory and click `Open`.
 
 .. image:: images/output_directory.png
    :align: center
@@ -71,22 +74,22 @@ Defining output directory
 Configuring Maxent features and settings
 -------------------------------------------
 Once the species occurrences and environmental covariates are loaded, it is 
-important to know what appropriate Maxent parameters and features are 
+important to know what appropriate MaxEnt parameters and features are 
 needed to your sample. For instance, *Copsychus cebuensis* has only 12 
 points of observation. Therefore, we need to find what specific feature of 
 Maxent is best for this type of sample in order to have an accurate prediction.
 
-1. In Maxent window, click `Help` option to view all the information about the features 
+1. In MaxEnt window, click `Help` option to view all the information about the features 
 and settings.
 
 2.  To find what feature is appropriate for *Copsychus cebuensis*, scroll down to 
 `Regularization and feature class` section.
 
-.. image:: images/
+.. image:: images/maxent_help.png
    :align: center
    :width: 300 pt
 
-3. After finding the feature, go back to Maxent main window by closing the `Help` 
+3. After finding the feature, go back to MaxEnt main window by closing the `Help` 
 window.
 
 4. In this exercise, we will use Linear and Quadratic features. To set these 
@@ -94,7 +97,7 @@ features and other necessary settings, uncheck `Auto features` and select
 `Linear and Quadratic features`. Check `Create response curve`, `Do Jackknife` 
 and select `Logistic` as output format for the prediction.
 
-5. Go also to `Settings > Advance` tab and set the `Maximum iterations` to 5000 to 
+5. Go also to :menuselection:`Settings --> Advance` tab and set the `Maximum iterations` to 5000 to 
 give time for the model to converge. In the `Experimental tab` check 
 `Write background predictions` to obtain the values of predicted background.
 
