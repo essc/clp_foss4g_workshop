@@ -109,7 +109,6 @@ right-click and select :guilabel:`Properties`.
 Choose :guilabel:`Linear`
 in the :guilabel:`Color interpolation` drop-down list.
 
-.. todo: edit the dem.qml to use the full  range of values from the dem.
 
 4. Click the :guilabel:`Load style ...` and use the ``dem.qml`` file in your 
 ``data/styles`` directory.

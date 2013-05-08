@@ -18,13 +18,14 @@ resample, create new layers and convert rasters to another format.
 
 The elevation layer we are using has a pixres of ~90 meters (0.000848 in 
 decimal degrees) . We will convert the data to 1 km or (0.00833333 decimal 
-degrees) similar to the other raster layers.
+degrees) similar to the other raster layers we will use for the 
+species distribution modelling exercise. 
 
 .. note::
    **Resampling** is a technique for transforming raster image from one particular 
    scale and projection to another. 
 
-1. In the Menu, select :menuselection:`Raster --> Projections >` 
+1. In the Menu, select :menuselection:`Raster --> Projections -->` 
 |gdalwarp| :guilabel:`Warp (Reproject)`.
 
 .. image:: images/gdalwarp_window.png
@@ -44,9 +45,9 @@ parameters::
    :align: center
    :width: 300 pt
 
-3. The default `Warp` GUI does not include the pixel resolution resampling option.  
-In order to add the pixel resolution settings we will edit the syntax shown at the 
-bottom of the window.  Click the 
+3. The default :guilabel:`Warp` GUI does not include the pixel resolution 
+resampling option.  In order to add the pixel resolution settings we will 
+edit the syntax shown at the bottom of the window.  Click the 
 |gdaledit| :guilabel:`Edit` button.  
 
 4.  Add the text ``-tr 0.00833333 0.00833333`` right after the ``GTiff`` command.
@@ -78,9 +79,10 @@ similar to the previous section.
 :index:`Creating a slope layer`
 ----------------------------------
 
-With the GDALTools plugin, we will a new slope layer using our DEM.
+With the GDALTools plugin, we will create a new slope layer using our 
+resampled DEM.
 
-1. To create a new relief layers, select 
+1. To create a new slope layer, select 
 :menuselection:`Raster --> Analysis -->` 
 |gdal_dem| :guilabel:`DEM (Terrain Models)`.  
 
@@ -94,32 +96,34 @@ A new window will appear for the
 2. In the :guilabel:`Input file`, select ``dem_1km.tif`` in the 
 drop-down box.
 
-2. In the :guilabel:`Output file`, click :guilabel:`Select` and create 
+3. In the :guilabel:`Output file`, click :guilabel:`Select` and create 
 a new layer as ``slope.tif``.
 
-3. In the :guilabel:`Mode`, select the :guilabel:`Slope` from the 
+4. In the :guilabel:`Mode`, select the :guilabel:`Slope` from the 
 drop-down list.
 
-.. clarify whether we use slope as percent or degrees.
+5. Since we are using geographic coordinate system, we use a scale value of
+163``111120``. Type this value in the :guilabel:`Scale` field.  We leave the
+164other values to the default settings.
 
-4. Put a check-mark in the 
+6. Put a check-mark in the 
 :guilabel:`Load into canvas when finished`.  
 
 .. image:: images/gdaltools_dem_slope.png
    :align: center
    :width: 300 pt 
 
-5. Finally, click the :guilabel:`OK` to 
+7. Finally, click the :guilabel:`OK` to 
 begin the process.
 
 .. image:: images/slope.png
    :align: center
    :width: 300 pt 
 
-6.  Perform contrast enhancement 
+8.  Perform contrast enhancement 
 similar to the previous section.
 
-7.  Save you QGIS 
+9.  Save you QGIS 
 project.
 
 .. note::
@@ -141,27 +145,36 @@ select :menuselection:`Raster --> Conversion -->`
    :align: center
    :width: 300 pt
 
-2. In the :guilabel:`Translate (Convert format)` window, add the following 
-parameters::
+2. In the :guilabel:`Translate (Convert format)` window, select 
+``dem_1km.tif`` as the :guilabel:`Input Layer`.
 
-      Input file - dem_1km.tif
-      Output file - dem_1km.asc
+3. In the :guilabel:`Output file`, use the 
+:guilabel:`File name `
+``dem_1km.asc`` and select ```Arc/Info ASCII Grid (*.asc *.ASC)``
+as the :guilabel:`Files of type`.
 
+
+.. image:: images/select_raster_format.png
+   :align: center
+   :width: 300 pt
+
+ 
 .. image:: images/gdaltranslate_options.png
    :align: center
    :width: 300 pt
 
 3. Again, we will edit the syntax shown at the bottom of the window.  Click 
-the |gdaledit| `Edit` button. Change the text ``GTiff`` to ``AAIGrid``.
+the |gdaledit| `Edit` button. Add the ``-ot Int32`` right after the `
+`AAIGrid`` command.
 
 .. image:: images/gdaltranslate_edit_syntax.png
    :align: center
    :width: 300 pt
 
 The full syntax is shown below (the path to the directories may vary depending on 
-where you saved your ``geodata`` directory)::
+where you saved your ``data`` directory)::
 
-      gdal_translate -of AAIGrid 
+      gdal_translate -of AAIGrid -ot Int32
       ~/data/raster/dem_1km.tif 
       ~/data/raster/dem_1km.asc
 
