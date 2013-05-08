@@ -109,7 +109,7 @@ Explore the other tools available in the :menuselection:`Research Tools`.
 +---------------------+-----------------+--------------------------------------+
 
 
-You can also save the sampling poinst as a ``GPX`` file which you can upload in 
+You can also save the sampling points as a ``GPX`` file which you can upload in 
 your GPS device.
 
 .. raw:: latex

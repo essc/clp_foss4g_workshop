@@ -18,6 +18,7 @@ Contents
 
    About this document <about.rst>
    Installing QGIS <qgis_install.rst>  
+   sample_data.rst
    The QGIS Interface <qgis_interface.rst>
    Viewing and Editing Data Attributes <qgis_attributes.rst>
    qgis_plugins.rst
