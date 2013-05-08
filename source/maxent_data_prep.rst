@@ -4,7 +4,7 @@
 Preparing data for MaxEnt 
 ===========================
 
-There are two types of datasets required in Maxent; the species occurrence records and environmental covariates. Occurrence records are geographic points (i.e. coordinates) of species observation while environmental covariates are set of data that contains continuous or categorical values such as temperature, precipitation and land cover (*for details see* Pearson, 2007). To perform the modeling in Maxent, species occurrence should be in comma separated values (csv) and covariates should be in raster grid formats.
+There are two types of datasets required in Maxent; the species occurrence records and environmental covariates. Occurrence records are geographic points (i.e. coordinates) of species observation while environmental covariates are set of data that contains continuous or categorical values such as temperature, precipitation and land cover (*for details see* Pearson, 2007). To perform the modeling in Maxent, species occurrence should be in comma separated values (CSV) and covariates should be in raster grid formats.
 
 The goal of this section is to guide you how to prepare these types of data using the occurrence records of cebu black shama *Copsychus cebuensis* obtained from FFI field surveys on Cebu in 2012 and biolclimatic layers from WorldClim (http://www.worldclim.org/; Hijmans et al., 2005).
 
@@ -17,7 +17,7 @@ A. Creating CSV file
 
 1. Use spreadsheet application (e.g. MS Office Excel or LibreOffice Calc) to encode the occurrence record. Make sure that coordinates are in decimal degrees.
 
-2. Format the occurrence record as shown below. Spreadsheet heading should be labeled as "species", "longtitude" and "latitude".  
+2. Format the occurrence record as shown below. Spreadsheet heading should be labeled as "species", "longitude" and "latitude".  
 
 .. image:: images/
    :align: center
@@ -55,7 +55,7 @@ B. Checking and filtering occurrences
  
 To ensure if the CSV file is working, it needs to be checked in QGIS.  The records should also be checked to avoid potential bias of clustered points (Hernandez et al., 2006) and this can be done by removing duplicate records on a cell.
 
-1. Launch QGIS and load CSV using the |adddelimtedtext| `Add delimited text layer`. If the plugin is not enabled, go to `Plugins` `>` `Manage plugins` and check `Add delimited text layer`.
+1. Launch QGIS and load CSV using the |adddelimitedtext| `Add delimited text layer`. If the plugin is not enabled, go to `Plugins` `>` `Manage plugins` and check `Add delimited text layer`.
 
 2. On `Create a Layer from a Delimited Text file` window, click `Browse` and find ``Copsychus_cebuensis.csv`` in the file directory where the csv is saved.
 
@@ -63,16 +63,16 @@ To ensure if the CSV file is working, it needs to be checked in QGIS.  The recor
    :align: center
    :width: 300 pt
 
-3. On the same window, choose `Selected delimiters` and check the `Comma` option.  While in XY fields, select `long` as X and `lat` as Y. Click `Ok` and this should show the points on QGIS map view.
+3. On the same window, choose `Selected delimiters` and check the `Comma` option.  While in XY fields, select `long` as X and `lat` as Y. Click `OK` and this should show the points on QGIS map view.
 
 .. Note::
   The filtration of occurrences can be done depending on the layers resolution. In this
   case, 1 km resolution will be used. If you need a finer resolution for future studies,
   refer to image resampling section.
 	
-4. After importing the CSV to QGIS, load a raster layer using `GdalTools`. If the plugin is not enabled, go to plugin managers and enable it. The elevation raster will be used as reference for filtration.
+4. After importing the CSV to QGIS, load a raster layer using `GDAL-Tools`. If the plugin is not enabled, go to plugin managers and enable it. The elevation raster will be used as reference for filtration.
 
-5. Add elevation raster. Go to `Layer` `>` |mActionAddRasterLayer| `Add Raster Layer`. Find ``dem_90m`` in file directory and load it by clicking `Ok`. The image will appear in grey color, but this can be fixed by adjusting the stretch of the contrast enhancement or color map on raster properties.
+5. Add elevation raster. Go to `Layer` `>` |mActionAddRasterLayer| `Add Raster Layer`. Find ``dem_90m`` in file directory and load it by clicking `OK`. The image will appear in grey color, but this can be fixed by adjusting the stretch of the contrast enhancement or color map on raster properties.
 
 6. Select ``dem_90m`` on `Layers panel`. Right click to it and go to `Properties`. 
 

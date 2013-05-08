@@ -112,7 +112,7 @@ give time for the model to converge. In the `Experimental tab` check
 Running model may take some time depending on the extent, number of environmental 
 layers and replicates. Once finished, close the MaxEnt application.
 
-Exploring maxent outputs
+Exploring MaxEnt outputs
 ---------------------------------------
 
 The run produces multiple output files, to immediately view the result find the html 
