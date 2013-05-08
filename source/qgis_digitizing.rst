@@ -53,7 +53,7 @@ layer.
 
 
 We will use the ``Bing Aerial layer`` raster as our primary source 
-digitizing new features in the vector layer.  
+for digitizing new features in the vector layer.  
 
 .. commenting out for now, we focus this section on editing existing
    vectors 
@@ -69,7 +69,7 @@ that allows us an optimal editing of the vector layer geometries.
 .. tip::
    Snapping tolerance is the distance QGIS uses to search for the closest vertex 
    and/or segment you are trying to connect when you set a new vertex or move 
-   an existing vertex. If you aren’t within the snap tolerance, QGIS will leave
+   an existing vertex. If it is not within the snap tolerance, QGIS will leave
    the vertex where you release the mouse button, instead of snapping it to an 
    existing vertex and/or segment.
 
@@ -100,12 +100,13 @@ project.
 We will now start digitizing roads.
 
 .. note::
-   This process is called heads-up or :index:`on-screen digitizing`. This is an 
-   interactive process, in which a map is created using a previously digitized or 
-   scanned information. It is called "heads-up" digitizing because the 
-   attention of the user is focused on the screen.
+   This process is called heads-up or :index:`on-screen digitizing`. This is 
+   an interactive process, in which a map is created using a previously 
+   digitized or scanned information. It is called "heads-up" digitizing 
+   because the attention of the user is focused on the screen.
 
-1. Make sure the ``waterways`` and ``Bing Aerial`` layers are visible.
+1. Make sure the ``waterways`` and ``Bing Aerial`` layers are 
+visible.
 
 2. Zoom-in to a smaller area, where the rivers on the 
 image are visible.
@@ -117,7 +118,7 @@ buttons on the editing toolbar previously greyed-out will become available.
 
 .. image:: images/toggle_editing_annot.png
    :align: center
-   :width: 300 pt
+   :width: 400 pt
 
 For each feature, you first digitize the geometry, then encode the attributes. 
 
@@ -125,7 +126,7 @@ For each feature, you first digitize the geometry, then encode the attributes.
 :guilabel:`Add Feature`, left-click on the map area to create the first 
 point/vertex of your new feature.
 
-.. image:: images/editing_session_annot.png
+.. image:: images/editing_session.png
    :align: center
    :width: 300 pt
 
@@ -135,7 +136,7 @@ on the :guilabel:`Map View` to confirm you have finished entering the
 geometry of that feature.
 
 The attribute window will appear, allowing you to enter the information for the 
-new feature. Add the type of road in the ``type`` field and the name of the 
+new feature. Add the type of feature in the ``type`` field and the name of the 
 feature in the ``name`` field.
 
 .. image:: images/add_attributes.png
@@ -188,6 +189,7 @@ it. Red boxes appear at each vertex of this feature. Functionalities are:
   :guilabel:`Delete` key and vertices will be deleted. 
 
 The rest of the basic editing tools are explained below:
+
 +----------------------------+---------------------------------+-------------------------------+
 | **Icon**                   | **Tool**                        | **Purpose**                   |
 +============================+=================================+===============================+
