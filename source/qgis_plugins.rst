@@ -109,7 +109,7 @@ QGIS.
    In some cases, 3rd party plug-ins (external plug-ins developed by other 
    users) can be unstable and can cause your QGIS instance to crash. These 
    plug-ins were designed for specific usage of the authors and may not work 
-   as expectedGda in your own system. Use experimental plug-ins at your own risk!
+   as expected in your own system. Use experimental plug-ins at your own risk!
 
 .. raw:: latex
    

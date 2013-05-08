@@ -7,7 +7,8 @@ Using and Styling Rasters
 
 QGIS can also display and manipulate raster data.  These are available in 
 :menuselection:`Raster` menu. In this section, we will customize the style 
-of our Terrain or Digital Elevation Model using the custom symbology.
+of our Terrain or Digital Elevation Model (DEM) using the custom symbology and,
+create new raster and vector from the DEM.
 
 .. note::
    A **Raster** data is composed of rows (running across) and columns 
@@ -22,11 +23,11 @@ of our Terrain or Digital Elevation Model using the custom symbology.
 
    Some raster data have two files included.  For example, a file with the 
    `tif` extension is the image and the file with the extension `tfw` 
-   is the world file.  World files describe the location, scale and rotation 
-   of the map. By adding a world file in any image, GIS applications can read 
+   is the world file.  `World files <http://en.wikipedia.org/wiki/World_file>`_ 
+   describe the location, scale and rotation of the map. 
+   By adding a world file in any image, GIS applications can read 
    and georeference almost any image. However, the world file does not give 
-   the proper coordinate reference system of the raster. More information 
-   `here <http://en.wikipedia.org/wiki/World_file>`_. In QGIS, you have to 
+   the proper coordinate reference system of the raster. In QGIS, you have to 
    properly set the CRS for raster with world file.
 
 :index:`Loading a raster layer`
@@ -52,8 +53,8 @@ and white to the values found within the data.
 right-click and select :guilabel:`Properties`.  
 
 4. In the :guilabel:`Style` tab, change the :guilabel:`Current` value of 
-:guilabel:`Contrast Enhancement` from `No Stretch` to `
-Stretch And Clip to MinMax`.  In the 
+:guilabel:`Contrast Enhancement` from `No Stretch` to 
+`Stretch And Clip to MinMax`.  In the 
 :guilabel:`Load min/max values from band`, click the :guilabel:`Load` button.
 
 This takes the minimum  and maximum value found within the data, and stretches 
@@ -82,7 +83,7 @@ elevation. To get the values for each pixel, use the |mactionIdentify|
 :guilabel:`Identify` button.
 
 .. note::
-   Terrain data is one of the most important data used in geospatial 
+   :index:`Terrain` data is one of the most important data used in geospatial 
    analysis.  At the basic level, a terrain or surface is represented 
    as: given a location (X,Y), the height or elevation (Z) is computed 
    from a specific reference point.  
@@ -108,7 +109,6 @@ right-click and select :guilabel:`Properties`.
 Choose :guilabel:`Linear`
 in the :guilabel:`Color interpolation` drop-down list.
 
-.. todo: edit the dem.qml to use the full  range of values from the dem.
 
 4. Click the :guilabel:`Load style ...` and use the ``dem.qml`` file in your 
 ``data/styles`` directory.
@@ -170,8 +170,8 @@ other values to the default settings.
    :align: center
    :width: 300 pt 
 
-6. Finally, click the :guilabel:`OK` to 
-begin the process.
+6. Finally, click the :guilabel:`OK` to begin the process.
+Close the GDALTools window when processing is completed. 
 
 .. image:: images/shade.png
    :align: center
@@ -215,11 +215,11 @@ for the :guilabel:`Contour` options.
    :width: 300 pt 
 
 2. In the :guilabel:`Output directory for contour lines`, click 
-:guilabel:`Select` and type ``elev_contour_10m`` in the 
+:guilabel:`Select` and type ``elev_contour_20m`` in the 
 :guilabel:`File name`.
 
 3. Put a check-mark in the :guilabel:`Attribute name` and add ``elev`` 
-(the default label was in upper-case, change it to lower-case)as the 
+(the default label was in upper-case, change it to lower-case) as the 
 attribute name column.  
 
 4. Put a check-mark in the 
@@ -229,8 +229,8 @@ attribute name column.
    :align: center
    :width: 300 pt 
 
-5. Finally, click the :guilabel:`OK` to 
-begin the process.
+5. Finally, click the :guilabel:`OK` to begin the process.
+Close the GDALTools window when processing is completed.  
 
 .. image:: images/contour.png
    :align: center

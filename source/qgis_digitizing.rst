@@ -1,8 +1,8 @@
 .. draft (mark as complete when complete)
 
-=========================
-Digitizing Vector Layers
-=========================
+===================================
+:index:`Digitizing Vector` Layers
+===================================
 
 QGIS provides easy-to-use yet very powerful digitizing tools. 
 :index:`Digitizing` or digitization is a process of encoding map coordinates 
@@ -22,12 +22,23 @@ Creating a new project
 Set the following options.
 
 * Check the :guilabel:`Enable 'on-the-fly' CRS Transformation`.
-* In the Coordinate Reference System, choose 
-  :guilabel:`Projected Coordinate System --> Universal Transverse Mercator --> WGS 84 / UTM Zone 51N`. 
 
 .. note::
    On the fly CRS transformation allows you to combine various data layers with 
    different reference system into a single map view.
+
+
+Loading Vector data
+---------------------
+
+1. Add the ``waterways.shp`` 
+vector.
+
+2. Zoom to the extent of ``waterways.shp``. Right click on the layer, 
+select |mActionZoomToLayer| :guilabel:`Zoom to Layer Extent`.
+
+3. Create a suitable symbology and color scheme for the 
+layer.
 
 :index:`Loading raster data`
 -------------------------------
@@ -36,97 +47,18 @@ Set the following options.
 :menuselection:`Plugins --> OpenLayers plugin -->` 
 |mActionAddBingLayer| :guilabel:`Add Bing Aerial layer`.
 
-.. note::
-   A :term:`Raster` dataset is composed of rows (running across) and columns 
-   (running down) of :term:`Pixel` s (also know as cells). Each pixel 
-   represents a geographical region, and the value in that pixel represents 
-   some characteristics of that region.
-
-   Images with a pixel size covering a small area are called 'high resolution' 
-   images because it is possible to make out a high degree of detail in the 
-   image. 
-   
-   Images with a pixel size covering a large area are called 'low resolution' 
-   images because the amount of detail the images show is low.
-
-   Some raster data have two files included.  For example, a file with the 
-  `tif` extension is the image and the file with the extension `tfw` is the 
-   world file.  
-   
-   World files describe the location, scale and rotation of the map. By adding 
-   a world file in any image, GIS applications can read and georeference 
-   almost any image. However, the world file does not give the proper 
-   coordinate reference system of the raster. More information 
-   `here <http://en.wikipedia.org/wiki/World_file>`_. In QGIS, you have to 
-   properly set the CRS for raster with world file.
-
-
-Loading Vector data
----------------------
-
-1. Open the following 
-``admin_bnd.shp`` vector.
-
-2. Zoom to the extent of ``admin_bnd.shp``. Right click on the layer, 
-select |mActionZoomToLayer| :guilabel:`Zoom to Layer Extent`.
-
-3. Create a suitable symbology and color scheme for the 
-layer.
-
 .. image:: images/digitizing_ordered_layers.png
    :align: center
    :width: 300 pt
 
-We will use the ``Bing Aerial layer`` raster as our primary source for a roads 
-layer.  
 
-:index:`Creating a new vector layer`
------------------------------------------
+We will use the ``Bing Aerial layer`` raster as our primary source 
+for digitizing new features in the vector layer.  
 
-We will now create a new vector layer, to digitize roads. We will use a line 
-layer to represent this data.
-
-1. To create a new vector layer select :menuselection:`Layer -->` 
-:guilabel:`New -->` 
-|mActionNewVectorLayer| :guilabel:`New Shapefile Layer`.
-
-2. In the :guilabel:`Type` option, 
-choose :guilabel:`Line`.
-
-3. In the :guilabel:`Specify CRS`, select 
-:guilabel:`WGS 84 / UTM Zone 51N`.
-
-
-4. In the :guilabel:`New attribute`, add ``name`` in the :guilabel:`Name` field 
-and choose :guilabel:`Text data` as the data type. Then, click 
-:guilabel:`Add to attributes list`.  The newly added attribute field is 
-added in the list.
-
-5. Add another attribute column. In the :guilabel:`New attribute`, add ``type`` 
-in the :guilabel:`Name` field and choose :guilabel:`Text data` as the data 
-type. Then, click :guilabel:`Add to attributes list`.
-
-In the ``name`` attribute field, we will encode the name of the feature. In the 
-``type`` attribute field we encode the type of road (either primary, secondary, 
-residential, etc.).  
-Click :guilabel:`OK`.
-
-.. image:: images/new_vector_layer.png
-   :align: center
-   :width: 300 pt
-
-.. tip::
-   Limit field names to a maximum of 10 characters and avoid special characters 
-   (such as ``&, #, @ {`` ) and spaces.
-
-6. A new window will appear for the filename and location of the data within 
-your directory. Use the filename, ``quiapo_roads.shp``.  
-
-.. image:: images/new_vector_filename.png
-   :align: center
-   :width: 300 pt
-
-Click :guilabel:`Save`.  You now have a blank roads layer. 
+.. commenting out for now, we focus this section on editing existing
+   vectors 
+.. Creating a new vector layer
+.. -----------------------------------------
 
 :index:`Setting options for digitizing`
 ------------------------------------------
@@ -137,26 +69,27 @@ that allows us an optimal editing of the vector layer geometries.
 .. tip::
    Snapping tolerance is the distance QGIS uses to search for the closest vertex 
    and/or segment you are trying to connect when you set a new vertex or move 
-   an existing vertex. If you aren’t within the snap tolerance, QGIS will leave
+   an existing vertex. If it is not within the snap tolerance, QGIS will leave
    the vertex where you release the mouse button, instead of snapping it to an 
    existing vertex and/or segment.
-
 
 1. To set the snapping tolerance, select :menuselection:`Settings -->` 
 :guilabel:`Snapping options`. Within the :guilabel:`Snapping options` window, 
 activate the :guilabel:`Enable topological editing` by adding a check mark.
 
-2. In the list of layers, add a check mark to the ``quiapo_roads``.  This 
-activates snapping in respective layer.  Set the snapping tolerance to ``10`` 
-map units for ``quiapo_roads`` layer. Select :guilabel:`Apply` --> 
+2. In the list of layers, add a check mark to the ``waterways``.  This 
+activates snapping in respective layer.  Set the snapping :guilabel:`Tolerance` 
+to ``10`` 
+:guilabel:`pixels` . Select 
+:menuselection:`Apply -->` 
 :guilabel:`OK`.  
 
 .. image:: images/snapping_options.png
    :align: center
    :width: 300 pt
 
-When you start editing the roads layer, new vertices will snap if it is within 
-10 map units or 10 meters of another vertex.
+When you start editing the layer, new vertices will snap if it is within 
+10 pixels of another vertex within the current :guilabel:`Map View`.
 
 3. Save your 
 project.  
@@ -167,26 +100,25 @@ project.
 We will now start digitizing roads.
 
 .. note::
-   This process is called heads-up or :index:`on-screen digitizing`. This is an 
-   interactive process, in which a map is created using a previously digitized or 
-   scanned information. It is called "heads-up" digitizing because the 
-   attention of the user is focused on the screen.
+   This process is called heads-up or :index:`on-screen digitizing`. This is 
+   an interactive process, in which a map is created using a previously 
+   digitized or scanned information. It is called "heads-up" digitizing 
+   because the attention of the user is focused on the screen.
 
-1. Make sure the ``quiapo_roads`` and ``Bing Aerial`` layers are visible. Click 
-the checkbox preceding the name of the layer in the :guilabel:`Map Legend` 
-view to hide/show layers.
+1. Make sure the ``waterways`` and ``Bing Aerial`` layers are 
+visible.
 
-2. Zoom-in to an area, where the roads on the 
+2. Zoom-in to a smaller area, where the rivers on the 
 image are visible.
 
-3. Select the ``quiapo_roads`` layer, right-click and select 
+3. Select the ``waterways`` layer, right-click and select 
 |mActionToggleEditing| 
 :guilabel:`Toggle Editing`.  Once the layer is in edit mode, additional tool 
 buttons on the editing toolbar previously greyed-out will become available.
 
 .. image:: images/toggle_editing_annot.png
    :align: center
-   :width: 300 pt
+   :width: 400 pt
 
 For each feature, you first digitize the geometry, then encode the attributes. 
 
@@ -194,7 +126,7 @@ For each feature, you first digitize the geometry, then encode the attributes.
 :guilabel:`Add Feature`, left-click on the map area to create the first 
 point/vertex of your new feature.
 
-.. image:: images/editing_session_annot.png
+.. image:: images/editing_session.png
    :align: center
    :width: 300 pt
 
@@ -204,7 +136,7 @@ on the :guilabel:`Map View` to confirm you have finished entering the
 geometry of that feature.
 
 The attribute window will appear, allowing you to enter the information for the 
-new feature. Add the type of road in the ``type`` field and the name of the 
+new feature. Add the type of feature in the ``type`` field and the name of the 
 feature in the ``name`` field.
 
 .. image:: images/add_attributes.png
@@ -226,8 +158,8 @@ The |mActionNodeTool| :guilabel:`Node Tool` provides manipulation capabilities
 of feature vertices similar to CAD programs. It is possible to simply select 
 multiple vertices at once and to move, add or delete them all together. The 
 node tool also works with on-the-fly projection turned on and supports the 
-topological editing 
-feature. This tool is, unlike other tools in Quantum GIS, persistent, so when 
+topological editing feature. 
+This tool is, unlike other tools in Quantum GIS, persistent, so when 
 some operation is done, selection stays active for this feature and tool.
 
 .. image:: images/node_tool.png
@@ -258,42 +190,50 @@ it. Red boxes appear at each vertex of this feature. Functionalities are:
 
 The rest of the basic editing tools are explained below:
 
-* |mActionToggleEditing| :guilabel:`Toggle editing` - Enable editing of the 
-  selected vector layer.
-
-* |mActionFileSave| :guilabel:`Save Edits` - save your editing session in the 
-  currently selected layer.  This is different from Saving your project.
-
-* |mActionAddFeaturePoint| :guilabel:`Add Feature - Point` - add point 
-  features.
-
-* |mActionAddFeatureLine| :guilabel:`Add Feature - Line` - add line features.
-
-* |mActionAddFeaturePolygon| :guilabel:`Add Feature - Polygon` - add polygon 
-  features.
-
-* |mActionMoveFeature| :guilabel:`Move Feature` - move location of a selected 
-  feature.
-
-* |mActionNodeTool| :guilabel:`Node Tool` - activate Node tool functions.
-
-* |mActionDeleteSelected| :guilabel:`Delete Selected` - delete selected one or 
-  more features.
-
-* |mActionEditCut| :guilabel:`Cut Features` - delete a selected feature(s) from 
-  the existing layer and place it on a "spatial clipboard".
-
-* |mActionEditCopy| :guilabel:`Copy Features` - place selected feature(s) into 
-  the "spatial clipboard".
-
-* |mActionEditPaste| :guilabel:`Paste Features` - paste feature(s) from the 
-  "spatial clipboard" to the currently selected and editable layer.
++----------------------------+---------------------------------+-------------------------------+
+| **Icon**                   | **Tool**                        | **Purpose**                   |
++============================+=================================+===============================+
+| |mActionToggleEditing|     | :guilabel:`Toggle editing`      | Enable editing of the         |
+|                            |                                 | selected vector layer.        |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionFileSave|          | :guilabel:`Save Edits`          | Save your editing session in  |
+|                            |                                 | the currently selected layer. |
+|                            |                                 | This is different from saving |
+|                            |                                 | your project.                 |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionAddFeaturePoint|   | :guilabel:`Add Feature-Point`   | Add point  features.          |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionAddFeatureLine|    | :guilabel:`Add Feature-Line`    | Add line features.            |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionAddFeaturePolygon| | :guilabel:`Add Feature-Polygon` | Add polygon features.         | 
++----------------------------+---------------------------------+-------------------------------+
+| |mActionMoveFeature|       | :guilabel:`Move Feature`        | Move location of a selected   |
+|                            |                                 | feature.                      |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionNodeTool|          | :guilabel:`Node Tool`           | Activate Node tool functions. |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionDeleteSelected|    | :guilabel:`Delete Selected`     | Delete selected one or        |
+|                            |                                 | more features.                |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionEditCut|           | :guilabel:`Cut Features`        | Delete a selected feature(s)  |
+|                            |                                 | from the existing layer and   |
+|                            |                                 | place it on a                 |
+|                            |                                 | "spatial clipboard".          |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionEditCopy|          | :guilabel:`Copy Features`       | Place selected feature(s)     |
+|                            |                                 | into the "spatial clipboard". |
++----------------------------+---------------------------------+-------------------------------+
+| |mActionEditPaste|         | :guilabel:`Paste Features`      | Paste feature(s) from the     | 
+|                            |                                 | "spatial clipboard" to the    |
+|                            |                                 | currently selected and        |
+|                            |                                 | editable layer.               |
++----------------------------+---------------------------------+-------------------------------+
 
 Full description of the editing tools and other advanced features available in 
 the QGIS User's Manual.
 
 5. Finish editing the 
-roads layer.
+layer.
 
 6. Save your 
 project.
@@ -303,11 +243,6 @@ project.
    regularly. This allows you to save your recent changes, and also confirms 
    that your data source can accept all your changes.
 
-
 .. raw:: latex
    
    \pagebreak[4]
-
-
-
-
