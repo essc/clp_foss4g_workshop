@@ -68,7 +68,7 @@ Defining output directory
 1. To select the output directory, click the `Browse` button in the 
 `Output directory` section.  Select the ``output`` directory and click `Open`.
 
-.. image:: images/output_directory.png
+.. image:: images/maxent_output.png
    :align: center
    :width: 300 pt
 
