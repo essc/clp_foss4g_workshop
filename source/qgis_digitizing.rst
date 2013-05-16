@@ -5,7 +5,7 @@ Digitizing Vector Layers
 ===================================
 
 QGIS provides easy-to-use yet very powerful digitizing tools. 
-:index:`Digitizing` or digitization is a process of encoding map coordinates 
+Digitizing or digitization is a process of encoding map coordinates 
 and attributes in digital form. This allows you to create and edit vector data 
 using various data sources such as text files, paper maps, or satellite 
 imagery. This exercise will guide you through the basic interface of vector 
@@ -100,7 +100,7 @@ Digitizing vectors
 We will now start digitizing roads.
 
 .. note::
-   This process is called heads-up or :index:`on-screen digitizing`. This is 
+   This process is called heads-up or `on-screen digitizing`. This is 
    an interactive process, in which a map is created using a previously 
    digitized or scanned information. It is called "heads-up" digitizing 
    because the attention of the user is focused on the screen.
