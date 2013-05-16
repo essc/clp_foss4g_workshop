@@ -1,7 +1,7 @@
 .. draft (mark as complete when complete)
 
 ===================================
-:index:`Digitizing Vector` Layers
+Digitizing Vector Layers
 ===================================
 
 QGIS provides easy-to-use yet very powerful digitizing tools. 
@@ -40,7 +40,7 @@ select |mActionZoomToLayer| :guilabel:`Zoom to Layer Extent`.
 3. Create a suitable symbology and color scheme for the 
 layer.
 
-:index:`Loading raster data`
+Loading raster data
 -------------------------------
 
 1. To load raster data, select 
@@ -60,7 +60,7 @@ for digitizing new features in the vector layer.
 .. Creating a new vector layer
 .. -----------------------------------------
 
-:index:`Setting options for digitizing`
+Setting options for digitizing
 ------------------------------------------
 
 Before we can begin digitizing, we must set the snapping tolerance to a value 
@@ -94,7 +94,7 @@ When you start editing the layer, new vertices will snap if it is within
 3. Save your 
 project.  
 
-:index:`Digitizing vectors`
+Digitizing vectors
 ----------------------------------
 
 We will now start digitizing roads.
