@@ -93,10 +93,10 @@ Mac OSX
 * QGIS 1.8.0 'Lisboa' installer
 
 .. note::
-   `KyngChaos Qgis download page  <http://www.kyngchaos.com/software/qgis>`_ 
+   KyngChaos Qgis download page  http://www.kyngchaos.com/software/qgis 
    provides download for various Mac OS X versions. To get version 
-   information about your Mac, click :menuselection:`Apple Icon -->` 
-   :guilabel:`About This Mac`.
+   information about your Mac, click `Apple Icon >` 
+   `About This Mac`.
 
 2. Install all the required frameworks by double-clicking the downloaded
 ``.dmg`` files.

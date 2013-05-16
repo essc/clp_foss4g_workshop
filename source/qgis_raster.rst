@@ -83,18 +83,18 @@ elevation. To get the values for each pixel, use the |mactionIdentify|
 :guilabel:`Identify` button.
 
 .. note::
-   :index:`Terrain` data is one of the most important data used in geospatial 
+   `Terrain` data is one of the most important data used in geospatial 
    analysis.  At the basic level, a terrain or surface is represented 
    as: given a location (X,Y), the height or elevation (Z) is computed 
    from a specific reference point.  
    
    Terrain data are represented in several of ways.  Depending on the 
    data source, it can be a set of points (Spot elevation) or lines 
-   (:term:`Contour`).  Within GIS, these data are modelled either as 
+   (`Contour`).  Within GIS, these data are modelled either as 
    regular grids (known as 
-   :term:`Digital Elevation Model` or 
-   :term:`Altitude matrix`) or 
-   :term:`Triangular Irregular Network (TIN)`.
+   `Digital Elevation Model` or 
+   `Altitude matrix`) or 
+   `Triangular Irregular Network (TIN)`.
 
 :index:`Using a custom color map for rasters`
 --------------------------------------------------

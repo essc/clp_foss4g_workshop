@@ -87,7 +87,7 @@ components of the map composer are explained below:
   The :guilabel:`Composition` tab allows you to set paper size, orientation, 
   output file resolution and other printing options. The 
   :guilabel:`Item Properties` tab displays properties for the selected map 
-   element. Click |mActionSelectPan| 
+  element. Click |mActionSelectPan| 
   :guilabel:`Select/Move item` to activate options of the element in the 
   :guilabel:`Item Properties` tab. 
 
@@ -171,8 +171,8 @@ Click the |mActionAddLegend| :guilabel:`Add Legend` for the legend.
 
 .. tip::
    While you can change legend items title and order within the 
-   :guilabel:`Print Composer` :guilabel:`Legend items` dialogs, it is better to 
-   change them within the main QGIS :guilabel:`Map Legend` view. This is very 
+   `Print Composer` `Legend items` dialogs, it is better to 
+   change them within the main QGIS `Map Legend` view. This is very 
    useful especially when your are creating several map layouts of the same 
    data layers.
 
