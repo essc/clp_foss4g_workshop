@@ -171,8 +171,8 @@ Click the |mActionAddLegend| :guilabel:`Add Legend` for the legend.
 
 .. tip::
    While you can change legend items title and order within the 
-   :guilabel:`Print Composer` :guilabel:`Legend items` dialogs, it is better to 
-   change them within the main QGIS :guilabel:`Map Legend` view. This is very 
+   `Print Composer` `Legend items` dialogs, it is better to 
+   change them within the main QGIS `Map Legend` view. This is very 
    useful especially when your are creating several map layouts of the same 
    data layers.
 
