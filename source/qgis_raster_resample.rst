@@ -13,7 +13,7 @@ wide variety of raster formats.
 In this section, we will use several tools in the GDALTools plugin to 
 resample, create new layers and convert rasters to another format. 
 
-:index:`Resampling raster layers`
+Resampling raster layers
 ----------------------------------
 
 The elevation layer we are using has a pixres of ~90 meters (0.000848 in 
@@ -77,7 +77,7 @@ similar to the previous section.
    :align: center
    :width: 300 pt
 
-:index:`Creating a slope layer`
+Creating a slope layer
 ----------------------------------
 
 With the GDALTools plugin, we will create a new slope layer using our 

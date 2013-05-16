@@ -15,7 +15,7 @@ in the table by selecting features on the map, and find features on the map by
 selecting features in the table. Each field in the attribute table contains 
 contains a specific type of data such texts, numbers or date.
 
-:index:`Viewing vector layer attributes`
+Viewing vector layer attributes
 --------------------------------------------
 
 In QGIS you can easily view data attributes by either selecting the feature 
@@ -99,8 +99,7 @@ Explore the different tools to understand how each one works.
    corrupt the files. Make sure you create a backup before editing the data 
    outside QGIS.
 
-
-:index:`Creating and editing attributes`
+Creating and editing attributes
 ----------------------------------------------
 
 We will update the ``admin_bnd`` layer by adding population 

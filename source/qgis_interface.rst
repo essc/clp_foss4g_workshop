@@ -2,7 +2,7 @@
 .. todo: add new screenshots
 
 ==============================
-The :index:`QGIS Interface`
+The QGIS Interface
 ==============================
 
 QGIS provides an easy to use :term:`Graphical user interface (GUI)` to explore, 
@@ -35,7 +35,7 @@ map using various data symbology and colors.
   large data files.  You can turn off rendering when dealing with large files 
   until you want to see the layers. 
 
-:index:`Creating a new project`
+Creating a new project
 ----------------------------------
 
 1. Launch QGIS in Windows by clicking :menuselection:`Start -->` 
@@ -86,7 +86,7 @@ Choose :guilabel:`WGS 84`. Click :guilabel:`Apply` then, :guilabel:`OK`.
    future. 
 
 
-:index:`Opening Vector data`
+Opening Vector data
 -------------------------------
 1. Add vector layers. In the Menu, select :menuselection:`Layer -->` 
 |mActionAddOgrLayer| :guilabel:`Add Vector Layer`.
@@ -177,7 +177,7 @@ The kinds of information saved in a project file include:
    it is possible to edit the file outside QGIS if you **know what you are 
    doing**.
 
-:index:`Navigating around your map`
+Navigating around your map
 --------------------------------------
 Basic tools for navigating around the :guilabel:`Map View` involve the use of 
 the zoom and pan functions. Each tool is explained below:
@@ -227,7 +227,7 @@ to zoom in or out.
 
 Use the navigation tools to move in and around your map.
 
-:index:`Changing the look of your layers`
+Changing the look of your layers
 -----------------------------------------------
 
 1. Changing vector layer properties like color and symbolization. Select the 
@@ -370,7 +370,7 @@ This opens new window for the :guilabel:`Rule properties`.
 5. Create custom styles for the other layers 
 in your project.
 
-:index:`Using the Labeling Tool`  
+Using the Labeling Tool
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 The Labeling tool provides smart labeling for vector point, line and polygon 
@@ -408,7 +408,7 @@ line. As you pan around the map, you'll find that labels are placed nicely.
 Other tips
 -----------
 
-:index:`Map Overview` 
+Map Overview
 ,,,,,,,,,,,,,,,,,,,,,,,,,,
   
 The map overview panel provides a full extent view of layers added to it. 
@@ -445,7 +445,7 @@ rectangle in the overview that shows your current extent, the main
    Do not add too many layers into the :guilabel:`Overview` panel, this can 
    slow down rendering of the overview map.
 
-:index:`Line and Area Measurements`  
+Line and Area Measurements
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 To interactively measure length and area, use the:

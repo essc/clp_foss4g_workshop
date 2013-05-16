@@ -2,12 +2,12 @@
 .. todo: update screenshot for binglayer.
 
 =======================================
-:index:`Using External Map Services`
+Using External Map Services
 =======================================
 
 QGIS is a standard compliant application, thus, many external mapping data and 
 services can be "consumed" within the application.  The most popular external 
-service for map data is :term:`Web Map Service (WMS)`, this is a standard 
+service for map data is Web Map Service (WMS), this is a standard 
 protocol for consuming georeferenced data over the web.  
 
 In this exercise, we will use several web-based mapping services and integrate 

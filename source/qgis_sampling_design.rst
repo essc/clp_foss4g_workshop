@@ -2,7 +2,7 @@
 .. todo: review by christian
 
 ==========================================
-:index:`Creating Sampling Design in QGIS`
+Creating Sampling Design in QGIS
 ==========================================
 
 .. Blurb on sampling design
