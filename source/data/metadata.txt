@@ -4,7 +4,8 @@ Cebu
 Rasters
 
 * dem_1km.tif - digital elevation model
-* xxx.tif - vegetation (MODIS Vegetation Continuous Fields)
+* land_cover_1km.asc - Land cover
+* vegetation_2010.asc - Vegatatio derived from 2010 PalSar.
 * bio8.asc - Mean Temperature of Wettest Quarter, Degrees Celsius
 * bio9.asc - Mean Temperature of Driest Quarter, Degrees Celsius
 * bio16.asc - Precipitation of Wettest Quarter, mm
