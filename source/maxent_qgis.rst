@@ -9,7 +9,7 @@ You can improve the map design of your MaxEnt output in QGIS.
 Load you model output
 ------------------------
 
-1. To load your MaxEnt output map, select :guilabel:`Layer -->` 
+1. To load your MaxEnt output map, select :menuselection:`Layer -->` 
 |mActionAddRasterLayer| :guilabel:`Add Raster Layer`.
 
 2. Click `Browse` and double-click to your directory. Select 
@@ -39,7 +39,7 @@ Provide context by adding more data layers
 
 1. Add more geographical context in your map by adding the vector layers 
 available in your ``vector`` directory.  To add vector layers, 
-select :guilabel:`Layer -->` |mActionAddOgrLayer| 
+select :menuselection:`Layer -->` |mActionAddOgrLayer| 
 :guilabel:`Add Vector Layer`
 
 2. To change the vector layer properties like color and symbolization.
