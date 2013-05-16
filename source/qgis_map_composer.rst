@@ -87,7 +87,7 @@ components of the map composer are explained below:
   The :guilabel:`Composition` tab allows you to set paper size, orientation, 
   output file resolution and other printing options. The 
   :guilabel:`Item Properties` tab displays properties for the selected map 
-   element. Click |mActionSelectPan| 
+  element. Click |mActionSelectPan| 
   :guilabel:`Select/Move item` to activate options of the element in the 
   :guilabel:`Item Properties` tab. 
 
