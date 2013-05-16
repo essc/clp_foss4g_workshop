@@ -30,7 +30,7 @@ create new raster and vector from the DEM.
    the proper coordinate reference system of the raster. In QGIS, you have to 
    properly set the CRS for raster with world file.
 
-:index:`Loading a raster layer`
+Loading a raster layer
 -----------------------------------
 
 1. Open your previously created QGIS project/session or create a new 
@@ -96,7 +96,7 @@ elevation. To get the values for each pixel, use the |mactionIdentify|
    `Altitude matrix`) or 
    `Triangular Irregular Network (TIN)`.
 
-:index:`Using a custom color map for rasters`
+Using a custom color map for rasters
 --------------------------------------------------
 
 1. To use a custom color ramp for rasters, select the ``dem_90m.tif``,
@@ -137,7 +137,7 @@ Loading the GDALTools plugin
 2. Activate/enable the :guilabel:`GDALTools` plugin 
 by clicking its check box or description.  
 
-:index:`Creating a shaded relief`
+Creating a shaded relief
 ----------------------------------
 
 With the GDALTools plugin, we will create a new relief layer using our DEM.
@@ -200,7 +200,7 @@ pretty looking cartographic representation.
 8.  Save you QGIS 
 project.
 
-:index:`Creating a vector contour`
+Creating a vector contour
 -----------------------------------
 
 We can also extract elevation contour lines from our DEM.

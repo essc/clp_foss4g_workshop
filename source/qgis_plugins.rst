@@ -1,7 +1,7 @@
 .. draft (mark as complete when complete)
 
 =======================
-:index:`QGIS Plugins`
+QGIS Plugins
 =======================
 
 QGIS was designed with a flexible and extensible plug-in architecture. This 

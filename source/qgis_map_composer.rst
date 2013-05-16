@@ -1,7 +1,7 @@
 .. draft (mark as complete when complete)
 
 =========================================
-Map Design with :index:`Print Composer`
+Map Design with Print Composer
 =========================================
 
 .. Note: add more screenshots
@@ -91,7 +91,7 @@ components of the map composer are explained below:
   :guilabel:`Select/Move item` to activate options of the element in the 
   :guilabel:`Item Properties` tab. 
 
-:index:`Adding a map`
+Adding a map
 -------------------------
 
 To add the QGIS map canvas, click the |mActionAddMap| :guilabel:`Add Map` 
@@ -140,7 +140,7 @@ General options for the :guilabel:`Map Item Properties` tab are as follows:
    :align: center
    :width: 150 pt
 
-:index:`Adding a Legend`
+Adding a Legend
 --------------------------
 
 Click the |mActionAddLegend| :guilabel:`Add Legend` for the legend.
@@ -176,7 +176,7 @@ Click the |mActionAddLegend| :guilabel:`Add Legend` for the legend.
    useful especially when your are creating several map layouts of the same 
    data layers.
 
-:index:`Adding a Scale Bar`
+Adding a Scale Bar
 -------------------------------
 
 Click the |mActionScaleBar| :guilabel:`Add Scalebar` for the scale bar.
@@ -216,16 +216,14 @@ Explore these tools in composing your map. Full descriptions are available in
 the QGIS manual.
 
 
-:index:`Exporting your final map`
+Exporting your final map
 --------------------------------------
 
 The options for importing your maps are:
 
 * export to image or SVG - this is useful if you want your maps embedded in 
   other documents;
-
 * print directly to a printer and;
-
 * export as pdf.
 
 To export your map to PDF, click the |mActionSaveAsPDF| 

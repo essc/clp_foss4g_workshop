@@ -5,7 +5,7 @@
 Using GPS data
 ================
 
-QGIS can utilize data collected from common :term:`Global Positioning System` 
+QGIS can utilize data collected from common Global Positioning System
 receivers. The standard format of GPS data is GPX (file extension ``.gpx``).  
 
 This exercise will show you how to display GPS data in QGIS.  We will use the 
