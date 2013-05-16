@@ -1,7 +1,7 @@
 .. for proofreading (mark as complete when complete).
 
 ==========================================================
-:index:`Installing Quantum GIS`
+Installing Quantum GIS
 ==========================================================
 
 This guide walks through the installation of QGIS depending on your operating 
