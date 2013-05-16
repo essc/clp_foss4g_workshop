@@ -417,7 +417,7 @@ latex_use_parts = False
 #Control whether to display URL addresses. This is very useful for printed copies of the manual. The setting can have the following values:  'no' – do not display URLs (default); 'footnote' – display URLs in footnotes; 'inline' – display URLs inline in parentheses
 latex_show_urls = True
 
- latex_elements = {
+latex_elements = {
      'classoptions': 
      ',openany,oneside', 
      'babel' : '\\usepackage[english]{babel}'
