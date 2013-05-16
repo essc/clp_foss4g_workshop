@@ -147,10 +147,10 @@ To save your editing session, |mActionToggleEditing| :guilabel:`Toggle Editing`
 and click :guilabel:`Save`.
 
 .. tip::
-   In some cases, you will reach the edge of the :guilabel:`Map View` but you 
+   In some cases, you will reach the edge of the Map View but you 
    would like to continue adding new vertices.  When this happens, use the 
    arrow keys or press the spacebar while using your mouse to pan across the 
-   :guilabel:`Map View`.
+   Map View.
 
 **The Node Tool**
 

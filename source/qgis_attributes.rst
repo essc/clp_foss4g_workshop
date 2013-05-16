@@ -92,7 +92,7 @@ is presented below:
 Explore the different tools to understand how each one works.
 
 .. tip::
-   :term:`Shapefile` store attribute data in a separate file with a ``dbf`` 
+   Shapefile store attribute data in a separate file with a ``dbf`` 
    extension.  This is a widely used GIS database format. You can edit the dbf 
    file outside QGIS using a spreadsheet application such as MS Office Excel 
    and OpenOffice Calc, however, caution should be taken in order not to 
