@@ -5,7 +5,7 @@
 The QGIS Interface
 ==============================
 
-QGIS provides an easy to use :term:`Graphical user interface (GUI)` to explore, 
+QGIS provides an easy to use `Graphical user interface (GUI)` to explore, 
 create and edit geospatial data. Commands and functions are activated using a 
 combination of menu, toolbar and keyboard shortcut actions within the 
 application.
@@ -117,7 +117,7 @@ be loaded within your :guilabel:`Map View` area.
    :align: center
    :width: 300 pt
 
-:term:`Vector` data are represented as either point, line or polygon. The type 
+`Vector` data are represented as either point, line or polygon. The type 
 of vector depends on what information you wish to convey.
 
 * Points - represented by a single X,Y coordinate. A point normally represents 

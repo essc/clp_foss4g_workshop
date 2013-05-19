@@ -22,8 +22,8 @@ degrees) similar to the other raster layers we will use for the
 species distribution modelling exercise. 
 
 .. note::
-   **Resampling** is a technique for transforming raster image from one particular 
-   scale and projection to another. 
+   **Resampling** is a technique for transforming raster image from one 
+   particular scale and projection to another. 
 
 1. In the Menu, select :menuselection:`Raster --> Projections -->` 
 |gdalwarp| :guilabel:`Warp (Reproject)`.
@@ -58,8 +58,8 @@ command.
    :width: 300 pt
 
 
-The full syntax is shown below (the path to the directories may vary depending on 
-where you saved your ``data`` directory)::
+The full syntax is shown below (the path to the directories may vary 
+depending on where you saved your ``data`` directory)::
 
       gdalwarp -s_srs EPSG:4326 -t_srs EPSG:4326 -r cubic -dstnodata -999 
       -of GTiff -tr 0.00833333 0.00833333 
@@ -172,8 +172,8 @@ the |gdaledit| `Edit` button. Add the ``-ot Int32`` right after the
    :align: center
    :width: 300 pt
 
-The full syntax is shown below (the path to the directories may vary depending on 
-where you saved your ``data`` directory)::
+The full syntax is shown below (the path to the directories may vary 
+depending on where you saved your ``data`` directory)::
 
       gdal_translate -of AAIGrid -ot Int32
       ~/data/raster/dem_1km.tif 

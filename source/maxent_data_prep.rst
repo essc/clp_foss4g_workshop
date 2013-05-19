@@ -24,12 +24,12 @@ Species occurrence
 Creating CSV file
 ,,,,,,,,,,,,,,,,,,
 
-1. Use spreadsheet application (e.g. MS Office Excel or LibreOffice Calc) 
+1. Use a spreadsheet application (e.g. MS Office Excel or LibreOffice Calc) 
 to encode the occurrence record. Make sure that coordinates are in 
 geographic coordinates in decimal degrees.
 
 2. Format the occurrence record as shown below. Spreadsheet heading 
-should be labeled as "species", "longitude" and "latitude".  
+should be labeled as ``species``, ``longitude`` and ``latitude``.  
 
 .. image:: images/species_spreadsheet.png
    :align: center
@@ -38,14 +38,14 @@ should be labeled as "species", "longitude" and "latitude".
 3. Convert the spreadsheet to CSV. In LibreOffice, select 
 :menuselection:`File --> Save As` and choose ``Text CSV`` 
 as the file type. Name the CSV file as ``Copsychus_cebuensis.csv`` 
-and save it to your ``samples`` directory. The field delimiter should be comma 
-(``,``).
+and save it to your ``samples`` directory. The field delimiter should be 
+comma (``,``).
 
 .. image:: images/save_as_csv.png
    :align: center
    :width: 300 pt
 
-The saved CSV file should look like to the text below:
+The saved CSV file should look like the text below:
 
 .. include:: data/vector/black_shama.csv
    :literal:
@@ -65,15 +65,19 @@ records should also be checked to avoid potential bias of clustered points
 (Hernandez et al., 2006) and this can be done by removing duplicate records 
 on each pixel.
 
+.. Explain bias further. 
+
 1. Launch QGIS and load CSV using the |adddelimitedtext| 
-:guilabel:`Add delimited text layer`. If the plugin is not enabled, 
+:guilabel:`Add delimited text layer`. 
+
+If the plugin is not enabled, 
 go to :menuselection:`Plugins -->` 
 |mActionShowPluginManager| :guilabel:`Manage Plugins`.
 and check :guilabel:`Add delimited text layer`.
 
 2. On :guilabel:`Create a Layer from a Delimited Text file` window, click 
-:guilabel:`Browse` and select ``Copsychus_cebuensis.csv`` in the file directory 
-where the csv is saved.
+:guilabel:`Browse` and select ``Copsychus_cebuensis.csv`` in the directory 
+where the CSV is saved.
 
 3. On the same window, choose :guilabel:`Selected delimiters` and check the 
 :guilabel:`Comma` option.  In the 
@@ -84,8 +88,8 @@ where the csv is saved.
    :width: 300 pt
 
 4. Click :guilabel:`OK`  Select ``WGS-84`` for the CRS and click 
-:guilabel:`OK`, this should show the points in your :
-guilabel:`Map View`.
+:guilabel:`OK`, this should show the points in your 
+:guilabel:`Map View`.
 
 .. image:: images/csv_map.png
    :align: center
@@ -94,14 +98,15 @@ guilabel:`Map View`.
 .. Note::
    The filtration of occurrences can be done depending on the resolution of 
    your covariate raster layers. In this case, 1km resolution will be used. 
-   If you need a finer resolution for future studies, refer to image resampling 
-   section.
+   If you need a finer resolution for future studies, refer to image 
+   resampling section.
 	
-5. After importing the CSV to QGIS, load the ``dem_1km.asc`` raster you created 
-previously. The elevation raster will be used as reference for filtration.
+5. After importing the CSV to QGIS, load the ``dem_1km.asc`` raster you 
+created previously. The elevation raster will be used as reference for 
+filtration.
 
 6. Use the navigation tool to move around the map and find the clustered 
-occurrences. A clustered occurrence is defined as occurrence points that 
+occurrences. A clustered occurrence are 2 or more points that 
 are within a single raster pixel.
 
 .. image:: images/csv_dem.png

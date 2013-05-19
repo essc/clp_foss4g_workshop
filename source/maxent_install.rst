@@ -10,8 +10,8 @@ Install Java6 in MS Windows
 ------------------------------
 
 1. We need Java6 to use run the MaxEnt application.  To download Java6 JRE 
-installers for your OS, go to the 
-`Java6 website <http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_.
+installers for your OS, go to the Java6 website 
+http://www.oracle.com/technetwork/java/javase/downloads/index.html.
 
 2. To install Java6, double-click your downloaded installer file (i. e. 
 ``jre-7u3-windows-i586.exe``) and follow the succeeding instructions.

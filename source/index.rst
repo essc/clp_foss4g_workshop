@@ -36,9 +36,3 @@ Contents
    Acknowledgment <references.rst>
    GNU Free Documentation License <gfdl.rst>
 
-
-
-..   qgis_text_to_shapefile.rst
-..   qgis_terrain_analysis.rst
-..   qgis_sextante.rst
-
