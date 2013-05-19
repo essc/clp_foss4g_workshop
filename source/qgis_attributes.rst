@@ -5,8 +5,8 @@
 Viewing and Editing Data Attributes
 ==================================================
 
-:term:`Attribute` s for vector data are stored in a table.  (In a 
-:term:`Shapefile` vector format, this is contained in a separate file with 
+`Attributes` for vector data are stored in a table.  (In a 
+`Shapefile` vector format, this is contained in a separate file with 
 ``dbf`` extension). A table is like a spreadsheet. Each column in the table is 
 called a field. Each row in the table is a record. Each of the records in the 
 attribute table in a GIS corresponds to one feature. The application "links" 
@@ -161,7 +161,7 @@ Subset displayed data using table queries
 
 QGIS can also limit the display of features to a subset of your data using 
 attribute queries.  It follows the standard 
-:term:`Structured Query Language (SQL)` 
+`Structured Query Language (SQL)` 
 used by other applications for managing databases.   We will subset our data to 
 display only the barangays within a specific district.
 

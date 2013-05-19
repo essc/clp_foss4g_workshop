@@ -29,9 +29,10 @@ Loading WMS
 
 
 2. To add a new WMS server, click :guilabel:`New`.  In the 
-:guilabel:`Create a new WMS connection` window, type ``irs.gis-lab.info`` in the 
-:guilabel:`Name` field.  In the :guilabel:`URL` field, type (the value below 
-should be in a single line)::
+:guilabel:`Create a new WMS connection` window, type ``irs.gis-lab.info`` 
+in the :guilabel:`Name` field.  In the :
+guilabel:`URL` field, type (the value below should be in a single 
+line)::
 
       http://irs.gis-lab.info/ 
 
