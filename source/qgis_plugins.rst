@@ -55,7 +55,8 @@ either:
 * **installed** - the plugin is already installed. If it is also available 
   in any repository the :guilabel:`Reinstall plugin` button will be enabled.  
 * **upgradeable** - the plugin is installed, but there is an updated version 
-  available. In this case, the :guilabel:`Upgrade plugin` button will be enabled.
+  available. In this case, the :guilabel:`Upgrade plugin` button will be 
+  enabled.
 * **invalid** - the plugin is installed, but is unavailable or broken. The 
   reason will be explained in the plugin description field.  
 

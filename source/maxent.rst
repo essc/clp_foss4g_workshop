@@ -34,11 +34,11 @@ to save all the model results.
 Loading species occurrences
 ------------------------------
 
-1. To load the samples data, click the `Browse` button in the `Samples` 
-panel.  
+1. To load the samples data, click the :guilabel:`Browse` button in the 
+:guilabel:`Samples` panel.  
 
 2. A new window will appear, open your ``samples`` directory and select the 
-``black_shama.csv ``.  Click ``Open``.
+``black_shama.csv``.  Click :guilabel:`Open`.
 
 .. image:: images/load_samples.png
    :align: center
@@ -46,8 +46,8 @@ panel.
 
 Loading environmental covariates
 -----------------------------------
-1. To load the raster data, click the `Browse` button in the 
-`Environmental layers` panel.
+1. To load the raster data, click the :guilabel:`Browse` button in the 
+:guilabel:`Environmental layers` panel.
 
 2. A new window will appear, select your ``layers`` directory and 
 ``Open``.
@@ -62,11 +62,15 @@ in the directory.
 3. Define the data type for the environmental layers.  All the layers are 
 ``Continuous`` except for ``landcover_1km`` which is a ``Categorical`` data.
 
+.. verify this one as it breaks in my own test - maning.
+
+
 Defining output directory
 ----------------------------
 
-1. To select the output directory, click the `Browse` button in the 
-`Output directory` section.  Select the ``output`` directory and click `Open`.
+1. To select the output directory, click the :guilabel:`Browse` button in the 
+:guilabel:`Output directory` section.  Select the ``output`` directory and 
+click :guilabel:`Open`.
 
 .. image:: images/maxent_output.png
    :align: center
@@ -78,10 +82,11 @@ Once the species occurrences and environmental covariates are loaded, it is
 important to know what appropriate MaxEnt parameters and features are 
 needed to your sample. For instance, *Copsychus cebuensis* has only 12 
 points of observation. Therefore, we need to find what specific feature of 
-Maxent is best for this type of sample in order to have an accurate prediction.
+Maxent is best for this type of sample in order to have an accurate 
+prediction.
 
-1. In MaxEnt window, click `Help` option to view all the information about 
-the features and settings.
+1. In MaxEnt window, click :guilabel:`Help` option to view all the information 
+about the features and settings.
 
 2.  To find what feature is appropriate for *Copsychus cebuensis*, scroll 
 down to `Regularization and feature class` section.
@@ -110,11 +115,11 @@ give time for the model to converge. In the `Experimental tab` check
 
 .. Note::
    * For further analysis, you can enable the Maxent to do replicates under 
-    `Basic` tab of the settings.
+     `Basic` tab of the settings.
    * Threshold rule can be applied also if you want to produce a thresholded 
      binary map.
 
-6. Finally, close the `Settings` window and click `Run`.
+6. Finally, close the :guilabel:`Settings` window and click :guilabel:`Run`.
 
 Running model may take some time depending on the extent, number of 
 environmental layers and replicates. Once finished, close the MaxEnt 

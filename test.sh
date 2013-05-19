@@ -8,5 +8,5 @@ pep8 --select=E501 ${files}
 
 echo "===== spellcheck with ispell =====" 
 
-#for f in ${files}; do ispell check $f; done
+for f in ${files}; do ispell check $f; done
 
