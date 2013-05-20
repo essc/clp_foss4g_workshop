@@ -4,6 +4,17 @@
 ==========================================
 Creating Sampling Design in QGIS
 ==========================================
+In ecological studies, planning for sampling design is a crucial task to do 
+to ensure that research objectives will be achieved. Many sampling designs 
+have been developed and implemented in ecological studies (Sutherland 2006). 
+Among of the widely used designs are random and stratified samplings or the 
+combination of the two, which is called stratified random. These techniques 
+are used to avoid bias of sampling in varying density of species 
+populations in the study area.
+
+To guide you in research planning, this section will demonstrate how to 
+generate random points that can be used to identify possible areas for 
+study.
 
 .. Blurb on sampling design
 .. http://en.wikipedia.org/wiki/Stratified_sampling
