@@ -4,7 +4,7 @@ Rectifying Raster Data
 
 .. change screenshots and sample data sto SouthCot
 
-Georeferencing also known as :term:`Rectification` is a process of defining the 
+Georeferencing also known as `Rectification` is a process of defining the 
 real world location of a set of data.  In GIS, when data from different sources 
 need to be combined and then used, it is important to have a common referencing 
 system.
@@ -35,7 +35,7 @@ Creating a new project
 Loading Vector data
 ---------------------
 
-1. Open your ``roads_osm.shp`` vector.  Improve the symbology of the road 
+1. Open your ``roads.shp`` vector.  Improve the symbology of the road 
 vector.  The road layer in the main :guilabel:`Map Canvass` will be used to 
 get the georeferenced points.
 
