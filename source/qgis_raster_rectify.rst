@@ -11,7 +11,7 @@ system.
 
 This is used in both vector and raster GIS data.  Reference information can 
 come from several sources such an existing reference map, GPS readings, etc; 
-this commonly referred to as :term:`Ground Control Point` or GCP.  Most 
+this commonly referred to as `Ground Control Point` or GCP.  Most 
 georeferencing tasks are undertaken either because the user wants to produce a 
 new map or because they want to link two or more different datasets together by 
 virtue of the fact that they relate to the same geographic locations. 
@@ -24,7 +24,8 @@ Creating a new project
 -----------------------
 
 1. Open QGIS and create a new project. In the menu, select 
-:menuselection:`File` `>` |mActionFileNew| :guilabel:`New Project`.
+:menuselection:`File -->` |mActionFileNew| 
+:guilabel:`New Project`.
 
 2. Open :guilabel:`Project Properties` and click the 
 :guilabel:`Coordinate Reference System (CRS)` tab. Set the following options.
@@ -46,8 +47,8 @@ Georeferencing images
 Load the unreferenced image
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-1. Load the Georeferencer plugin, click  :guilabel:`Plugins --> 
-Georeferencer --> Georeferencer`.
+1. Load the Georeferencer plugin, click  
+:guilabel:`Plugins --> Georeferencer --> Georeferencer`.
 
 .. image:: images/georeferencer_win.png
    :align: center
@@ -142,7 +143,7 @@ data, number of GCPs and the ultimate objective of the exercise.
   data and the amount of geometric distortion that you are willing to introduce 
   to final result.
 
-* :term:`Resampling` method - this is the process of geometrically transforming 
+* `Resampling` method - this is the process of geometrically transforming 
   digital images.  Different resampling methods can provide varying degree of 
   "image" quality of the output.
  
