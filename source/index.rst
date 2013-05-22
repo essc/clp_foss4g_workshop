@@ -34,6 +34,7 @@ Contents
    maxent.rst
    maxent_qgis.rst
    qgis_map_composer.rst
+   data.rst
    Acknowledgment <references.rst>
    GNU Free Documentation License <gfdl.rst>
 
