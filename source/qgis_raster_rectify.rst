@@ -4,14 +4,14 @@ Rectifying Raster Data
 
 .. change screenshots and sample data sto SouthCot
 
-Georeferencing also known as :term:`Rectification` is a process of defining the 
+Georeferencing also known as `Rectification` is a process of defining the 
 real world location of a set of data.  In GIS, when data from different sources 
 need to be combined and then used, it is important to have a common referencing 
 system.
 
 This is used in both vector and raster GIS data.  Reference information can 
 come from several sources such an existing reference map, GPS readings, etc; 
-this commonly referred to as :term:`Ground Control Point` or GCP.  Most 
+this commonly referred to as `Ground Control Point` or GCP.  Most 
 georeferencing tasks are undertaken either because the user wants to produce a 
 new map or because they want to link two or more different datasets together by 
 virtue of the fact that they relate to the same geographic locations. 
@@ -24,7 +24,8 @@ Creating a new project
 -----------------------
 
 1. Open QGIS and create a new project. In the menu, select 
-:menuselection:`File` `>` |mActionFileNew| :guilabel:`New Project`.
+:menuselection:`File -->` |mActionFileNew| 
+:guilabel:`New Project`.
 
 2. Open :guilabel:`Project Properties` and click the 
 :guilabel:`Coordinate Reference System (CRS)` tab. Set the following options.
@@ -35,7 +36,7 @@ Creating a new project
 Loading Vector data
 ---------------------
 
-1. Open your ``roads_osm.shp`` vector.  Improve the symbology of the road 
+1. Open your ``roads.shp`` vector.  Improve the symbology of the road 
 vector.  The road layer in the main :guilabel:`Map Canvass` will be used to 
 get the georeferenced points.
 
@@ -46,8 +47,8 @@ Georeferencing images
 Load the unreferenced image
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-1. Load the Georeferencer plugin, click  :guilabel:`Plugins --> 
-Georeferencer --> Georeferencer`.
+1. Load the Georeferencer plugin, click  
+:guilabel:`Plugins --> Georeferencer --> Georeferencer`.
 
 .. image:: images/georeferencer_win.png
    :align: center
@@ -55,7 +56,13 @@ Georeferencer --> Georeferencer`.
 
 
 2.  Load the image file that will be rectified.  Within the Georeferencer 
-window, click |mActionAddRasterLayer| :guilabel:`Open Raster` the image map.  
+<<<<<<< HEAD
+window, click |mActionAddRasterLayer| 
+=======
+window, click 
+.. mActionAddRasterLayer| 
+>>>>>>> b481565... commented missing icon
+:guilabel:`Open Raster` the image map.  
 Select the ``nb51-7.jpg``, click `OK`. 
 
 3.  A new window will appear for the :guilabel:`CRS` of the raster layer, 
@@ -83,7 +90,8 @@ QGIS map view.  Similar to the image below:
 Add control points
 ,,,,,,,,,,,,,,,,,,
 
-1. Using the |mActionCapturePoint| :guilabel:`Add Point button`, add a point to 
+1. Using the |mActionCapturePoint| 
+:guilabel:`Add Point button`, add a point to 
 the main working area.  Click on a point in the raster image and click the 
 button :guilabel:`From map canvas` to add the X and Y coordinates with the help 
 of a georeferenced map already loaded in the QGIS map canvas. Use the zoom and 
@@ -142,7 +150,7 @@ data, number of GCPs and the ultimate objective of the exercise.
   data and the amount of geometric distortion that you are willing to introduce 
   to final result.
 
-* :term:`Resampling` method - this is the process of geometrically transforming 
+* `Resampling` method - this is the process of geometrically transforming 
   digital images.  Different resampling methods can provide varying degree of 
   "image" quality of the output.
  
