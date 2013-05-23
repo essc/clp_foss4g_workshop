@@ -56,7 +56,9 @@ Load the unreferenced image
 
 
 2.  Load the image file that will be rectified.  Within the Georeferencer 
-window, click |mActionAddRasterLayer| :guilabel:`Open Raster` the image map.  
+window, click 
+.. mActionAddRasterLayer| 
+:guilabel:`Open Raster` the image map.  
 Select the ``nb51-7.jpg``, click `OK`. 
 
 3.  A new window will appear for the :guilabel:`CRS` of the raster layer, 
