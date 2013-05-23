@@ -56,7 +56,8 @@ Load the unreferenced image
 
 
 2.  Load the image file that will be rectified.  Within the Georeferencer 
-window, click |mActionAddRasterLayer| :guilabel:`Open Raster` the image map.  
+window, click |mActionAddRasterLayer| 
+:guilabel:`Open Raster` the image map.  
 Select the ``nb51-7.jpg``, click `OK`. 
 
 3.  A new window will appear for the :guilabel:`CRS` of the raster layer, 
@@ -84,7 +85,8 @@ QGIS map view.  Similar to the image below:
 Add control points
 ,,,,,,,,,,,,,,,,,,
 
-1. Using the |mActionCapturePoint| :guilabel:`Add Point button`, add a point to 
+1. Using the |mActionCapturePoint| 
+:guilabel:`Add Point button`, add a point to 
 the main working area.  Click on a point in the raster image and click the 
 button :guilabel:`From map canvas` to add the X and Y coordinates with the help 
 of a georeferenced map already loaded in the QGIS map canvas. Use the zoom and 
