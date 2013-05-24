@@ -2,7 +2,7 @@
 Title		Black Shama (Copsychus cebuensis) occurrence records
 
 Abstract	Black Shama (Copsychus cebuensis) occurrence records from
-                Fauna & Flora International field surveys using GPS.
+                Fauna & Flora International and DENR field surveys using GPS.
 		
 Keywords	Black Shamma, species occurrence, survey
 

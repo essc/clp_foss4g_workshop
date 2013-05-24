@@ -36,7 +36,10 @@ URI	 	 http://www.worldclim.org/
 
 Scale		 
 
-Data Layers	bio8, bio9,bio16, bio17 
+Data Layers	bio8.asc - Mean Temperature of Wettest Quarter, Degrees Celsius
+                bio9.asc - Mean Temperature of Driest Quarter, Degrees Celsius
+                bio16.asc - Precipitation of Wettest Quarter, mm
+                bio17.asc - Precipitation of Coldest Quarter, mm
 
 Changelog	
 

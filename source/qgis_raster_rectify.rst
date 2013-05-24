@@ -2,7 +2,6 @@
 Rectifying Raster Data
 =========================
 
-.. change screenshots and sample data sto SouthCot
 
 Georeferencing also known as `Rectification` is a process of defining the 
 real world location of a set of data.  In GIS, when data from different sources 
@@ -48,7 +47,7 @@ Load the unreferenced image
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 1. Load the Georeferencer plugin, click  
-:guilabel:`Plugins --> Georeferencer --> Georeferencer`.
+:menuselection:`Plugins --> Georeferencer --> Georeferencer`.
 
 .. image:: images/georeferencer_win.png
    :align: center
@@ -56,12 +55,7 @@ Load the unreferenced image
 
 
 2.  Load the image file that will be rectified.  Within the Georeferencer 
-<<<<<<< HEAD
 window, click |mActionAddRasterLayer| 
-=======
-window, click 
-.. mActionAddRasterLayer| 
->>>>>>> b481565... commented missing icon
 :guilabel:`Open Raster` the image map.  
 Select the ``nb51-7.jpg``, click `OK`. 
 
@@ -113,9 +107,9 @@ pan to navigate around the map in the Georeferencer and main Map Canvass.
 
 
 2. Continue entering points. You should have at least 4 points, and the more 
-coordinates you can provide, the better the result will be. There are additional 
-tools on the plugin dialog to zoom and pan the working area in order to locate a 
-relevant set of GCP points. 
+coordinates you can provide, the better the result will be. There are 
+additional tools on the plugin dialog to zoom and pan the working area in 
+order to locate a relevant set of GCP points. 
 
 .. image:: images/georef_points_all.png
    :align: center
@@ -124,7 +118,7 @@ relevant set of GCP points.
 
 .. note::
    The points that are added to the map will be stored in a separate text file 
-   ([filename].points) usually together with the raster image. This allows us 
+   (``filename.points``) usually together with the raster image. This allows us 
    to reopen the Georeferencer plugin at a later date and add new points or 
    delete existing ones to optimize the result. The points file contains values 
    of the form: ``mapX, mapY, pixelX, pixelY``. 
@@ -160,7 +154,8 @@ data, number of GCPs and the ultimate objective of the exercise.
 * Target resolution - the pixel resolution of the output raster.
 
 1.  To define the transformation settings, click |mActionOptions| 
-:guilabel:`Transformation settings`.  In the :guilabel:`Transformation setting` 
+:guilabel:`Transformation settings`.  In the 
+:guilabel:`Transformation setting` 
 window, select the following options::
 
       Transformation type - Helmert
@@ -174,9 +169,9 @@ window, select the following options::
    :align: center
    :width: 300 pt
 
-You can optionally generate a pdf map and also a pdf report. The report includes 
-information about the used transformation parameters. An image of the residuals 
-and a list with all GCPs and their RMS errors. 
+You can optionally generate a pdf map and also a pdf report. The report 
+includes information about the used transformation parameters. An image 
+of the residuals and a list with all GCPs and their RMS errors. 
 
  
 Starting the georeferencing 

@@ -1,0 +1,51 @@
+===============================================
+Title		UMD Land Cover Classification for Cebu
+
+Abstract	The University of Maryland Department of 
+                Geography generated this global land cover 
+                classification collection in 1998. Imagery 
+                from the AVHRR satellites acquired between 
+                1981 and 1994 were analyzed to distinguish 
+                fourteen land cover classes. This product 
+                is available at three spatial scales: 1 
+                degree, 8 kilometer and 1 kilometer pixel 
+                resolutions. 
+                
+                Original data was clipped to within Cebu bounds
+                and converted to ESRI ASCII Grid. 
+		
+Keywords	Cebu, landcover
+
+Identifier	
+
+Series		
+
+Publisher	http://www.landcover.org/data/landcover/
+
+Originator	Hansen, M., R. DeFries, J.R.G. Townshend, and R. Sohlberg (1998), 
+                UMD Global Land Cover Classification, 1 Kilometer, 1.0, Department 
+                of Geography, University of Maryland, College Park, Maryland, 1981-1994. 
+
+Email		
+
+Publication Date 1981-1994
+
+License	    	 
+		
+Extents      	 xMin,yMin 123.2964,9.4154 : xMax,yMax 124.5714, 11.5821 
+(EPSG:4326)
+
+Projection	 +proj=longlat +datum=WGS84 +no_defs
+
+Format	 	 ESRI ASCII Grid
+
+URI	 	 http://www.worldclim.org/
+
+Scale		 
+
+Data Layers	
+
+Changelog	
+
+Distribution	No restrictions.
+================================================
