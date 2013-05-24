@@ -15,8 +15,8 @@ in raster Arc/Info ASCII Grid format.
 
 The goal of this section is to guide you how to prepare these types of 
 data using the occurrence records of Cebu black shama *Copsychus cebuensis* 
-obtained from FFI field surveys on Cebu in 2012 and bioclimatic layers 
-from WorldClim (http://www.worldclim.org/; Hijmans et al., 2005).
+obtained from FFI and DENR field surveys on Cebu in 2012 and bioclimatic 
+layers from WorldClim (http://www.worldclim.org/; Hijmans et al., 2005).
 
 Species occurrence
 -----------------------
